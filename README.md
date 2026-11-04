@@ -95,3 +95,18 @@ The live Meta AI features (voice, SAM Look, the Gazette pictures, resident choic
 ## Licence
 
 Apache License 2.0. See [LICENSE](LICENSE).
+
+## Development timeline
+
+Blockparty was built from 23 October to 4 November 2026. This public repository holds one snapshot of the finished game and its tests. The full development history, 1,558 commits, is kept in the private development repository together with the verification evidence, and is available to judges on request.
+
+| Date | Milestone |
+|---|---|
+| 23-25 Oct | Repository created; research, design decisions and visual concepts |
+| 27-28 Oct | Specification and plan; first playable systems (milestone 1) |
+| 28-29 Oct | Simulation, saves and the first look pass (milestones 2 and 3) |
+| 29 Oct-1 Nov | Full-game plan, characters, animation and environment art |
+| 2-3 Nov | Parties, social life, jobs and education, rights and audio (milestone 4) |
+| 4 Nov | Live Meta AI (Muse Voice, Muse Spark, SAM Look, the Block Gazette), portraits, mood faces, final build |
+
+Commits per day: 23 Oct 2, 25 Oct 5, 27 Oct 144, 28 Oct 441, 29 Oct 237, 30 Oct 115, 1 Nov 48, 2 Nov 171, 3 Nov 251, 4 Nov 144.
