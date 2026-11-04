@@ -365,6 +365,7 @@ public sealed partial class AlphaDirector : MonoBehaviour, ISceneContent
                 voice = new AlphaVoice(this, saveDirectory, Arg(Environment.GetCommandLineArgs(), "--alpha-voice-fake"), Log);
                 // INTEGRATE-W5: a spoken "look for ..." phrase queues a SAM look (once, voice outlives rebinds).
                 voice.LookRequested += phrase => Log("voice look queued=" + Blockparty.Presentation.SamLook.Find(phrase).ToString().ToLowerInvariant());
+                voice.MinigolfRequested += VoiceMinigolf;
             }
             voice.Bind(sim.World, sim.Clock, sim.Commands, sim.Autonomy, sim.Sites, sim.Executor, access);
             voice.Present = PresentVoice;
@@ -688,6 +689,16 @@ public sealed partial class AlphaDirector : MonoBehaviour, ISceneContent
             + " ok=" + B(plan != null) + " " + summary);
         if (plan == null) { notice = summary; return; }
         planOpen = false;
+    }
+
+    // Voice "<name> play minigolf": the same path as the activity menu's minigolf entry.
+    void VoiceMinigolf(ResidentId resident)
+    {
+        Select(resident);
+        if (navigation.SelectedResident != resident) return;
+        menuResident = resident;
+        activityIndex = 5;
+        ChooseActivity(Blockparty.Contracts.QueueMode.Immediate);
     }
 
     void ChooseActivity(Blockparty.Contracts.QueueMode mode)

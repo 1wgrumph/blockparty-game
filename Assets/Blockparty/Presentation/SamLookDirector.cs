@@ -86,20 +86,44 @@ public sealed partial class AlphaDirector
     IEnumerator SamLookRun(string phrase)
     {
         yield return null;                       // one frame for the box and old outlines to leave the screen
+        // Owner playtest 2026-11-04: a resident's name ("find harper") needs no SAM: select and follow them.
+        List<string> queries = SamQueries(phrase);
+        foreach (ResidentRecord r in sim.World.ResidentsSnapshot())
+        {
+            if (!r.IsAlive) continue;
+            string full = r.DisplayName.ToLowerInvariant();
+            int space = full.IndexOf(' ');
+            string first = space > 0 ? full.Substring(0, space) : full;
+            if (queries[0] != full && queries[0] != first) continue;
+            Select(r.Id);
+            CommandResult followName = navigation.FollowResident(r.Id);
+            notice = "Following " + r.DisplayName + ".";
+            Log("look phrase=" + Q(phrase) + " kind=ResidentName target=" + Q(r.DisplayName) + " follow=" + B(followName.Accepted));
+            yield break;
+        }
         yield return new WaitForEndOfFrame();
         int w, h;
         byte[] rgba = CaptureRgba(out w, out h);
         lookCameraPos = alphaCamera.transform.position;
         lookCameraRot = alphaCamera.transform.rotation;
-        GatewayRequest request = rgba == null ? null
-            : samLook.Begin(phrase, rgba, w, h, LookEndpoint, true);   // key resolved inside the send, like crafts
-        if (request != null)
+        // Owner playtest 2026-11-04: SAM finds nothing for long phrases ("person in the red shirt") but
+        // finds the head noun ("person"), so a miss is retried once with the noun before "in/with/near...".
+        GatewayRequest request = null;
+        LookKind kind = LookKind.Unavailable;
+        foreach (string query in queries)
         {
-            if (lookFake.Length > 0) LookFakeSettle(request, phrase);
-            else yield return lookLive.SearchSam(samLook.Search, lookBoundary, request, samLook.Capture, phrase, rgba, w, h);
+            request = rgba == null ? null
+                : samLook.Begin(query, rgba, w, h, LookEndpoint, true);   // key resolved inside the send, like crafts
+            if (request != null)
+            {
+                if (lookFake.Length > 0) LookFakeSettle(request, query);
+                else yield return lookLive.SearchSam(samLook.Search, lookBoundary, request, samLook.Capture, query, rgba, w, h);
+            }
+            kind = rgba == null ? LookKind.Unavailable
+                : request == null ? samLook.Kind : samLook.Settle(LookResolve, LookPlaces());
+            if (request == null || samLook.Outlines.Count > 0) break;
+            Log("look miss query=" + Q(query));
         }
-        LookKind kind = rgba == null ? LookKind.Unavailable
-            : request == null ? samLook.Kind : samLook.Settle(LookResolve, LookPlaces());
         lookShownAt = Time.unscaledTime;
         notice = samLook.Reply;
         Log("look phrase=" + Q(phrase) + " kind=" + kind + " outlines=" + samLook.Outlines.Count
@@ -148,6 +172,25 @@ public sealed partial class AlphaDirector
     }
 
     // Recorded frames only; the same CaptureSearch.Complete / Fail path the live transport takes.
+    // The phrase without "find the ...", then (if different) its head noun: "person in the red shirt" -> "person".
+    static List<string> SamQueries(string phrase)
+    {
+        string q = phrase.Trim().ToLowerInvariant().TrimEnd('.', '?', '!');
+        foreach (string lead in new[] { "find me ", "find ", "locate ", "show me ", "look for ", "look at ", "where is ", "where's " })
+            if (q.StartsWith(lead, StringComparison.Ordinal)) { q = q.Substring(lead.Length); break; }
+        foreach (string article in new[] { "the ", "a ", "an " })
+            if (q.StartsWith(article, StringComparison.Ordinal)) { q = q.Substring(article.Length); break; }
+        string core = q;
+        foreach (string cut in new[] { " in ", " with ", " near ", " wearing ", " by ", " next to ", " on ", " at ", " that ", " who " })
+        {
+            int i = core.IndexOf(cut, StringComparison.Ordinal);
+            if (i > 0) core = core.Substring(0, i);
+        }
+        List<string> queries = new List<string> { q.Length > 0 ? q : phrase };
+        if (core.Length > 0 && core != q) queries.Add(core);
+        return queries;
+    }
+
     void LookFakeSettle(GatewayRequest request, string phrase)
     {
         if (lookFake == "nokey") { samLook.Search.Fail(request.Id, GatewayOutcome.Unprovisioned); return; }

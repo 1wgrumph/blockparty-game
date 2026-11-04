@@ -294,6 +294,7 @@ namespace Blockparty.AI
                 return verdict;
             }
             if (lookPhrase != null && LookRequested != null) LookRequested(lookPhrase);
+            if (golfResident.HasValue && MinigolfRequested != null) MinigolfRequested(golfResident.Value);
             if (resolved.Count == 0)
             {
                 prompt = WakeOnly ? ListeningPrompt : prefixed ? refusal ?? RepeatPrompt : ActivatorPrompt;
@@ -548,6 +549,13 @@ namespace Blockparty.AI
                     work.Add(new CommandPlan(CommandKind.DirectActivity, actor.Id, new ActivityId("ACT-WORK-01"), slot,
                         new CommandParameters.Direct(QueueMode.Immediate), "Direct " + actor.DisplayName + " to work"));
                 return work;
+            }
+            if (place == "play minigolf" || place == "play mini golf" || place == "play golf" || place == "minigolf"
+                || place == "mini golf" || place == "golf" || place == "play some minigolf" || place == "play some mini golf")
+            {
+                golfResident = actors[0].Id;
+                refusal = "Starting minigolf with " + actors[0].DisplayName + ". P: putt.";
+                return none;
             }
             if (place == "do homework" || place == "do their homework") place = "study";
             if (place == "school" || place == "to school") place = "attend school";
@@ -890,6 +898,7 @@ namespace Blockparty.AI
             NeedsInterpretation = false;
             interpretText = null;
             lookPhrase = null;
+            golfResident = null;
         }
 
         // ---------- SAM look ----------
@@ -898,6 +907,12 @@ namespace Blockparty.AI
         public event Action<string> LookRequested;
 
         private string lookPhrase;
+
+        // Minigolf (owner 2026-11-04): "<name> play minigolf" starts a match for that resident;
+        // the director runs it like the activity menu does. The adapter runs no command for it.
+        public event Action<ResidentId> MinigolfRequested;
+
+        private ResidentId? golfResident;
 
         private void Look(string thing)
         {

@@ -76,6 +76,7 @@ public sealed class AlphaVoice
     // SAM look (owner 2026-11-04): "find / show me / where is / look at / follow <phrase>" for
     // something that is not a resident. The SAM lane subscribes; it survives world rebinds.
     public event Action<string> LookRequested;
+    public event Action<ResidentId> MinigolfRequested;
 
     // VOICE-SOCIAL (M5-OD-53): the selected resident, the live simulation and the
     // plan dialog's party venue, so chat, friendly and party phrases match the menus.
@@ -137,6 +138,7 @@ public sealed class AlphaVoice
         boundary = new ProposalBoundary(world, clock, commands, autonomy);
         adapter = new VoiceAdapter(world, boundary, commands, sites, executor);
         adapter.LookRequested += phrase => { log("voice look phrase=" + Q(phrase)); if (LookRequested != null) LookRequested(phrase); };
+        adapter.MinigolfRequested += r => { log("voice minigolf resident=" + (long)r); if (MinigolfRequested != null) MinigolfRequested(r); };
         Busy = false;
         Reconcile();
         foreach (KeyValuePair<string, string> off in Settings.Aliases.Inactive) log("voice alias inactive phrase=" + Q(off.Key) + " reason=" + Q(off.Value));
