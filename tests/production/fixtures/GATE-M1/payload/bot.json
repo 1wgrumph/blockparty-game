@@ -1,0 +1,79 @@
+{
+  "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+  "binary_sha256": "a1f24fd9d914dfd9761e169505a46dbed17ec069badf23d17c3bf952b9e256d6",
+  "source": "BOT",
+  "completions": [
+    {
+      "resident_id": "1",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "2",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "3",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "4",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "5",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "6",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "7",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    },
+    {
+      "resident_id": "8",
+      "activity_id": "ACT-FOOD-04",
+      "outcome": "Completed",
+      "money_before": 50,
+      "money_after": 32,
+      "hunger_before": 40,
+      "hunger_after": 75
+    }
+  ]
+}

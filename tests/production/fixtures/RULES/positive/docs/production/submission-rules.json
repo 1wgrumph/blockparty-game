@@ -1,0 +1,123 @@
+{
+  "schema": "blockparty-submission-rules/1",
+  "mode": "read-only",
+  "synthetic": true,
+  "rules": [
+    {
+      "id": "eligibility",
+      "field": "eligibility",
+      "source_kind": "rules",
+      "source_url": "https://events.cerebralvalley.ai/e/meta-ai-developer-hackathon",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for eligibility; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: eligibility"
+    },
+    {
+      "id": "required-source",
+      "field": "required_source",
+      "source_kind": "form",
+      "source_url": "https://cerebralvalley.ai/e/meta-ai-developer-hackathon/details",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for required_source; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: required_source"
+    },
+    {
+      "id": "required-build",
+      "field": "required_build",
+      "source_kind": "form",
+      "source_url": "https://meta.com/",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for required_build; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: required_build"
+    },
+    {
+      "id": "required-video",
+      "field": "required_video",
+      "source_kind": "form",
+      "source_url": "https://ai.meta.com/",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for required_video; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: required_video"
+    },
+    {
+      "id": "video-length-limit",
+      "field": "video_length_limit",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for video_length_limit; this is not organizer evidence.",
+      "value": {
+        "max_seconds": 180
+      }
+    },
+    {
+      "id": "deadline",
+      "field": "deadline",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for deadline; this is not organizer evidence.",
+      "value": {
+        "at": "2026-11-04T21:00:00-05:00",
+        "timezone": "America/New_York"
+      }
+    },
+    {
+      "id": "contribution-terms",
+      "field": "contribution_terms",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for contribution_terms; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: contribution_terms"
+    },
+    {
+      "id": "asset-terms",
+      "field": "asset_terms",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for asset_terms; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: asset_terms"
+    },
+    {
+      "id": "meaningful-meta-use",
+      "field": "meaningful_meta_use",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for meaningful_meta_use; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: meaningful_meta_use"
+    },
+    {
+      "id": "observed-capabilities",
+      "field": "observed_capabilities",
+      "source_kind": "rules",
+      "source_url": "https://rules.example.invalid/rules",
+      "retrieved_utc": "2026-11-02T12:00:00Z",
+      "quote": "SYNTHETIC test quotation for observed_capabilities; this is not organizer evidence.",
+      "value": "SYNTHETIC recorded obligation: observed_capabilities"
+    }
+  ],
+  "sub_mappings": {
+    "SUB-01": [
+      "meaningful-meta-use"
+    ],
+    "SUB-02": [
+      "required-source",
+      "required-build",
+      "required-video",
+      "video-length-limit"
+    ],
+    "SUB-03": [
+      "contribution-terms",
+      "asset-terms"
+    ],
+    "SUB-04": [
+      "deadline"
+    ],
+    "SUB-05": [
+      "observed-capabilities"
+    ]
+  }
+}

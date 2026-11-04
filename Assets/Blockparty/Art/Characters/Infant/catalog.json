@@ -1,0 +1,202 @@
+{
+ "bindings": {
+  "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142",
+  "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519",
+  "Assets/Blockparty/Art/Characters/MakeHuman/materials/catalog.json": "2b9fb2d59fc981ebe11af5a377323ccfb14dd31cebebb4c7eb93acc82b1216cb",
+  "Assets/Blockparty/Art/Rigs/MakeHuman/humanoid.gltf": "558326d74ed477a726bc875406507783e9592e7349c165bd60529b740e8e1c55",
+  "Assets/Blockparty/Art/Rigs/MakeHuman/stage-presets.json": "1ea8f3b07058a92a36b76bf49c1d2ac65b1951c09d7812247b4e49ba7507dc5c",
+  "docs/production/art-direction/color-profile.json": "bb4e07dc188f9c46463119fb043935cf35a8803aab38142b1a402ab3e33b16c5",
+  "docs/specification/sdoc-pins.json": "9945cfbc647ce7ce5c049fb1d1d96bb9519f90725a954d05ab8d5295aa65c95c",
+  "production/preflight/BODY-MH.json": "bf040aa0ff43f02a6810d00cbe6f2c188cbe5aa1872f3424233f373e1de3b359",
+  "production/preflight/RIG-MH.json": "7c0c3ca175642b4c224e8e0a23514600e031e00b191edfd98469d6bc183a0a2e",
+  "production/preflight/STAGE-RIG.json": "3a7dd3542cea3734fdfa00ad0de1a83d41316f8c9e1e08bfb3b16e830e560579"
+ },
+ "entries": [
+  {
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf",
+    "sha256": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142"
+   },
+   "adult_identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "bob01",
+    "hair_type": "wavy",
+    "skin_tone": "dark-young"
+   },
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Infant/female.gltf",
+    "sha256": "08a05449cd07669d4aa2d4148b8499665f841fa02dec1e1beddeb6f9f0b8faf7"
+   },
+   "body": "female",
+   "decision": "rig-driven",
+   "e5": {
+    "applied_before_rig_fit": true,
+    "delta_percent": 100,
+    "source": {
+     "path": "evidence/production/STAGE-INFANT/source/e5/female-Infant-100.json",
+     "sha256": "c6acc7b0f59961c38553509cfa9d16498e3187c9d064205911190b1a8b65f0f7"
+    }
+   },
+   "expression_cues": {
+    "affectionate": {
+     "face": "soft smile, cheek squint, gentle brow lift",
+     "gaze": "direct, warm",
+     "icon": "heart",
+     "posture": "head tilt toward listener"
+    },
+    "angry": {
+     "face": "brows down and in, squint, pressed mouth",
+     "gaze": "direct",
+     "icon": "anger-cross",
+     "posture": "chin forward, shoulders squared"
+    },
+    "embarrassed": {
+     "face": "shy smile, cheeks up, lids lowered",
+     "gaze": "averted",
+     "icon": "blush",
+     "posture": "shoulders raised, head dipped"
+    },
+    "grateful": {
+     "face": "soft smile, cheeks raised, inner brows up",
+     "gaze": "direct",
+     "icon": "heart",
+     "posture": "slight forward lean, hands open"
+    },
+    "hurt": {
+     "face": "frown, inner brows up, lids droop",
+     "gaze": "averted down",
+     "icon": "tear",
+     "posture": "shoulders rounded, chest closed"
+    },
+    "neutral": {
+     "face": "relaxed brow and lips, lid rest",
+     "gaze": "direct, soft focus",
+     "icon": "speech-dots",
+     "posture": "upright, shoulders level"
+    },
+    "proud": {
+     "face": "asymmetric smirk, one brow raised, chin lifted",
+     "gaze": "direct",
+     "icon": "star",
+     "posture": "chest lifted, chin up"
+    }
+   },
+   "identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "bob01",
+    "hair_type": "wavy",
+    "skin_tone": "dark-young"
+   },
+   "locomotion_clips": [],
+   "poses": {
+    "carried": {
+     "path": "evidence/production/STAGE-INFANT/source/poses/female-Infant-carried.json",
+     "sha256": "b0f69409a035c09e563015df6ab4c61915d4d88963903e63bc7f69dccd225f16"
+    },
+    "crib": {
+     "path": "evidence/production/STAGE-INFANT/source/poses/female-Infant-crib.json",
+     "sha256": "346164c84e73053281b5c6c8a7572a81544aa6494d504e8e66e227d79589a7b7"
+    }
+   },
+   "presentation": "carried/crib"
+  },
+  {
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf",
+    "sha256": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519"
+   },
+   "adult_identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "short01",
+    "hair_type": "straight",
+    "skin_tone": "dark-young"
+   },
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Infant/male.gltf",
+    "sha256": "7826003b2fa6140aa02d5da979456776e5bc2610a437a4fd47304f2434794123"
+   },
+   "body": "male",
+   "decision": "rig-driven",
+   "e5": {
+    "applied_before_rig_fit": true,
+    "delta_percent": 100,
+    "source": {
+     "path": "evidence/production/STAGE-INFANT/source/e5/male-Infant-100.json",
+     "sha256": "1d32057308e8130d237ac6ea0c7398d837dcd1b6394e4a941ddc474ea9d616bd"
+    }
+   },
+   "expression_cues": {
+    "affectionate": {
+     "face": "soft smile, cheek squint, gentle brow lift",
+     "gaze": "direct, warm",
+     "icon": "heart",
+     "posture": "head tilt toward listener"
+    },
+    "angry": {
+     "face": "brows down and in, squint, pressed mouth",
+     "gaze": "direct",
+     "icon": "anger-cross",
+     "posture": "chin forward, shoulders squared"
+    },
+    "embarrassed": {
+     "face": "shy smile, cheeks up, lids lowered",
+     "gaze": "averted",
+     "icon": "blush",
+     "posture": "shoulders raised, head dipped"
+    },
+    "grateful": {
+     "face": "soft smile, cheeks raised, inner brows up",
+     "gaze": "direct",
+     "icon": "heart",
+     "posture": "slight forward lean, hands open"
+    },
+    "hurt": {
+     "face": "frown, inner brows up, lids droop",
+     "gaze": "averted down",
+     "icon": "tear",
+     "posture": "shoulders rounded, chest closed"
+    },
+    "neutral": {
+     "face": "relaxed brow and lips, lid rest",
+     "gaze": "direct, soft focus",
+     "icon": "speech-dots",
+     "posture": "upright, shoulders level"
+    },
+    "proud": {
+     "face": "asymmetric smirk, one brow raised, chin lifted",
+     "gaze": "direct",
+     "icon": "star",
+     "posture": "chest lifted, chin up"
+    }
+   },
+   "identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "short01",
+    "hair_type": "straight",
+    "skin_tone": "dark-young"
+   },
+   "locomotion_clips": [],
+   "poses": {
+    "carried": {
+     "path": "evidence/production/STAGE-INFANT/source/poses/male-Infant-carried.json",
+     "sha256": "971e65c9d12017067489f7a6793abe0979cee39a51f7b043482a4704480c5e37"
+    },
+    "crib": {
+     "path": "evidence/production/STAGE-INFANT/source/poses/male-Infant-crib.json",
+     "sha256": "34efc361140769b559110465391763f850f647cecc135f8c436214cc54b18685"
+    }
+   },
+   "presentation": "carried/crib"
+  }
+ ],
+ "package": "STAGE-INFANT",
+ "stage": "Infant"
+}

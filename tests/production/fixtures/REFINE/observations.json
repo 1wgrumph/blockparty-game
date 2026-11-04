@@ -1,0 +1,241 @@
+[
+  {
+    "synthetic": true,
+    "name": "positive",
+    "reject": "",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-storm",
+    "reject": "R-4.Storm",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-birth",
+    "reject": "R-5.Birth",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-estate",
+    "reject": "R-6.Estate",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-care",
+    "reject": "R-6.Care",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-scarcity",
+    "reject": "R-7.Scarcity",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-growth",
+    "reject": "R-8.Growth",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-relocation",
+    "reject": "R-9.Relocation",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "missing-recovery",
+    "reject": "R-10.Recovery",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "duplicate-birth",
+    "reject": "R-11.DuplicateBirth",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": true,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "duplicate-effects",
+    "reject": "R-11.DuplicateEffects",
+    "scheduler": true,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": true,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "scheduler-never-ticked",
+    "reject": "R-2.Scheduler",
+    "scheduler": false,
+    "commands": true,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  },
+  {
+    "synthetic": true,
+    "name": "commands-absent",
+    "reject": "R-3.Commands",
+    "scheduler": true,
+    "commands": false,
+    "duplicate_birth": false,
+    "duplicate_effects": false,
+    "transitions": [
+      "storm",
+      "birth",
+      "estate",
+      "care",
+      "scarcity",
+      "growth",
+      "relocation",
+      "recovery"
+    ]
+  }
+]

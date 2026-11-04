@@ -1,0 +1,7 @@
+{
+  "type": "error",
+  "message": "permission denied; private provider message",
+  "sessionId": "",
+  "errorType": "authentication_error",
+  "errorCode": "invalid_key"
+}

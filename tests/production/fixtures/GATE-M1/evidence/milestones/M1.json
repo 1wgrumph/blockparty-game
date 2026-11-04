@@ -1,0 +1,258 @@
+{
+  "schema": "blockparty-m1/1",
+  "gate": "GATE-M1",
+  "status": "PASS",
+  "claim_scope": "M1 prototype; whole SEIT cases pending",
+  "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+  "build": {
+    "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+    "method": "BuildLinux",
+    "target": "StandaloneLinux64",
+    "exit_code": 0,
+    "log": {
+      "path": "payload/build.log",
+      "sha256": "e64a55fc9c7220f20ac2b38275e6fc218d1e08d189d9cf7bea6e0c9513a846b7"
+    },
+    "manifest": {
+      "path": "payload/build-manifest.json",
+      "sha256": "a1f24fd9d914dfd9761e169505a46dbed17ec069badf23d17c3bf952b9e256d6"
+    }
+  },
+  "command_play": {
+    "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+    "binary_sha256": "a1f24fd9d914dfd9761e169505a46dbed17ec069badf23d17c3bf952b9e256d6",
+    "bot_log": {
+      "path": "payload/bot.json",
+      "sha256": "a35aa8170ef27dd904d234aaf5967c766fac3021242b65b2475f0d3af4a8108e"
+    },
+    "manual_log": {
+      "path": "payload/manual.json",
+      "sha256": "988ec22cc3d8959dba3b3630b3accae61e10e7ac001e61954019fa412de66356"
+    },
+    "save": {
+      "path": "payload/save.json",
+      "sha256": "3d5ed7baaf8e7c40054a32f683ce3edc6e758e1cff9f113aa35d0953c2f2a93a"
+    },
+    "reloaded_save": {
+      "path": "payload/reloaded-save.json",
+      "sha256": "3d5ed7baaf8e7c40054a32f683ce3edc6e758e1cff9f113aa35d0953c2f2a93a"
+    },
+    "before_state": {
+      "path": "payload/before-state.json",
+      "sha256": "3d5ed7baaf8e7c40054a32f683ce3edc6e758e1cff9f113aa35d0953c2f2a93a"
+    },
+    "after_state": {
+      "path": "payload/after-state.json",
+      "sha256": "3d5ed7baaf8e7c40054a32f683ce3edc6e758e1cff9f113aa35d0953c2f2a93a"
+    }
+  },
+  "manual_ui": {
+    "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+    "binary_sha256": "a1f24fd9d914dfd9761e169505a46dbed17ec069badf23d17c3bf952b9e256d6",
+    "input_log": {
+      "path": "payload/input.json",
+      "sha256": "db232c061b7249a5e88c968d97dcfffc9882a0100881d9bb0c514c1aa04965b7"
+    },
+    "flows": [
+      {
+        "id": "title",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "new",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "load",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "inspect",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "map",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "follow",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      },
+      {
+        "id": "takeover",
+        "frame": {
+          "path": "payload/capture.png",
+          "sha256": "19302c6deb9d7b0928071503e93014f84fb4d449600c9f1fab541e01e2135bf2"
+        }
+      }
+    ]
+  },
+  "integration": {
+    "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+    "command": "python3 tests/production/run-standalone.py --unity <editor>",
+    "exit_code": 0,
+    "log": {
+      "path": "payload/checks.log",
+      "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+    }
+  },
+  "unity_compile": {
+    "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+    "command": "<Unity> -batchmode -projectPath <project> -quit",
+    "exit_code": 0,
+    "log": {
+      "path": "payload/checks.log",
+      "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+    }
+  },
+  "packages": [
+    {
+      "package": "SEIT-AMEND",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package SEIT-AMEND --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "APPEARANCE-AMEND",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package APPEARANCE-AMEND --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "TIERS",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package TIERS --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "BOT",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package BOT --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "ECONOMY",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package ECONOMY --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "RELATION",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package RELATION --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "FOOD",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package FOOD --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "UI-TITLE",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package UI-TITLE --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "UI-INSPECT",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package UI-INSPECT --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "UI-NAV",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package UI-NAV --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "GREYBOX",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package GREYBOX --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "GATE-M1",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package GATE-M1 --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    },
+    {
+      "package": "UNITY-COMPILE",
+      "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+      "command": "python3 tools/verify.py --package UNITY-COMPILE --seit docs/plans/issue-3-specification/seit.json",
+      "exit_code": 0,
+      "log": {
+        "path": "payload/checks.log",
+        "sha256": "54d6cc681b88b0b4df117f36a85a084712f4982ed47978e1ccde7dc887d2aa7c"
+      }
+    }
+  ]
+}

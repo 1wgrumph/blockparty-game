@@ -1,0 +1,176 @@
+{
+ "package": "STAGE-ELDER",
+ "stage": "Elder",
+ "bindings": {
+  "Assets/Blockparty/Art/Rigs/MakeHuman/stage-presets.json": "1ea8f3b07058a92a36b76bf49c1d2ac65b1951c09d7812247b4e49ba7507dc5c",
+  "Assets/Blockparty/Art/Rigs/MakeHuman/humanoid.gltf": "558326d74ed477a726bc875406507783e9592e7349c165bd60529b740e8e1c55",
+  "Assets/Blockparty/Art/Characters/MakeHuman/materials/catalog.json": "2b9fb2d59fc981ebe11af5a377323ccfb14dd31cebebb4c7eb93acc82b1216cb",
+  "docs/production/art-direction/color-profile.json": "bb4e07dc188f9c46463119fb043935cf35a8803aab38142b1a402ab3e33b16c5",
+  "docs/specification/sdoc-pins.json": "9945cfbc647ce7ce5c049fb1d1d96bb9519f90725a954d05ab8d5295aa65c95c",
+  "production/preflight/STAGE-RIG.json": "3a7dd3542cea3734fdfa00ad0de1a83d41316f8c9e1e08bfb3b16e830e560579",
+  "production/preflight/RIG-MH.json": "7c0c3ca175642b4c224e8e0a23514600e031e00b191edfd98469d6bc183a0a2e",
+  "production/preflight/BODY-MH.json": "bf040aa0ff43f02a6810d00cbe6f2c188cbe5aa1872f3424233f373e1de3b359",
+  "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142",
+  "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519"
+ },
+ "entries": [
+  {
+   "body": "female",
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Elder/female.gltf",
+    "sha256": "d67b92c9e42f886f9fd3446f1322446281988f524a09dcd40206a13b2bf2f108"
+   },
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf",
+    "sha256": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142"
+   },
+   "identity": {
+    "skin_tone": "light-middle",
+    "face": "light-middle",
+    "eye_color": "brown",
+    "hair_type": "wavy",
+    "hair_style": "bob01",
+    "hair_color": "darkbrown"
+   },
+   "adult_identity": {
+    "skin_tone": "light-middle",
+    "face": "light-middle",
+    "eye_color": "brown",
+    "hair_type": "wavy",
+    "hair_style": "bob01",
+    "hair_color": "darkbrown"
+   },
+   "expression_cues": {
+    "neutral": {
+     "face": "All 0; smile 0.05",
+     "posture": "Relaxed",
+     "gaze": "Ambient look-at",
+     "icon": "none"
+    },
+    "grateful": {
+     "face": "AU6 0.5, AU12 0.6, AU1 0.2",
+     "posture": "Small nod, hand to chest",
+     "gaze": "Eye contact, brief look down",
+     "icon": "sparkle"
+    },
+    "hurt": {
+     "face": "AU1 0.7, AU4 0.4, AU15 0.6, AU17 0.3",
+     "posture": "Shoulders drop inward, step back",
+     "gaze": "Down/away",
+     "icon": "small cloud"
+    },
+    "angry": {
+     "face": "AU4 0.9, AU5 0.5, AU7 0.6, AU23/24 0.7, AU17 0.4",
+     "posture": "Chest forward, fists, lean in",
+     "gaze": "Direct stare, fewer blinks",
+     "icon": "steam"
+    },
+    "affectionate": {
+     "face": "AU6 0.4, AU12 0.5, eyeSquint 0.2",
+     "posture": "Lean to target, head tilt 10-15 degrees, touch",
+     "gaze": "Soft on target",
+     "icon": "hearts"
+    },
+    "embarrassed": {
+     "face": "AU12 0.3, AU14 0.4, AU23/24 0.4, AU54, AU64 0.6, blush",
+     "posture": "Hunch, hand to face, turn away",
+     "gaze": "Down/away before smile",
+     "icon": "sweat drop"
+    },
+    "proud": {
+     "face": "AU6 0.3, AU12 0.4 closed, AU53 10-15 degrees",
+     "posture": "Expanded chest, hands on hips",
+     "gaze": "Level/down-the-nose",
+     "icon": "star"
+    }
+   },
+   "e5": {
+    "delta_percent": 100,
+    "applied_before_rig_fit": true,
+    "source": {
+     "path": "evidence/production/STAGE-ELDER/source/generation.json",
+     "sha256": "d2fd10a0ed15b34a28c6cae0356950330d8e288272373611104550561eabb4c4"
+    }
+   }
+  },
+  {
+   "body": "male",
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Elder/male.gltf",
+    "sha256": "a2c431d75bdacf7359f8270edd9f529da66ba0e4209dbcc330fe58ef62009435"
+   },
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf",
+    "sha256": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519"
+   },
+   "identity": {
+    "skin_tone": "light-middle",
+    "face": "light-middle",
+    "eye_color": "brown",
+    "hair_type": "straight",
+    "hair_style": "short01",
+    "hair_color": "black"
+   },
+   "adult_identity": {
+    "skin_tone": "light-middle",
+    "face": "light-middle",
+    "eye_color": "brown",
+    "hair_type": "straight",
+    "hair_style": "short01",
+    "hair_color": "black"
+   },
+   "expression_cues": {
+    "neutral": {
+     "face": "All 0; smile 0.05",
+     "posture": "Relaxed",
+     "gaze": "Ambient look-at",
+     "icon": "none"
+    },
+    "grateful": {
+     "face": "AU6 0.5, AU12 0.6, AU1 0.2",
+     "posture": "Small nod, hand to chest",
+     "gaze": "Eye contact, brief look down",
+     "icon": "sparkle"
+    },
+    "hurt": {
+     "face": "AU1 0.7, AU4 0.4, AU15 0.6, AU17 0.3",
+     "posture": "Shoulders drop inward, step back",
+     "gaze": "Down/away",
+     "icon": "small cloud"
+    },
+    "angry": {
+     "face": "AU4 0.9, AU5 0.5, AU7 0.6, AU23/24 0.7, AU17 0.4",
+     "posture": "Chest forward, fists, lean in",
+     "gaze": "Direct stare, fewer blinks",
+     "icon": "steam"
+    },
+    "affectionate": {
+     "face": "AU6 0.4, AU12 0.5, eyeSquint 0.2",
+     "posture": "Lean to target, head tilt 10-15 degrees, touch",
+     "gaze": "Soft on target",
+     "icon": "hearts"
+    },
+    "embarrassed": {
+     "face": "AU12 0.3, AU14 0.4, AU23/24 0.4, AU54, AU64 0.6, blush",
+     "posture": "Hunch, hand to face, turn away",
+     "gaze": "Down/away before smile",
+     "icon": "sweat drop"
+    },
+    "proud": {
+     "face": "AU6 0.3, AU12 0.4 closed, AU53 10-15 degrees",
+     "posture": "Expanded chest, hands on hips",
+     "gaze": "Level/down-the-nose",
+     "icon": "star"
+    }
+   },
+   "e5": {
+    "delta_percent": 100,
+    "applied_before_rig_fit": true,
+    "source": {
+     "path": "evidence/production/STAGE-ELDER/source/generation.json",
+     "sha256": "d2fd10a0ed15b34a28c6cae0356950330d8e288272373611104550561eabb4c4"
+    }
+   }
+  }
+ ]
+}

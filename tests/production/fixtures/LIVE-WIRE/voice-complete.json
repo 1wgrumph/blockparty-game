@@ -1,0 +1,6 @@
+{
+  "type": "speechComplete",
+  "transcript": "pause",
+  "turnId": 0,
+  "audioProcessedMs": 3600
+}

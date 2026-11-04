@@ -1,0 +1,56 @@
+boot entry=1 unity=6000.3.10f1 hash=-383216212
+bot-submitted cook x8 automation=True
+boot entry=1 unity=6000.3.10f1 hash=-383216212
+bot-submitted cook x8 automation=True
+boot entry=1 unity=6000.3.10f1 hash=-383216212
+bot-submitted cook x8 automation=True
+bot-all-perform gameSeconds=114 commands=8
+dump commands-bot.log rows=8
+inspect resident=1 name=Alex hunger=40 current=1
+inspect resident=2 name=Alex hunger=40 current=2
+inspect resident=3 name=Ellis hunger=40 current=3
+inspect resident=4 name=Tatum hunger=40 current=4
+inspect resident=5 name=Eli hunger=40 current=5
+inspect resident=6 name=Fran hunger=40 current=6
+inspect resident=7 name=Gio hunger=40 current=7
+inspect resident=8 name=Harper hunger=40 current=8
+takeover automation=False interrupted= manual=9
+save-reload before=-703242022 after=1225410070 note0=automation restored to disabled via takeover
+reload-note resident 1: action 10 re-arrived on resume; perform clock preserved
+reload-note resident 2: action 11 re-arrived on resume; perform clock preserved
+reload-note resident 3: action 12 re-arrived on resume; perform clock preserved
+reload-note resident 4: action 13 re-arrived on resume; perform clock preserved
+reload-note resident 5: action 14 re-arrived on resume; perform clock preserved
+reload-note resident 6: action 15 re-arrived on resume; perform clock preserved
+reload-note resident 7: action 16 re-arrived on resume; perform clock preserved
+reload-note resident 8: action 17 re-arrived on resume; perform clock preserved
+reload-known-gap accounts+food-fresh (fix/save-accounts-food holds catalog rewards)
+complete resident=1 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=2 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=3 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=4 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=5 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=6 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=7 outcome=Completed money=50 hunger=40 foodEvents=0
+complete resident=8 outcome=Completed money=50 hunger=40 foodEvents=0
+stock home=1 groceries=0 meals=0
+stock home=2 groceries=0 meals=0
+dump commands-final.log rows=8
+dump traces-final.log rows=33
+nav-search Alex rows=2
+nav-travel submitted target=station1
+nav-arrival gap=0 follow=True
+title Settings ok=True screen=Settings
+title Back ok=True screen=Title
+title Credits ok=True screen=Credits
+title Back ok=True screen=Title
+title NewGame ok=True screen=Creator
+title PrepareNewGame ok=True
+title BeginPlay ok=True
+title Pause ok=True screen=Pause
+title Save ok=True screen=Pause
+title Resume ok=True screen=Playing
+title Pause ok=True screen=Pause
+title ReturnToTitle ok=True screen=Title
+title end screen=Title
+done failed=False wall=54.96728

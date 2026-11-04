@@ -1,0 +1,20 @@
+{
+  "cues": {
+    "food-completed": {
+      "activity": "ACT-FOOD-02",
+      "wav": "Assets/Blockparty/Audio/first-cue.wav",
+      "visual": {
+        "caption": "Meal finished",
+        "icon": "food-completed"
+      }
+    },
+    "sleep-completed": {
+      "activity": "ACT-HEALTH-01",
+      "wav": "Assets/Blockparty/Audio/second-cue.wav",
+      "visual": {
+        "caption": "Sleep finished",
+        "icon": "sleep-completed"
+      }
+    }
+  }
+}

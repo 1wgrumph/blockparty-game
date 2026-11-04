@@ -1,0 +1,9 @@
+{
+  "package": "GATE-M1",
+  "status": "PASS",
+  "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+  "milestone_sha256": "26e0082cd6078bbb8527572245edad92139fccf524b7c1fe25da47a498681a66",
+  "started_utc": "2000-01-01T00:00:00Z",
+  "ended_utc": "2000-01-01T00:00:01Z",
+  "active_hours": 0
+}

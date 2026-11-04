@@ -1,0 +1,65 @@
+{
+  "synthetic": true,
+  "source": {
+    "file": "gen-142.json",
+    "sha256": "ad0d03f1c037af9ffd2f67c17d75f20fd5a288670191a7c3aae17951b599433d",
+    "gameSeconds": 2764482,
+    "projection": "Parser control: resident fields and Birth detail from real rehearsal; times compressed, resident 17 omitted, liveness reset before synthetic death."
+  },
+  "payload": {
+    "world": {
+      "gameSeconds": 1
+    },
+    "residents": [
+      {
+        "id": 1,
+        "alive": true,
+        "home": 6,
+        "household": 1
+      },
+      {
+        "id": 2,
+        "alive": true,
+        "home": 2,
+        "household": 2
+      },
+      {
+        "id": 3,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 4,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 5,
+        "alive": true,
+        "home": 4,
+        "household": 4
+      },
+      {
+        "id": 6,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 7,
+        "alive": true,
+        "home": 5,
+        "household": 5
+      },
+      {
+        "id": 8,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      }
+    ],
+    "events": []
+  }
+}

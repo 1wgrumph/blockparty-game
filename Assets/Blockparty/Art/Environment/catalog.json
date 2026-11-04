@@ -1,0 +1,323 @@
+{
+ "modules": [
+  {
+   "id": "apartment",
+   "node": 99,
+   "entry_node": 18,
+   "address": "1 Alder Row",
+   "private_apartments": [
+    38,
+    56,
+    78,
+    98
+   ]
+  },
+  {
+   "id": "common-room",
+   "node": 131,
+   "entry_node": 117,
+   "address": "2 Alder Row"
+  },
+  {
+   "id": "courtyard",
+   "node": 147,
+   "entry_node": 136,
+   "address": "Alder Row Courtyard"
+  },
+  {
+   "id": "grocery",
+   "node": 166,
+   "entry_node": 165,
+   "address": "7 Market Lane",
+   "layout_site": "workshop",
+   "offset": [
+    0.0,
+    0.05,
+    15.0
+   ]
+  },
+  {
+   "id": "recreation-center",
+   "node": 266,
+   "entry_node": 265,
+   "address": "8 Market Lane",
+   "layout_site": "office",
+   "offset": [
+    -16.0,
+    0.05,
+    0.5
+   ]
+  },
+  {
+   "id": "park",
+   "node": 245,
+   "entry_node": 235,
+   "address": "Alder Park",
+   "layout_site": "school",
+   "offset": [
+    -16.0,
+    0.05,
+    0.5
+   ]
+  },
+  {
+   "id": "oak-house",
+   "node": 214,
+   "entry_node": 185,
+   "address": "9 Alder Row",
+   "layout_site": "apartment",
+   "offset": [
+    0.0,
+    0.05,
+    15.0
+   ]
+  },
+  {
+   "id": "willow-house",
+   "node": 330,
+   "entry_node": 301,
+   "address": "10 Alder Row",
+   "layout_site": "cafe",
+   "offset": [
+    0.0,
+    0.05,
+    15.0
+   ]
+  },
+  {
+   "id": "cafe",
+   "node": 114,
+   "entry_node": 101,
+   "address": "3 Market Lane"
+  },
+  {
+   "id": "workshop",
+   "node": 339,
+   "entry_node": 332,
+   "address": "5 Forge Lane"
+  },
+  {
+   "id": "office",
+   "node": 233,
+   "entry_node": 232,
+   "address": "4 Civic Square"
+  },
+  {
+   "id": "school",
+   "node": 282,
+   "entry_node": 281,
+   "address": "6 Civic Square"
+  },
+  {
+   "id": "gym",
+   "node": 454,
+   "entry_node": 361,
+   "parent": "apartment",
+   "address": "1 Alder Row, residents gym",
+   "layout_site": "apartment",
+   "offset": [
+    -6.0,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "inputs": {
+  "Assets/Blockparty/Content/action-catalog.json": "304707432abf387dfd359207e17e17b75d675f84e99dd118e38cca6823cee1d4",
+  "Assets/Blockparty/Content/block-layout.json": "d18b663cd74218a5b3a72bb298b09bf95383e7267b2be852b37a5d6367c729c4",
+  "docs/specification/sdoc-pins.json": "9945cfbc647ce7ce5c049fb1d1d96bb9519f90725a954d05ab8d5295aa65c95c",
+  "docs/production/art-direction/color-profile.json": "bb4e07dc188f9c46463119fb043935cf35a8803aab38142b1a402ab3e33b16c5",
+  "docs/production/art-direction/look-world-decision.json": "6e5a3a3a6df28536fdd6d23be6cb6512e2ef890f3a68b6bbd7db8ff404cc1226",
+  "docs/production/block-reference-decision.json": "17630dbed11e8d9001b6464833855a9d3c01dc72039c117deaeefd99b57766c8",
+  "Assets/Blockparty/Art/Props/catalog.json": "bcec6c871f4e3aaeeb1d614cc3329415f695c13a591a9ed13088fb4a3fc358e6",
+  "Assets/Blockparty/Art/Props/seat-first.gltf": "10402c56d7e5f14d12937690750c01a049a2149569df19f38e9f0f3ec93f7adf",
+  "Assets/Blockparty/Art/Props/second.gltf": "487aaa2d49ab20e5f1afa6d6d6e5fa8a7402b0190c2f972bf265aaa3fa79595b",
+  "Assets/Blockparty/Art/Props/furnishings.gltf": "925cd63a4d85fc6d8dea1b12ee6464d569b489161306750903d3af8851e99cdc"
+ },
+ "activity_destinations": {
+  "ACT-CLUB-01": [
+   "courtyard",
+   "common-room"
+  ],
+  "ACT-CLUB-02": [
+   "common-room"
+  ],
+  "ACT-CREA-01": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-CREA-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-CREA-03": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-EDU-01": [
+   "school"
+  ],
+  "ACT-EDU-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-EDU-03": [
+   "recreation-center"
+  ],
+  "ACT-EDU-04": [
+   "recreation-center"
+  ],
+  "ACT-FOOD-01": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-FOOD-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-FOOD-03": [
+   "grocery"
+  ],
+  "ACT-FOOD-04": [
+   "grocery"
+  ],
+  "ACT-HEALTH-01": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HEALTH-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HEALTH-03": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HEALTH-04": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HOME-01": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HOME-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HOME-03": [
+   "grocery"
+  ],
+  "ACT-HOME-04": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-HOME-05": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-PARTY-01": [
+   "apartment",
+   "oak-house",
+   "willow-house",
+   "courtyard"
+  ],
+  "ACT-PARTY-02": [
+   "apartment",
+   "oak-house",
+   "willow-house",
+   "courtyard"
+  ],
+  "ACT-REL-01": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-REL-02": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-REL-03": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-REL-04": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-REL-05": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-REL-06": [
+   "apartment",
+   "oak-house",
+   "willow-house"
+  ],
+  "ACT-SPORT-01": [
+   "park",
+   "recreation-center",
+   "gym"
+  ],
+  "ACT-SPORT-02": [
+   "courtyard"
+  ],
+  "ACT-WORK-01": [
+   "cafe"
+  ],
+  "ACT-WORK-02": [
+   "office",
+   "workshop"
+  ],
+  "ACT-WORK-03": [
+   "apartment",
+   "oak-house",
+   "willow-house",
+   "office"
+  ],
+  "ACT-WORK-04": [
+   "office"
+  ],
+  "ACT-SPORT-03": []
+ },
+ "dynamic_interactions": {
+  "ACT-HOME-01": {
+   "slot_id": "none",
+   "reason": "whole-home scope; no single interaction slot"
+  },
+  "ACT-REL-01": {
+   "slot_id": "ResidentPartner",
+   "approach_pose": "facing-partner"
+  },
+  "ACT-REL-03": {
+   "slot_id": "ResidentPartner",
+   "approach_pose": "facing-partner"
+  },
+  "ACT-REL-04": {
+   "slot_id": "ResidentPartner",
+   "approach_pose": "facing-partner"
+  },
+  "ACT-REL-05": {
+   "slot_id": "ResidentPartner",
+   "approach_pose": "facing-partner"
+  }
+ }
+}

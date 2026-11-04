@@ -1,0 +1,9 @@
+{
+  "package": "RULES",
+  "status": "PASS",
+  "started_utc": "2026-11-02T12:00:00Z",
+  "ended_utc": "2026-11-02T12:01:00Z",
+  "active_hours": 0,
+  "synthetic": true,
+  "rules_sha256": "066f0077fe90dabb99e82a6104470e1211d918737d8e2e5851bc2e1d2f2d225f"
+}

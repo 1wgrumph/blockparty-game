@@ -1,0 +1,127 @@
+{
+  "synthetic": true,
+  "source": {
+    "file": "gen-237.json",
+    "sha256": "2faf98ab31c18c327634cd241a3a3e09e87424b3c8f6ffc25f24f25c47e223c3",
+    "gameSeconds": 2940000,
+    "projection": "Parser control: resident fields and Birth detail from real rehearsal; times compressed, resident 17 omitted, liveness reset before synthetic death."
+  },
+  "payload": {
+    "world": {
+      "gameSeconds": 40
+    },
+    "residents": [
+      {
+        "id": 1,
+        "alive": true,
+        "home": 6,
+        "household": 1
+      },
+      {
+        "id": 2,
+        "alive": true,
+        "home": 2,
+        "household": 2
+      },
+      {
+        "id": 3,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 4,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 5,
+        "alive": true,
+        "home": 4,
+        "household": 4
+      },
+      {
+        "id": 6,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 7,
+        "alive": true,
+        "home": 5,
+        "household": 5
+      },
+      {
+        "id": 8,
+        "alive": true,
+        "home": 3,
+        "household": 3
+      },
+      {
+        "id": 9,
+        "alive": true,
+        "home": 7,
+        "household": 6
+      },
+      {
+        "id": 10,
+        "alive": true,
+        "home": 8,
+        "household": 7
+      },
+      {
+        "id": 11,
+        "alive": true,
+        "home": 9,
+        "household": 8
+      },
+      {
+        "id": 12,
+        "alive": true,
+        "home": 10,
+        "household": 9
+      },
+      {
+        "id": 13,
+        "alive": true,
+        "home": 11,
+        "household": 10
+      },
+      {
+        "id": 14,
+        "alive": true,
+        "home": 12,
+        "household": 11
+      },
+      {
+        "id": 15,
+        "alive": true,
+        "home": 13,
+        "household": 12
+      },
+      {
+        "id": 16,
+        "alive": true,
+        "home": 14,
+        "household": 13
+      },
+      {
+        "id": 18,
+        "alive": true,
+        "home": 6,
+        "household": 1
+      }
+    ],
+    "events": [
+      {
+        "event": 33,
+        "gameSeconds": 35,
+        "kind": "Birth",
+        "actor": 1,
+        "detail": "child 18"
+      }
+    ]
+  }
+}

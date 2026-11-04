@@ -1,0 +1,105 @@
+{
+  "courtyard": [
+    3.0,
+    0.0,
+    25.0
+  ],
+  "sites": [
+    {
+      "id": "apartment",
+      "asset": "Assets/Blockparty/Art/Environment/apartment-first.gltf",
+      "sha256": "3b1dc1a8da7cc19acac7f8a5db565b59d7af7ccfb81bb08a25118f474b33787e",
+      "address": "1 Alder Row",
+      "origin": [
+        -30.0,
+        0.0,
+        0.0
+      ],
+      "entry": [
+        -30.0,
+        0.0,
+        -2.5
+      ]
+    },
+    {
+      "id": "common-room",
+      "asset": "Assets/Blockparty/Art/Environment/second.gltf",
+      "sha256": "296fd596564155f9c9c30c44371b50a09eb8595ce9c3cac76754ef9f62d881b5",
+      "address": "2 Alder Row",
+      "origin": [
+        -30.0,
+        0.0,
+        30.0
+      ],
+      "entry": [
+        -30.0,
+        0.0,
+        27.5
+      ]
+    },
+    {
+      "id": "cafe",
+      "asset": "Assets/Blockparty/Art/Environment/Workplaces/cafe.gltf",
+      "sha256": "aa937ee70d3982db58e8c43aeb2949f99ec1d784c17378c440af37a3d963a791",
+      "address": "3 Market Lane",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "entry": [
+        0.0,
+        0.0,
+        -2.5
+      ]
+    },
+    {
+      "id": "workshop",
+      "asset": "Assets/Blockparty/Art/Environment/Workplaces/workshop.gltf",
+      "sha256": "2c6b17e39977338c16c0ea2794d65e71247d3ac0e68d01db132b312df0443ae4",
+      "address": "5 Forge Lane",
+      "origin": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "entry": [
+        30.0,
+        0.0,
+        -2.5
+      ]
+    },
+    {
+      "id": "office",
+      "asset": "Assets/Blockparty/Art/Environment/Civic/office.gltf",
+      "sha256": "ee95f2faaf0cdcfe52431d7d04e5af04887861aa98e129061e5879c7d5732bac",
+      "address": "4 Civic Square",
+      "origin": [
+        0.0,
+        0.0,
+        30.0
+      ],
+      "entry": [
+        0.0,
+        0.0,
+        27.0
+      ]
+    },
+    {
+      "id": "school",
+      "asset": "Assets/Blockparty/Art/Environment/Civic/school.gltf",
+      "sha256": "28d74632b9b9a6b68a81540209ce472cbf0385d4e006e3be6c447de64576e415",
+      "address": "6 Civic Square",
+      "origin": [
+        30.0,
+        0.0,
+        30.0
+      ],
+      "entry": [
+        30.0,
+        0.0,
+        27.0
+      ]
+    }
+  ]
+}

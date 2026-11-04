@@ -1,0 +1,6 @@
+{
+  "file_name": "/bin/sh",
+  "use_shell_execute": false,
+  "arguments": "-c \"spd-say Camera; $(touch narration-audio-unwanted)\"",
+  "text": "Camera; $(touch narration-audio-unwanted)"
+}

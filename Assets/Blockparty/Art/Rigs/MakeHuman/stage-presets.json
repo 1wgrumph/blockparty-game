@@ -1,0 +1,241 @@
+{
+ "shared_rig": {
+  "path": "Assets/Blockparty/Art/Rigs/MakeHuman/humanoid.gltf",
+  "sha256": "558326d74ed477a726bc875406507783e9592e7349c165bd60529b740e8e1c55"
+ },
+ "owner_approval": "evidence/production/STAGE-RIG/owner-ok.json",
+ "entries": [
+  {
+   "body": "female",
+   "stage": "Newborn",
+   "head_heights": 2.87925,
+   "eye_scale": 1.166894,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.502417,
+   "presentation": "carried/crib",
+   "source": "Owner-selected style C (#189), stage head-height target 2.80; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Newborn.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Infant",
+   "head_heights": 3.084911,
+   "eye_scale": 1.524742,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.703384,
+   "presentation": "carried/crib",
+   "source": "Owner-selected style C (#189), stage head-height target 3.00; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Infant.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Toddler",
+   "head_heights": 3.290572,
+   "eye_scale": 1.769789,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.870857,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Toddler.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Child",
+   "head_heights": 3.599063,
+   "eye_scale": 2.115968,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.138813,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.50; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Child.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Teen",
+   "head_heights": 4.010387,
+   "eye_scale": 2.457457,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.473758,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.90; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Teen.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "YoungAdult",
+   "head_heights": 4.318876,
+   "eye_scale": 2.593099,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.674725,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-YoungAdult.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Adult",
+   "head_heights": 4.318876,
+   "eye_scale": 2.593099,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.674725,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Adult.gltf"
+  },
+  {
+   "body": "female",
+   "stage": "Elder",
+   "head_heights": 4.113216,
+   "eye_scale": 2.641071,
+   "spine_pitch_deg": 12,
+   "stage_height_m": 1.624483,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.00; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/female-Elder.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Newborn",
+   "head_heights": 2.897419,
+   "eye_scale": 1.14087,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.557644,
+   "presentation": "carried/crib",
+   "source": "Owner-selected style C (#189), stage head-height target 2.80; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Newborn.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Infant",
+   "head_heights": 3.104376,
+   "eye_scale": 1.490736,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.780701,
+   "presentation": "carried/crib",
+   "source": "Owner-selected style C (#189), stage head-height target 3.00; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Infant.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Toddler",
+   "head_heights": 3.311337,
+   "eye_scale": 1.730319,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 0.966582,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Toddler.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Child",
+   "head_heights": 3.620764,
+   "eye_scale": 2.068777,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.263992,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.50; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Child.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Teen",
+   "head_heights": 4.031247,
+   "eye_scale": 2.402652,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.635755,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 3.90; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Teen.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "YoungAdult",
+   "head_heights": 4.338633,
+   "eye_scale": 2.535266,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.858812,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-YoungAdult.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Adult",
+   "head_heights": 4.338633,
+   "eye_scale": 2.535266,
+   "spine_pitch_deg": 0,
+   "stage_height_m": 1.858812,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.20; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Adult.gltf"
+  },
+  {
+   "body": "male",
+   "stage": "Elder",
+   "head_heights": 4.134168,
+   "eye_scale": 2.582168,
+   "spine_pitch_deg": 12,
+   "stage_height_m": 1.803048,
+   "presentation": "standing",
+   "source": "Owner-selected style C (#189), stage head-height target 4.00; eye scale recipe relative 1.55x local C eye sculpt recorded as the oracle's adult-absolute eye ratio; values measured from the 100% E5 proxy (see evidence/production/STAGE-RIG/source/generation.json)",
+   "proxy": "evidence/production/STAGE-RIG/proxies/male-Elder.gltf"
+  }
+ ],
+ "newborn_infant_decisions": {
+  "Newborn": {
+   "mode": "rig-driven",
+   "failing_cell_ids": [],
+   "locomotion_clips": [],
+   "poses": {
+    "female": {
+     "carried": {
+      "path": "evidence/production/STAGE-RIG/source/poses/female-Newborn-carried.json",
+      "sha256": "bed3694ed5379e794be290703696be04f225cdcbf16a8f82fa91647f3b69ac9d"
+     },
+     "crib": {
+      "path": "evidence/production/STAGE-RIG/source/poses/female-Newborn-crib.json",
+      "sha256": "80f1057d9122d34ce8120e7a39800cdde397cacb302293d801901c1c5a5df5cb"
+     }
+    },
+    "male": {
+     "carried": {
+      "path": "evidence/production/STAGE-RIG/source/poses/male-Newborn-carried.json",
+      "sha256": "23d2b655a98d8996681d06feb386ce844a2092ea8df47b58d16b026dc17d8aca"
+     },
+     "crib": {
+      "path": "evidence/production/STAGE-RIG/source/poses/male-Newborn-crib.json",
+      "sha256": "426a63fef4f98d58964db27fa3d37c7f77ca3de8b5dd71cb04e108bb724b04bf"
+     }
+    }
+   }
+  },
+  "Infant": {
+   "mode": "rig-driven",
+   "failing_cell_ids": [],
+   "locomotion_clips": [],
+   "poses": {
+    "female": {
+     "carried": {
+      "path": "evidence/production/STAGE-RIG/source/poses/female-Infant-carried.json",
+      "sha256": "deab1bb8e5b482741b666482d36515ed75e280fee042d4b231c3df0d7f51c190"
+     },
+     "crib": {
+      "path": "evidence/production/STAGE-RIG/source/poses/female-Infant-crib.json",
+      "sha256": "481651b7c1ba8f3081bd7184a19dfca151366a46dda06b01fbe1aec8a8536a19"
+     }
+    },
+    "male": {
+     "carried": {
+      "path": "evidence/production/STAGE-RIG/source/poses/male-Infant-carried.json",
+      "sha256": "681c8ca991d3e7ac07fd2fa370b058dd5d21b550fee300f8c319ca1c11e6a071"
+     },
+     "crib": {
+      "path": "evidence/production/STAGE-RIG/source/poses/male-Infant-crib.json",
+      "sha256": "46129da4b1398ccc27ab7ccc175d02a04738ef11d4e4445af108f98976779b7b"
+     }
+    }
+   }
+  }
+ }
+}

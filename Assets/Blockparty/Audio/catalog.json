@@ -1,0 +1,343 @@
+{
+  "clips": [
+    {
+      "id": "ambience-day",
+      "wav": "Assets/Blockparty/Audio/ambience-day.wav",
+      "group": "Ambience",
+      "essential": false,
+      "visual": {
+        "caption": "Daytime neighbourhood with birdsong",
+        "icon": "icon-ambience-day"
+      }
+    },
+    {
+      "id": "ambience-evening",
+      "wav": "Assets/Blockparty/Audio/ambience-evening.wav",
+      "group": "Ambience",
+      "essential": false,
+      "visual": {
+        "caption": "Evening neighbourhood with crickets",
+        "icon": "icon-ambience-evening"
+      }
+    },
+    {
+      "id": "ambience-interior",
+      "wav": "Assets/Blockparty/Audio/ambience-interior.wav",
+      "group": "Ambience",
+      "essential": false,
+      "visual": {
+        "caption": "Interior room tone",
+        "icon": "icon-ambience-interior"
+      }
+    },
+    {
+      "id": "ambience-storm",
+      "wav": "Assets/Blockparty/Audio/ambience-storm.wav",
+      "group": "Ambience",
+      "essential": false,
+      "visual": {
+        "caption": "Storm with rain and thunder",
+        "icon": "icon-ambience-storm"
+      }
+    },
+    {
+      "id": "footstep-wood",
+      "wav": "Assets/Blockparty/Audio/footstep-wood.wav",
+      "group": "World",
+      "essential": false,
+      "visual": {
+        "caption": "Footsteps on wood floor",
+        "icon": "icon-footstep-wood"
+      }
+    },
+    {
+      "id": "footstep-tile",
+      "wav": "Assets/Blockparty/Audio/footstep-tile.wav",
+      "group": "World",
+      "essential": false,
+      "visual": {
+        "caption": "Footsteps on tile",
+        "icon": "icon-footstep-tile"
+      }
+    },
+    {
+      "id": "footstep-outdoor",
+      "wav": "Assets/Blockparty/Audio/footstep-outdoor.wav",
+      "group": "World",
+      "essential": false,
+      "visual": {
+        "caption": "Footsteps on outdoor gravel",
+        "icon": "icon-footstep-outdoor"
+      }
+    },
+    {
+      "id": "activity-food",
+      "wav": "Assets/Blockparty/Audio/activity-food.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Cooking activity: sizzling pan",
+        "icon": "icon-activity-food"
+      }
+    },
+    {
+      "id": "activity-work",
+      "wav": "Assets/Blockparty/Audio/activity-work.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Work activity: keyboard typing",
+        "icon": "icon-activity-work"
+      }
+    },
+    {
+      "id": "activity-education",
+      "wav": "Assets/Blockparty/Audio/activity-education.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Education activity: page turning",
+        "icon": "icon-activity-education"
+      }
+    },
+    {
+      "id": "activity-social",
+      "wav": "Assets/Blockparty/Audio/activity-social.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Social activity: people talking",
+        "icon": "icon-activity-social"
+      }
+    },
+    {
+      "id": "activity-party",
+      "wav": "Assets/Blockparty/Audio/activity-party.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Party activity: crowd cheering",
+        "icon": "icon-activity-party"
+      }
+    },
+    {
+      "id": "activity-minigolf",
+      "wav": "Assets/Blockparty/Audio/activity-minigolf.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Minigolf activity: putt into the hole",
+        "icon": "icon-activity-minigolf"
+      }
+    },
+    {
+      "id": "activity-health",
+      "wav": "Assets/Blockparty/Audio/activity-health.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Health activity: running water",
+        "icon": "icon-activity-health"
+      }
+    },
+    {
+      "id": "activity-club",
+      "wav": "Assets/Blockparty/Audio/activity-club.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Club activity: group applause",
+        "icon": "icon-activity-club"
+      }
+    },
+    {
+      "id": "activity-home",
+      "wav": "Assets/Blockparty/Audio/activity-home.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Home activity: sweeping broom",
+        "icon": "icon-activity-home"
+      }
+    },
+    {
+      "id": "activity-creative",
+      "wav": "Assets/Blockparty/Audio/activity-creative.wav",
+      "group": "World",
+      "essential": true,
+      "visual": {
+        "caption": "Creative activity: guitar strum",
+        "icon": "icon-activity-creative"
+      }
+    },
+    {
+      "id": "ui-accept",
+      "wav": "Assets/Blockparty/Audio/ui-accept.wav",
+      "group": "Interface",
+      "essential": true,
+      "visual": {
+        "caption": "Confirmation chime: rising accept",
+        "icon": "icon-ui-accept"
+      }
+    },
+    {
+      "id": "ui-reject",
+      "wav": "Assets/Blockparty/Audio/ui-reject.wav",
+      "group": "Interface",
+      "essential": true,
+      "visual": {
+        "caption": "Rejection cue: descending reject",
+        "icon": "icon-ui-reject"
+      }
+    },
+    {
+      "id": "ui-notification-urgent",
+      "wav": "Assets/Blockparty/Audio/ui-notification-urgent.wav",
+      "group": "Interface",
+      "essential": true,
+      "visual": {
+        "caption": "Urgent notification: repeated high pulses",
+        "icon": "icon-ui-notification-urgent"
+      }
+    },
+    {
+      "id": "ui-milestone",
+      "wav": "Assets/Blockparty/Audio/ui-milestone.wav",
+      "group": "Interface",
+      "essential": true,
+      "visual": {
+        "caption": "Milestone celebration: major arpeggio",
+        "icon": "icon-ui-milestone"
+      }
+    },
+    {
+      "id": "reaction-neutral",
+      "wav": "Assets/Blockparty/Audio/reaction-neutral.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident considering: neutral hmm",
+        "icon": "icon-reaction-neutral"
+      }
+    },
+    {
+      "id": "reaction-happy",
+      "wav": "Assets/Blockparty/Audio/reaction-happy.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident pleased: laugh",
+        "icon": "icon-reaction-happy"
+      }
+    },
+    {
+      "id": "reaction-sad",
+      "wav": "Assets/Blockparty/Audio/reaction-sad.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident sad: sigh",
+        "icon": "icon-reaction-sad"
+      }
+    },
+    {
+      "id": "reaction-angry",
+      "wav": "Assets/Blockparty/Audio/reaction-angry.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident angry: grunt",
+        "icon": "icon-reaction-angry"
+      }
+    },
+    {
+      "id": "reaction-embarrassed",
+      "wav": "Assets/Blockparty/Audio/reaction-embarrassed.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident embarrassed: nervous laugh",
+        "icon": "icon-reaction-embarrassed"
+      }
+    },
+    {
+      "id": "reaction-proud",
+      "wav": "Assets/Blockparty/Audio/reaction-proud.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident proud: yes",
+        "icon": "icon-reaction-proud"
+      }
+    },
+    {
+      "id": "reaction-hurt",
+      "wav": "Assets/Blockparty/Audio/reaction-hurt.wav",
+      "group": "Voice",
+      "essential": true,
+      "visual": {
+        "caption": "Resident hurt: ouch",
+        "icon": "icon-reaction-hurt"
+      }
+    },
+    {
+      "id": "music-theme",
+      "wav": "Assets/Blockparty/Audio/music-theme.wav",
+      "group": "Ambience",
+      "essential": false,
+      "visual": {
+        "caption": "Cheerful neighbourhood theme",
+        "icon": "icon-music-theme"
+      }
+    }
+  ],
+  "activities": {
+    "ACT-CLUB-01": "activity-club",
+    "ACT-CLUB-02": "activity-club",
+    "ACT-CREA-01": "activity-creative",
+    "ACT-CREA-02": "activity-creative",
+    "ACT-CREA-03": "activity-creative",
+    "ACT-EDU-01": "activity-education",
+    "ACT-EDU-02": "activity-education",
+    "ACT-EDU-03": "activity-education",
+    "ACT-EDU-04": "activity-education",
+    "ACT-FOOD-01": "activity-food",
+    "ACT-FOOD-02": "activity-food",
+    "ACT-FOOD-03": "activity-food",
+    "ACT-FOOD-04": "activity-food",
+    "ACT-HEALTH-01": "activity-health",
+    "ACT-HEALTH-02": "activity-health",
+    "ACT-HEALTH-03": "activity-health",
+    "ACT-HEALTH-04": "activity-health",
+    "ACT-HOME-01": "activity-home",
+    "ACT-HOME-02": "activity-home",
+    "ACT-HOME-03": "activity-home",
+    "ACT-HOME-04": "activity-home",
+    "ACT-HOME-05": "activity-home",
+    "ACT-PARTY-01": "activity-party",
+    "ACT-PARTY-02": "activity-party",
+    "ACT-REL-01": "activity-social",
+    "ACT-REL-02": "activity-social",
+    "ACT-REL-03": "activity-social",
+    "ACT-REL-04": "activity-social",
+    "ACT-REL-05": "activity-social",
+    "ACT-REL-06": "activity-social",
+    "ACT-SPORT-01": "activity-health",
+    "ACT-SPORT-02": "activity-minigolf",
+    "ACT-WORK-01": "activity-work",
+    "ACT-WORK-02": "activity-work",
+    "ACT-WORK-03": "activity-work",
+    "ACT-WORK-04": "activity-work",
+    "ACT-SPORT-03": "activity-health"
+  },
+  "reactions": {
+    "Neutral": "reaction-neutral",
+    "Grateful": "reaction-happy",
+    "Hurt": "reaction-hurt",
+    "Angry": "reaction-angry",
+    "Affectionate": "reaction-happy",
+    "Embarrassed": "reaction-embarrassed",
+    "Proud": "reaction-proud"
+  },
+  "planned_sounds": {}
+}

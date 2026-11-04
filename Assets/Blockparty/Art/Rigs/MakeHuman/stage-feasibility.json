@@ -1,0 +1,276 @@
+{
+ "entries": [
+  {
+   "body": "female",
+   "stage": "Newborn",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.3x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Newborn body (STAGE-* M4).",
+   "presentation": "carried/crib",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-newborn.png",
+   "preview_sha256": "5e3be03e7d9a749f3c6360505ee7f502d9393aeb06e68674585f07da7387f225"
+  },
+  {
+   "body": "female",
+   "stage": "Infant",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.42,
+     0.42,
+     0.42
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.42x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Infant body (STAGE-* M4).",
+   "presentation": "carried/crib",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-infant.png",
+   "preview_sha256": "fd7a53fb493acecafc90054eca5448db3ce6ff2b89ed3de84ed8012f2048989c"
+  },
+  {
+   "body": "female",
+   "stage": "Toddler",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.52,
+     0.52,
+     0.52
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.52x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Toddler body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-toddler.png",
+   "preview_sha256": "0479717576c26c8ba422952b3f10179242556b1418a36554e65ed7e8479c0794"
+  },
+  {
+   "body": "female",
+   "stage": "Child",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.68,
+     0.68,
+     0.68
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.68x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Child body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-child.png",
+   "preview_sha256": "75cc8a7a8612c99728eeaf4257e6b633013723c0907b19cb29e3a3fd9c35edb6"
+  },
+  {
+   "body": "female",
+   "stage": "Teen",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.88,
+     0.88,
+     0.88
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.88x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Teen body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-teen.png",
+   "preview_sha256": "ddd6aff42b54fcb451a7b53a7205de90502e4c95bc104f033ff43af9771d0a2a"
+  },
+  {
+   "body": "female",
+   "stage": "Young Adult",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.98,
+     0.98,
+     0.98
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.98x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Young Adult body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-young-adult.png",
+   "preview_sha256": "49a5a6b3f200287c6d6a7559dc83472ccde25f2d2fade6aed103cca966a20d2a"
+  },
+  {
+   "body": "female",
+   "stage": "Adult",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "result": "feasible",
+   "note": "Uniform 1.0x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Adult body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-adult.png",
+   "preview_sha256": "4f8cda429543e24035bcb0bab35a7e227f40facd88cbc52acf2f905dfbd78a17"
+  },
+  {
+   "body": "female",
+   "stage": "Elder",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.97,
+     0.97,
+     0.97
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.97x object scale of the qualified BODY-MH adult female export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Elder body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/female-elder.png",
+   "preview_sha256": "8bc535200b162cb851d8a1a9c1960b31360f16167bfcbe42487136d7c3459f4d"
+  },
+  {
+   "body": "male",
+   "stage": "Newborn",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.3x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Newborn body (STAGE-* M4).",
+   "presentation": "carried/crib",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-newborn.png",
+   "preview_sha256": "4db662e21369dbad070230a0fa3ec4f5a4132d095d851c9d84d5502897a089c9"
+  },
+  {
+   "body": "male",
+   "stage": "Infant",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.42,
+     0.42,
+     0.42
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.42x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Infant body (STAGE-* M4).",
+   "presentation": "carried/crib",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-infant.png",
+   "preview_sha256": "0cdc1ea8d93c9a6f6c7f3e5190bbdacb54ec00029ea6cb803aee556b03258d52"
+  },
+  {
+   "body": "male",
+   "stage": "Toddler",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.52,
+     0.52,
+     0.52
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.52x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Toddler body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-toddler.png",
+   "preview_sha256": "13139c4bda69b9909332844e7ae58343a7e30024cb97782c7f167aa976747f81"
+  },
+  {
+   "body": "male",
+   "stage": "Child",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.68,
+     0.68,
+     0.68
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.68x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Child body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-child.png",
+   "preview_sha256": "165aa8e5ac354c304297e20effc0abef46b49e50e9a68b00ebd8f10c50e74121"
+  },
+  {
+   "body": "male",
+   "stage": "Teen",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.88,
+     0.88,
+     0.88
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.88x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Teen body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-teen.png",
+   "preview_sha256": "f97fdd25ec9d5bdc922d03ff8d7ab2d04f5eae129cf4d3c2b044e48e21ed2ee3"
+  },
+  {
+   "body": "male",
+   "stage": "Young Adult",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.98,
+     0.98,
+     0.98
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.98x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Young Adult body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-young-adult.png",
+   "preview_sha256": "eb3d0c7d64a8d434189feda16e4bd8180846aafaed4a58c6bca4756e0b64e0c0"
+  },
+  {
+   "body": "male",
+   "stage": "Adult",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "result": "feasible",
+   "note": "Uniform 1.0x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Adult body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-adult.png",
+   "preview_sha256": "c9af19ed537544073e26ae8cc8ca422a857b5dccde17812ab959e522f561d5c1"
+  },
+  {
+   "body": "male",
+   "stage": "Elder",
+   "method": "scale",
+   "parameters": {
+    "scale": [
+     0.97,
+     0.97,
+     0.97
+    ]
+   },
+   "result": "limited",
+   "note": "Uniform 0.97x object scale of the qualified BODY-MH adult male export, rendered in Blender 5.2.3 / MPFB 2.0.18 (see render_stages.py). The shared 53-joint skeleton, skin weights and PropSocket_R follow the scale; adult proportions are preserved, so this is a feasibility sample, not a production Elder body (STAGE-* M4).",
+   "presentation": "standing",
+   "preview": "evidence/production/RIG-MH/stage-previews/male-elder.png",
+   "preview_sha256": "ec91be325d442a19b665f8c184d2a188fc2fade1f8e5adf33b613345b9430263"
+  }
+ ]
+}

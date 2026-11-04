@@ -1,0 +1,14 @@
+{
+  "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+  "command": "<Unity> -batchmode -projectPath <project> -quit -executeMethod ToolchainBuild.BuildLinux",
+  "files": [
+    {
+      "relative_path": "ToolchainProof.x86_64",
+      "sha256": "63d8e0059ad90c5a6af64a3c75ce67311b465cfbbccb09afbb307665eca844a3"
+    },
+    {
+      "relative_path": "ToolchainProof_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "63d8e0059ad90c5a6af64a3c75ce67311b465cfbbccb09afbb307665eca844a3"
+    }
+  ]
+}

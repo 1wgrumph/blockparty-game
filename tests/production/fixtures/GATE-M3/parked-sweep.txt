@@ -1,0 +1,42 @@
+TOOLCHAIN 1 FAIL build-binary: Build/ToolchainProof/ToolchainProof.x86_64 
+IFC-LOCK 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+RIGHTS 0 
+STATE 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+CLOCK 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+UNITY-COMPILE 0
+COMMAND 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+NAV 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+COMMAND-AMEND 1 FAIL result-present: missing <home>/.cache/tmp/uc-repro/evidence/production/COMMAND-AMEND/result.json FAIL suite-exit: run-standalone --only COMMAND-AMEN
+MESH-FIRST 0 
+MATERIAL-FIRST 0 
+RIG-FIRST 0 
+ANIM-FIRST 0 
+PROOF-SCENE 1 FAIL standalone-binding: player payload, log and all seven captures match receipt 
+GATE-M0 1 FAIL build-binary: Build/ToolchainProof/ToolchainProof.x86_64 FAIL standalone-binding: player payload, log and all seven captures match receipt 
+PERSONALITY 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+RESIDENT-CREATE 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+SEIT-AMEND 0 
+APPEARANCE-AMEND 0 FAILED [] 
+TIERS 0 FAILED [] 
+BOT 0 FAILED [] 
+SAVE 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+ECONOMY 0 FAILED [] 
+RELATION 0 FAILED [] 
+FOOD 0 FAILED [] 
+UI-TITLE 0 FAILED [] 
+UI-INSPECT 0 FAILED [] 
+UI-NAV 0 FAILED [] 
+GREYBOX 0 FAILED [] 
+GATE-M1 0 FAILED [] 
+AI-BOUNDARY 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+CREDENTIAL-DESIGN 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+PROBE-VOICE 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+KEY-SETTINGS 1 FAIL result-status-field: status=None FAIL result-started_utc: started_utc=None 
+AUDIO-FIRST 0 
+SECOND-AUDIO 0 
+ART-DIRECTION 0 
+ART-SELECT 0 
+BLOCK-CHOICE 1
+PROBE-D1U 0 FAILED [] 
+D1U 0 FAILED [] 
+AUDIO-MIX 0 FAILED [] 

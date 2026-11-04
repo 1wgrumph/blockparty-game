@@ -1,0 +1,1056 @@
+{
+  "register": "blockparty-asset-register",
+  "register_version": 1,
+  "package": "RIGHTS",
+  "produces": "RIGHTS@1",
+  "spec": {
+    "sdoc": "migrations/blockparty/game/blockparty-game-system.sdoc",
+    "revision": "REV-0",
+    "sha256": "164e3953b39afe1aeaecc3c32eeeef8194f7739e5847eb09dc339dcfa701f881"
+  },
+  "source_preference": "Quaternius Standard preferred per package contract; applied per class (see classes[].preference_note). Kenney CC0 fills classes Quaternius does not publish (furniture breadth, UI, audio, fonts); OpenGameArt CC0 fills ambience and reactions.",
+  "license_snapshots": [
+    {
+      "id": "LIC-CC0-1.0",
+      "kind": "license-file",
+      "name": "CC0 1.0 Universal legal code (canonical grant)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+      "acquired_utc": "2026-10-27",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "encoding": "utf-8",
+      "text": "Creative Commons Legal Code\n\nCC0 1.0 Universal\n\n    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE\n    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN\n    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS\n    INFORMATION ON AN \"AS-IS\" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES\n    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS\n    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM\n    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED\n    HEREUNDER.\n\nStatement of Purpose\n\nThe laws of most jurisdictions throughout the world automatically confer\nexclusive Copyright and Related Rights (defined below) upon the creator\nand subsequent owner(s) (each and all, an \"owner\") of an original work of\nauthorship and/or a database (each, a \"Work\").\n\nCertain owners wish to permanently relinquish those rights to a Work for\nthe purpose of contributing to a commons of creative, cultural and\nscientific works (\"Commons\") that the public can reliably and without fear\nof later claims of infringement build upon, modify, incorporate in other\nworks, reuse and redistribute as freely as possible in any form whatsoever\nand for any purposes, including without limitation commercial purposes.\nThese owners may contribute to the Commons to promote the ideal of a free\nculture and the further production of creative, cultural and scientific\nworks, or to gain reputation or greater distribution for their Work in\npart through the use and efforts of others.\n\nFor these and/or other purposes and motivations, and without any\nexpectation of additional consideration or compensation, the person\nassociating CC0 with a Work (the \"Affirmer\"), to the extent that he or she\nis an owner of Copyright and Related Rights in the Work, voluntarily\nelects to apply CC0 to the Work and publicly distribute the Work under its\nterms, with knowledge of his or her Copyright and Related Rights in the\nWork and the meaning and intended legal effect of CC0 on those rights.\n\n1. Copyright and Related Rights. A Work made available under CC0 may be\nprotected by copyright and related or neighboring rights (\"Copyright and\nRelated Rights\"). Copyright and Related Rights include, but are not\nlimited to, the following:\n\n  i. the right to reproduce, adapt, distribute, perform, display,\n     communicate, and translate a Work;\n ii. moral rights retained by the original author(s) and/or performer(s);\niii. publicity and privacy rights pertaining to a person's image or\n     likeness depicted in a Work;\n iv. rights protecting against unfair competition in regards to a Work,\n     subject to the limitations in paragraph 4(a), below;\n  v. rights protecting the extraction, dissemination, use and reuse of data\n     in a Work;\n vi. database rights (such as those arising under Directive 96/9/EC of the\n     European Parliament and of the Council of 11 March 1996 on the legal\n     protection of databases, and under any national implementation\n     thereof, including any amended or successor version of such\n     directive); and\nvii. other similar, equivalent or corresponding rights throughout the\n     world based on applicable law or treaty, and any national\n     implementations thereof.\n\n2. Waiver. To the greatest extent permitted by, but not in contravention\nof, applicable law, Affirmer hereby overtly, fully, permanently,\nirrevocably and unconditionally waives, abandons, and surrenders all of\nAffirmer's Copyright and Related Rights and associated claims and causes\nof action, whether now known or unknown (including existing as well as\nfuture claims and causes of action), in the Work (i) in all territories\nworldwide, (ii) for the maximum duration provided by applicable law or\ntreaty (including future time extensions), (iii) in any current or future\nmedium and for any number of copies, and (iv) for any purpose whatsoever,\nincluding without limitation commercial, advertising or promotional\npurposes (the \"Waiver\"). Affirmer makes the Waiver for the benefit of each\nmember of the public at large and to the detriment of Affirmer's heirs and\nsuccessors, fully intending that such Waiver shall not be subject to\nrevocation, rescission, cancellation, termination, or any other legal or\nequitable action to disrupt the quiet enjoyment of the Work by the public\nas contemplated by Affirmer's express Statement of Purpose.\n\n3. Public License Fallback. Should any part of the Waiver for any reason\nbe judged legally invalid or ineffective under applicable law, then the\nWaiver shall be preserved to the maximum extent permitted taking into\naccount Affirmer's express Statement of Purpose. In addition, to the\nextent the Waiver is so judged Affirmer hereby grants to each affected\nperson a royalty-free, non transferable, non sublicensable, non exclusive,\nirrevocable and unconditional license to exercise Affirmer's Copyright and\nRelated Rights in the Work (i) in all territories worldwide, (ii) for the\nmaximum duration provided by applicable law or treaty (including future\ntime extensions), (iii) in any current or future medium and for any number\nof copies, and (iv) for any purpose whatsoever, including without\nlimitation commercial, advertising or promotional purposes (the\n\"License\"). The License shall be deemed effective as of the date CC0 was\napplied by Affirmer to the Work. Should any part of the License for any\nreason be judged legally invalid or ineffective under applicable law, such\npartial invalidity or ineffectiveness shall not invalidate the remainder\nof the License, and in such case Affirmer hereby affirms that he or she\nwill not (i) exercise any of his or her remaining Copyright and Related\nRights in the Work or (ii) assert any associated claims and causes of\naction with respect to the Work, in either case contrary to Affirmer's\nexpress Statement of Purpose.\n\n4. Limitations and Disclaimers.\n\n a. No trademark or patent rights held by Affirmer are waived, abandoned,\n    surrendered, licensed or otherwise affected by this document.\n b. Affirmer offers the Work as-is and makes no representations or\n    warranties of any kind concerning the Work, express, implied,\n    statutory or otherwise, including without limitation warranties of\n    title, merchantability, fitness for a particular purpose, non\n    infringement, or the absence of latent or other defects, accuracy, or\n    the present or absence of errors, whether or not discoverable, all to\n    the greatest extent permissible under applicable law.\n c. Affirmer disclaims responsibility for clearing rights of other persons\n    that may apply to the Work or any use thereof, including without\n    limitation any person's Copyright and Related Rights in the Work.\n    Further, Affirmer disclaims responsibility for obtaining any necessary\n    consents, permissions or other rights required for any use of the\n    Work.\n d. Affirmer understands and acknowledges that Creative Commons is not a\n    party to this document and has no duty or obligation with respect to\n    this CC0 or use of the Work.\n"
+    },
+    {
+      "id": "LIC-Q-UBC",
+      "kind": "license-file",
+      "name": "Quaternius Universal Base Characters Standard license",
+      "url": "https://quaternius.itch.io/universal-base-characters",
+      "acquired_utc": "2026-10-27",
+      "bytes": 806,
+      "sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e",
+      "encoding": "utf-8",
+      "text": "This is the standard FREE version of the Universal Base Characters Kit, which only contains \r\na portion of the models . You can buy the SOURCE version which has all the models with rigged .blends,\r\nand Unity(URP), Unreal Engine and Godot projects\r\nwith custom shaders already set up.\r\n\r\nYou can get the other version from the website https://quaternius.com\r\n\r\n-------------------------------------------------------\r\nLicense:\r\nCC0 1.0 Universal (CC0 1.0) \r\nPublic Domain Dedication\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n------------------------------------------------------\r\nModels by @Quaternius\r\nConsider supporting me on Patreon!\r\n\r\nhttps://www.patreon.com/quaternius\r\n\r\n-------------------------------------------------------\r\nJoin the Discord Server:\r\nhttps://discord.gg/vJqnRUYRfT\r\n"
+    },
+    {
+      "id": "LIC-Q-UAL",
+      "kind": "license-file",
+      "name": "Quaternius Universal Animation Library 1+2 Standard license",
+      "url": "https://quaternius.itch.io/universal-animation-library",
+      "acquired_utc": "2026-10-27",
+      "bytes": 332,
+      "sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+      "encoding": "utf-8",
+      "text": "-------------------------------------------------------\r\nLicense:\r\nCC0 1.0 Universal (CC0 1.0) \r\nPublic Domain Dedication\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n------------------------------------------------------\r\nModels by @Quaternius\r\nConsider supporting me on Patreon!\r\n\r\nhttps://www.patreon.com/quaternius\r\n\r\n"
+    },
+    {
+      "id": "LIC-Q-CITY",
+      "kind": "license-file",
+      "name": "Quaternius Downtown City MegaKit Standard license",
+      "url": "https://quaternius.itch.io/downtown-city-megakit",
+      "acquired_utc": "2026-10-27",
+      "bytes": 847,
+      "sha256": "afac5819301671301c41e90402d26e4ade5e459ad58fdf77f142147410862f1f",
+      "encoding": "utf-8",
+      "text": "This is the standard FREE version of the Downtown City MegaKit, which only contains \r\na portion of the models . You can buy the SOURCE version which has all the models and also includes Unity(URP), Unreal Engine and Godot projects\r\nwith collisions and custom shaders for fake interior windows, wear and more already set up.\r\n\r\nYou can get the other versions from the website https://quaternius.com\r\n\r\n-------------------------------------------------------\r\nLicense:\r\nCC0 1.0 Universal (CC0 1.0) \r\nPublic Domain Dedication\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n------------------------------------------------------\r\nModels by @Quaternius\r\nConsider supporting me on Patreon!\r\n\r\nhttps://www.patreon.com/quaternius\r\n\r\n-------------------------------------------------------\r\nJoin the Discord Server:\r\nhttps://discord.gg/vJqnRUYRfT\r\n"
+    },
+    {
+      "id": "LIC-Q-NATURE",
+      "kind": "license-file",
+      "name": "Quaternius Stylized Nature MegaKit Standard license",
+      "url": "https://quaternius.itch.io/stylized-nature-megakit",
+      "acquired_utc": "2026-10-27",
+      "bytes": 852,
+      "sha256": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58",
+      "encoding": "utf-8",
+      "text": "This is the standard FREE version of the Stylized Nature MegaKit, which only contains \r\na portion of the models (68/116). You can buy the PRO version which has all the models,\r\nor the SOURCE version which has all the models and also includes Unity(URP), Unreal Engine and Godot projects\r\nwith the stylized shader already set up.\r\n\r\nYou can get the other versions from the website https://quaternius.com\r\n\r\n-------------------------------------------------------\r\nLicense:\r\nCC0 1.0 Universal (CC0 1.0) \r\nPublic Domain Dedication\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n------------------------------------------------------\r\nModels by @Quaternius\r\nConsider supporting me on Patreon!\r\n\r\nhttps://www.patreon.com/quaternius\r\n\r\n-------------------------------------------------------\r\nJoin the Discord Server:\r\nhttps://discord.gg/vJqnRUYRfT\r\n"
+    },
+    {
+      "id": "LIC-K-REP",
+      "kind": "license-file",
+      "name": "Kenney kit License.txt (representative: furniture-kit; per-kit header varies, CC0 grant identical)",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "acquired_utc": "2026-10-27",
+      "bytes": 614,
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "encoding": "utf-8",
+      "text": "\t\r\n\r\n\tFurniture Kit (2.0)\r\n\r\n\tCreated/distributed by Kenney (www.kenney.nl)\r\n\tCreation date: 20-10-2018 16:21\r\n\r\n\t\t\t------------------------------\r\n\r\n\tLicense: (Creative Commons Zero, CC0)\r\n\thttp://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\tThis content is free to use in personal, educational and commercial projects.\r\r\n\tSupport us by crediting Kenney or www.kenney.nl (this is not mandatory)\r\n\r\n\t\t\t------------------------------\r\n\r\n\tDonate:   http://support.kenney.nl\r\n\tRequest:  http://request.kenney.nl\r\n\tPatreon:  http://patreon.com/kenney/\r\n\r\n\tFollow on Twitter for updates:\r\n\thttp://twitter.com/KenneyNL"
+    },
+    {
+      "id": "LIC-K-SUPPORT",
+      "kind": "page-excerpt",
+      "name": "Kenney support grant statement",
+      "url": "https://kenney.nl/support",
+      "acquired_utc": "2026-10-27",
+      "bytes": 704,
+      "sha256": "defc27c7d33883c09e710922cb482776e42b0425d3928d50fbe3a092a4f20c16",
+      "encoding": "utf-8",
+      "text": "Can I use the game assets in a (commercial) project? Yes, all game assets on the asset pages are public domain licensed (CC0). You’re free to use them, even in commercial projects. For full details, see the included license file or visit the asset page. Is attribution required when using the game assets? Attribution is not required, but if you choose to give credit you can do so by mentioning \"Kenney\". Do not use our logo, as it is reserved for official projects by our studio. How can I use the game assets in my game engine? Unfortunately, we’re unable to provide support for importing assets into specific game engines. We recommend consulting the knowledge base or the documentation/community"
+    },
+    {
+      "id": "LIC-Q-STREET",
+      "kind": "page-excerpt",
+      "name": "Quaternius Modular Streets pack-page license declaration",
+      "url": "https://quaternius.com/packs/modularstreets.html",
+      "acquired_utc": "2026-10-27",
+      "bytes": 155,
+      "sha256": "4a04707e46f3e2d5f353abcf491208dfb6cec7be1ae2ff19eb95c9a698dc1843",
+      "encoding": "utf-8",
+      "text": "Modular Streets Pack Models 25 Animated Textured Formats FBX OBJ Blend License CC0 Consider supporting me ! These assets ... (full page fetched 2026-10-27)"
+    },
+    {
+      "id": "LIC-OGA-FOREST_AMBIENCE",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: Forest Ambience by TinyWorlds",
+      "url": "https://opengameart.org/content/forest-ambience",
+      "acquired_utc": "2026-10-27",
+      "bytes": 63,
+      "sha256": "22eaf1e44d583cc46f096a3c6f6b8d50e447c017276102cab8a752cbfcd12dc8",
+      "encoding": "utf-8",
+      "text": "Forest Ambience by TinyWorlds — License(s):  CC0 Collections:"
+    },
+    {
+      "id": "LIC-OGA-BIRD_CHIRPING_SOUNDS",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: Bird Chirping Sounds by syncopika",
+      "url": "https://opengameart.org/content/bird-chirping-sounds",
+      "acquired_utc": "2026-10-27",
+      "bytes": 67,
+      "sha256": "47b51a3736fe147b75328a450f86a53a4459c9fc64edddbdb58f1ea2c4f4a673",
+      "encoding": "utf-8",
+      "text": "Bird Chirping Sounds by syncopika — License(s):  CC0 Collections:"
+    },
+    {
+      "id": "LIC-OGA-CRICKETS_AMBIENT_NOISE_LOOPABLE",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: Crickets Ambient Noise (loopable) by Wolfgang_",
+      "url": "https://opengameart.org/content/crickets-ambient-noise-loopable",
+      "acquired_utc": "2026-10-27",
+      "bytes": 80,
+      "sha256": "a1436c872c8643ad9fcb0e07cda7a79bcd3130bc0ec2d54e22cd2012586622d7",
+      "encoding": "utf-8",
+      "text": "Crickets Ambient Noise (loopable) by Wolfgang_ — License(s):  CC0 Collections:"
+    },
+    {
+      "id": "LIC-OGA-THE_SHOP",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: The Shop by LEGIT Audio",
+      "url": "https://opengameart.org/content/the-shop",
+      "acquired_utc": "2026-10-27",
+      "bytes": 57,
+      "sha256": "e39ccb870fc0482e6cd8bebf27d516b502aa611bd1b24d86f3a9a5d499b867cb",
+      "encoding": "utf-8",
+      "text": "The Shop by LEGIT Audio — License(s):  CC0 Collections:"
+    },
+    {
+      "id": "LIC-OGA-LIGHT_RAIN_AND_HEAVY_RAIN",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: Light Rain and Heavy Rain by haruta",
+      "url": "https://opengameart.org/content/light-rain-and-heavy-rain",
+      "acquired_utc": "2026-10-27",
+      "bytes": 69,
+      "sha256": "3cd5377efdd2b93bcd4ffec673456a6bdf1eaa39f51f7e1d3a2b0138306da17c",
+      "encoding": "utf-8",
+      "text": "Light Rain and Heavy Rain by haruta — License(s):  CC0 Collections:"
+    },
+    {
+      "id": "LIC-OGA-SILLY_SOUND_EFFECTS",
+      "kind": "page-excerpt",
+      "name": "OpenGameArt: Silly Sound Effects by EZduzziteh",
+      "url": "https://opengameart.org/content/silly-sound-effects",
+      "acquired_utc": "2026-10-27",
+      "bytes": 67,
+      "sha256": "f7859302701e1fc69313464ce34c3bdd7d509212cf4af4e17aa5e52b2ce25e62",
+      "encoding": "utf-8",
+      "text": "Silly Sound Effects by EZduzziteh — License(s):  CC0 Collections:"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Q-UBC",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/universal-base-characters",
+      "acquired_utc": "2026-10-27",
+      "archive": "Universal Base Characters[Standard].zip",
+      "bytes": 128968391,
+      "sha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
+      "license_snapshot": "LIC-Q-UBC",
+      "license_file": "Universal Base Characters[Standard]/License_Standard.txt",
+      "license_sha256": "0f4beaf0fe360a7732e58bbe3dbf60a2422367fbea60cb9ea4add968f383268e",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (Standard tier; paid Source excluded)",
+      "contents": "112 files: 2 rigged bodies (Superhero M/F, Unity FBX + glTF, 65-joint Humanoid rig, ~13k tris), 6 hairstyles + beard + 2 eyebrows (Unity/Unreal FBX + glTF, head-rigged and origin variants), PBR textures, License_Standard.txt. Free subset of the 6-model/20-hairstyle kit.",
+      "covers": [
+        "character-body",
+        "character-appearance",
+        "expression"
+      ]
+    },
+    {
+      "id": "Q-UAL",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/universal-animation-library",
+      "acquired_utc": "2026-10-27",
+      "archive": "Universal Animation Library[Standard].zip",
+      "bytes": 15904933,
+      "sha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724",
+      "license_snapshot": "LIC-Q-UAL",
+      "license_file": "Universal Animation Library[Standard]/License.txt",
+      "license_sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (Standard tier; paid Pro/Source excluded)",
+      "contents": "43 animation takes (subset of 120+), Unity FBX + GLB, root-motion and non-root-motion variants: Walk_Loop, Walk_Formal_Loop, Sitting_Enter/Exit/Idle/Talking, Interact, PickUp_Table, Push_Loop, Idle_Torch_Loop, Idle_Talking_Loop, Dance_Loop, Jog/Sprint/Swim/Crouch/Jump, Death01.",
+      "covers": [
+        "animation"
+      ]
+    },
+    {
+      "id": "Q-UAL2",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/universal-animation-library-2",
+      "acquired_utc": "2026-10-27",
+      "archive": "Universal Animation Library 2[Standard].zip",
+      "bytes": 18735003,
+      "sha256": "4008ea208a604773a2b2177d965f0f5d3195498b5bf838c3f5785d68e95f2a68",
+      "license_snapshot": "LIC-Q-UAL",
+      "license_file": "Universal Animation Library 2[Standard]/License.txt",
+      "license_sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (Standard tier; paid Source excluded)",
+      "contents": "43 animation takes (subset of 130+), Unity FBX + GLB, RM and non-RM: Consume, Farm_PlantSeed/Watering/Harvest, Walk_Carry_Loop, TreeChopping_Loop, Idle_TalkingPhone_Loop, Yes/No, OverhandThrow, ClimbUp_1m, Chest_Open; combat/zombie takes present but unused.",
+      "covers": [
+        "animation"
+      ]
+    },
+    {
+      "id": "Q-CITY",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/downtown-city-megakit",
+      "acquired_utc": "2026-10-27",
+      "archive": "Downtown City MegaKit[Standard].zip",
+      "bytes": 234753092,
+      "sha256": "5b1a945576d54cdbb4ccc9c3d52711e6d530da74c74c586407ecc28b165335da",
+      "license_snapshot": "LIC-Q-CITY",
+      "license_file": "License_Standard.txt",
+      "license_sha256": "afac5819301671301c41e90402d26e4ade5e459ad58fdf77f142147410862f1f",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (Standard tier; paid Source excluded)",
+      "contents": "691 files, 153 unique modular models (Unity/Unreal FBX + glTF): brick/metal wall pieces, roofs, cornices, interior walls, floors, doors, stairs, sidewalks, street pieces, 3 prebuilt buildings. Free subset of the 300+ model kit.",
+      "covers": [
+        "building"
+      ]
+    },
+    {
+      "id": "Q-NATURE",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/stylized-nature-megakit",
+      "acquired_utc": "2026-10-27",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "bytes": 104088529,
+      "sha256": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9",
+      "license_snapshot": "LIC-Q-NATURE",
+      "license_file": "License_Standard.txt",
+      "license_sha256": "120710e542c3ebaf83856c4eb55b4a1e680593b39302eba7fdc5d942dfe78c58",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (Standard tier; paid Pro/Source excluded)",
+      "contents": "454 files, 68 of 116 models (per license): CommonTree/Pine/DeadTree sets, bushes, flowers, grass, ferns, mushrooms, pebbles, plants. FBX (Unity), OBJ, glTF + textures.",
+      "covers": [
+        "nature"
+      ]
+    },
+    {
+      "id": "Q-STREET",
+      "author": "Quaternius",
+      "origin_url": "https://quaternius.itch.io/lowpoly-modular-street",
+      "acquired_utc": "2026-10-27",
+      "archive": "Modular Street Pack by Quaternius.zip",
+      "bytes": 3852278,
+      "sha256": "183b4f944e9f298426a8e1fd9b31d3ce2562d033223773fa36ad17942e9c997c",
+      "license_snapshot": "LIC-Q-STREET",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (no paid tier)",
+      "contents": "101 files: 25-model modular street set (Blends/FBX/OBJ). No in-zip license file; license is the author CC0 declaration on the official pack page (see LIC-Q-STREET).",
+      "covers": [
+        "building"
+      ]
+    },
+    {
+      "id": "K-FURN",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/furniture-kit",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_furniture-kit.zip",
+      "bytes": 5130729,
+      "sha256": "e67652d0932cee41683f74711c03d3e192a2af9979ef8e6b237711f5482d46b0",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "140 FBX models (FBX/OBJ/GLB): beds, chairs, tables, kitchenStove/Electric, kitchenFridge x4, kitchenSink, bathroomSink x2, shower x2, toilet, bathtub, desk, computerScreen/Keyboard/Mouse, laptop, sofas, bookcases, walls/floors/stairs, lamps. Covers 10 of 12 usable-set items (missing: easel, exercise equipment).",
+      "covers": [
+        "furniture-prop"
+      ]
+    },
+    {
+      "id": "K-GOLF",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/minigolf-kit",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_minigolf-kit.zip",
+      "bytes": 3163116,
+      "sha256": "74b7bf5cf82bf8a5225319ade1284600c64f9482ae66f0ccf1f22d2212d5a952",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "1921de0377e3912e14fd2b9c76f92c530bd63794caabc3e411b97672d5a3951c",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "646 files, 126 models: minigolf balls, clubs, flags, course pieces (corners, bumps, hills, castle, gaps). Covers the ACT-SPORT-02 3-hole courtyard course.",
+      "covers": [
+        "furniture-prop"
+      ]
+    },
+    {
+      "id": "K-FOOD",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/food-kit",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_food-kit.zip",
+      "bytes": 4606270,
+      "sha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "32a081c2035dd4db47d850c83244da048165f0e53d71c076b76c1afc0590bc7f",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "1009 files, 200 food models: groceries, produce, meals, bottles, bowls. Covers GroceryUnit stock and PreparedMeal visuals.",
+      "covers": [
+        "furniture-prop"
+      ]
+    },
+    {
+      "id": "K-SUBURB",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/city-kit-suburban",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_city-kit-suburban_20.zip",
+      "bytes": 3038740,
+      "sha256": "5869c35cf30b1c87bdb2d197b6d325eebadd2ef08ea27f04797e8e08d77a9a39",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "d778fa769a89a7d9f167bc337fdf8fc2144e47d9abb0c35eb6ad897c0ee24d0a",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "216 files: 21 suburban house types + driveways, fences. Covers the 2 distinct houses.",
+      "covers": [
+        "building"
+      ]
+    },
+    {
+      "id": "K-COMM",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/city-kit-commercial",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_city-kit-commercial_2.1.zip",
+      "bytes": 4096974,
+      "sha256": "f8b09b081c2bb88bcc126e2dec1cb40fd0dad7e7e591b6c26aaefe96fb35276b",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "c38cee408d022e57e44e49f1cd655c2fe0dc881a07b881276b795215cdc0de69",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "219 files: commercial buildings + awnings/overhangs/parasols. Covers grocery store and recreation center shells.",
+      "covers": [
+        "building"
+      ]
+    },
+    {
+      "id": "K-NATURE",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/nature-kit",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_nature-kit.zip",
+      "bytes": 10537521,
+      "sha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "3618 files, 329 models: trees, rocks, plants, bridges, campfire, canoe. Supplements Q-NATURE for park/courtyard.",
+      "covers": [
+        "nature"
+      ]
+    },
+    {
+      "id": "K-RPG",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/rpg-audio",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_rpg-audio.zip",
+      "bytes": 964837,
+      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "50 files: footstep00-09 + doors, creaks, cloth, books, coins, metal pots, knife foley (OGG).",
+      "covers": [
+        "audio-footsteps",
+        "audio-object"
+      ]
+    },
+    {
+      "id": "K-IMPACT",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/impact-sounds",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_impact-sounds.zip",
+      "bytes": 800850,
+      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "Footsteps per surface (carpet/concrete/grass/snow/wood x5, OGG) + impact bells/objects. Covers wood + outdoor + hard-floor families.",
+      "covers": [
+        "audio-footsteps",
+        "audio-object"
+      ]
+    },
+    {
+      "id": "K-UI",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/interface-sounds",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_interface-sounds.zip",
+      "bytes": 834536,
+      "sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "104 files: confirmation (accept), error/back (reject), bong/pluck/question (notification), click/select/tick/switch (navigation), OGG.",
+      "covers": [
+        "audio-ui"
+      ]
+    },
+    {
+      "id": "K-JINGLE",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/music-jingles",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_music-jingles.zip",
+      "bytes": 1239525,
+      "sha256": "b729ba57959bd58793d2c5cafa348aaf2655d354f3da35ec4729e03ec77197b8",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "373b1c880ee6c7a83c1ccf209f251cf45fc9ea9b1f0330844fa7be64a401adc4",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "95 files, 85 jingles (NES/Hit/Pizzicato/Sax/Steel, OGG). Covers milestone and urgent-notification stingers.",
+      "covers": [
+        "audio-ui"
+      ]
+    },
+    {
+      "id": "K-FONT",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/kenney-fonts",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_kenney-fonts.zip",
+      "bytes": 57786,
+      "sha256": "4e69a86eef3cd47e9d8207413868cd08bcddeb2dae4047dbd10362e2a7a16bac",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "98402691e89c968502be5d2392c0de86bc787dd49f961fbb799e22c3bbb434e2",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "12 TTF fonts (Kenney Future/Mini/Pixel/Rocket/Blocks/High families). Covers scalable UI text 100-150%.",
+      "covers": [
+        "font-ui"
+      ]
+    },
+    {
+      "id": "K-EMOTE",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/emotes-pack",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_emotes-pack.zip",
+      "bytes": 380191,
+      "sha256": "96ab3f2c92d7acd860942efca1c9f1295184b11d3db5c79c28da82036e496526",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "b57743037569a9f7b0c8ff3793a1dd7be5bbf42b14ccb382848539c5c67cb72a",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "534 files: emote icons incl. faceHappy/faceSad/faceAngry, hearts, alert, exclamation, idea, music. Covers BP-PRES-02 non-animation cue channel.",
+      "covers": [
+        "ui-chrome"
+      ]
+    },
+    {
+      "id": "K-UIPACK",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/ui-pack",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_ui-pack.zip",
+      "bytes": 1229750,
+      "sha256": "a8a14a234911eb648c062622915c93e79e94e97cb7f9f375a70f6617f1174318",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "69f7eaa5e05913b4d09cf5848f75390b5c3c9a409ef8555777803d9ca0c171fb",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "1315 files: UI panels/buttons/arrows (PNG + vector), 2 TTF, UI sounds. Covers interface chrome.",
+      "covers": [
+        "ui-chrome"
+      ]
+    },
+    {
+      "id": "K-PROMPT",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/input-prompts",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_input-prompts_1.5.zip",
+      "bytes": 5070075,
+      "sha256": "ac2fcf599080b0f3ba2d174c9474db6df1a0e96ff0662580e2da79a122ab78a1",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "ca2f58f80f903512119da5828868199478119818cd7ecffb303d625cb74cbb5a",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "4667 files: controller/keyboard/mouse prompt glyphs (multi-platform PNG). Covers remappable-input prompts.",
+      "covers": [
+        "ui-chrome"
+      ]
+    },
+    {
+      "id": "K-SKY",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/skyboxes",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_skyboxes.zip",
+      "bytes": 4972122,
+      "sha256": "ff339713105fe1b777ecafa0b66094e8fb1431cfcf88df761b9ad015aadf4028",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "bba7de4552f4a86589fbef2d694c02609643c8d4680e9dbe00407b3474b4a993",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "5 skyboxes (day/night variants, PNG). Covers outdoor sky.",
+      "covers": [
+        "nature"
+      ]
+    },
+    {
+      "id": "K-PART",
+      "author": "Kenney (www.kenney.nl)",
+      "origin_url": "https://kenney.nl/assets/particle-pack",
+      "acquired_utc": "2026-10-27",
+      "archive": "kenney_particle-pack.zip",
+      "bytes": 15001764,
+      "sha256": "b631d4b07f7002549fdcf155f01141ad482f79f3440e4e301eed49ce5f1d8958",
+      "license_snapshot": "LIC-K-REP",
+      "license_file": "License.txt",
+      "license_sha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "195 files: 96 particle sprites (transparent + black-background) + Unity samples. Covers visual effect cues.",
+      "covers": [
+        "ui-chrome"
+      ]
+    },
+    {
+      "id": "O-DAY1",
+      "author": "TinyWorlds",
+      "origin_url": "https://opengameart.org/content/forest-ambience",
+      "acquired_utc": "2026-10-27",
+      "archive": "Forest_Ambience.mp3",
+      "bytes": 716670,
+      "sha256": "9850aa1d0d5d66bd9c5daf8bb77c6d852e01f2f4de22f283bd5621e8bed13b75",
+      "license_snapshot": "LIC-OGA-FOREST_AMBIENCE",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "MP3 128kbps 48kHz stereo. Day ambience bed.",
+      "covers": [
+        "audio-ambience"
+      ]
+    },
+    {
+      "id": "O-DAY2",
+      "author": "syncopika",
+      "origin_url": "https://opengameart.org/content/bird-chirping-sounds",
+      "acquired_utc": "2026-10-27",
+      "archive": "birdchirping071414.wav",
+      "bytes": 528004,
+      "sha256": "bc6e28bd823b653b2abf3384d4147718603af6bcd98e26166345df71a61eeb08",
+      "license_snapshot": "LIC-OGA-BIRD_CHIRPING_SOUNDS",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "WAV PCM 16-bit stereo 44kHz. Day bird layer.",
+      "covers": [
+        "audio-ambience"
+      ]
+    },
+    {
+      "id": "O-EVE",
+      "author": "Wolfgang_",
+      "origin_url": "https://opengameart.org/content/crickets-ambient-noise-loopable",
+      "acquired_utc": "2026-10-27",
+      "archive": "crickets_1.mp3",
+      "bytes": 184393,
+      "sha256": "5b5bd1f744087888c5623543c3ff80be9c2ce106093993e7c8a8492b0280b2c0",
+      "license_snapshot": "LIC-OGA-CRICKETS_AMBIENT_NOISE_LOOPABLE",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "MP3 128kbps 44.1kHz. Evening cricket bed (loopable).",
+      "covers": [
+        "audio-ambience"
+      ]
+    },
+    {
+      "id": "O-INT",
+      "author": "LEGIT Audio",
+      "origin_url": "https://opengameart.org/content/the-shop",
+      "acquired_utc": "2026-10-27",
+      "archive": "legit_audio_-_the_shop_free_sfx_wav.zip",
+      "bytes": 19385775,
+      "sha256": "87d49c4431fdf5647f3c434455b3bcd402fc757f97f2640b2ef84e2e5db9d86e",
+      "license_snapshot": "LIC-OGA-THE_SHOP",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "2 WAVs: convenience-store drinks-fridge drones. Interior room-tone beds (layer/mix per venue in AUDIO-FIRST).",
+      "covers": [
+        "audio-ambience"
+      ]
+    },
+    {
+      "id": "O-STORM",
+      "author": "haruta",
+      "origin_url": "https://opengameart.org/content/light-rain-and-heavy-rain",
+      "acquired_utc": "2026-10-27",
+      "archive": "light_rain_and_heavy_rain.mp3",
+      "bytes": 1805056,
+      "sha256": "21fef50504de87cd86a4aa813056180f2b3a0cb9c5d4b8f360e06123309e618d",
+      "license_snapshot": "LIC-OGA-LIGHT_RAIN_AND_HEAVY_RAIN",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "MP3 160kbps 48kHz. Storm rain bed.",
+      "covers": [
+        "audio-ambience"
+      ]
+    },
+    {
+      "id": "O-SILLY",
+      "author": "EZduzziteh",
+      "origin_url": "https://opengameart.org/content/silly-sound-effects",
+      "acquired_utc": "2026-10-27",
+      "files": [
+        {
+          "name": "blah.mp3",
+          "bytes": 6023,
+          "sha256": "3a2e8b031dcb8108b920b11a2467cfffee2ff1b0c7a9b9d928b6bea06cf5393f"
+        },
+        {
+          "name": "bloop.mp3",
+          "bytes": 4902,
+          "sha256": "186737bca0bab79b3477fb21fd0d37c77490dae755707351aaccb144df14febf"
+        },
+        {
+          "name": "blung_0.mp3",
+          "bytes": 4695,
+          "sha256": "310f46f96358f9103fa6940906f2bd9ec3519efd57f9bc9b0280d6c1010a3c4a"
+        },
+        {
+          "name": "booleh.mp3",
+          "bytes": 7171,
+          "sha256": "0a92a0aca0ccf818b004500d1c0dacddb08cdd7845c99c9f0a72ccde5844b08c"
+        },
+        {
+          "name": "plup.mp3",
+          "bytes": 4459,
+          "sha256": "26b402be88a548e5ddb7d773d61c8ab52e294e693c59535d355e285fc2ce8ee5"
+        },
+        {
+          "name": "uah.mp3",
+          "bytes": 5423,
+          "sha256": "3b221d42687d7d43d59240ff1f6a9757000e8bfc4eef071cb4d3c3f668ba234a"
+        }
+      ],
+      "license_snapshot": "LIC-OGA-SILLY_SOUND_EFFECTS",
+      "license_file": null,
+      "license_sha256": null,
+      "attribution": "not required (CC0)",
+      "modification": "permitted without restriction (CC0)",
+      "export_distribution": "permitted incl. commercial (CC0)",
+      "cost": "free (CC0, no paid tier)",
+      "contents": "6 nonverbal expressive blips (MP3 128kbps 44.1kHz). 7th reaction cue via permitted pitch/time edit in AUDIO-FIRST.",
+      "covers": [
+        "audio-reaction"
+      ]
+    }
+  ],
+  "asset_classes": [
+    {
+      "id": "character-body",
+      "title": "Character bodies and shared rig",
+      "sdoc": [
+        "BP-PRES-01",
+        "BP-PRES-03",
+        "BP-CHR-02",
+        "BP-SEC-05 production minimums: bodies"
+      ],
+      "need": "1 shared Humanoid rig (<=4 skin weights/vertex close LOD), 2 body proportions x 8 life-stage variants",
+      "sources": [
+        "Q-UBC"
+      ],
+      "preference_note": "Quaternius Standard used (65-joint Humanoid rig, Superhero M/F base pair).",
+      "authored_remainder": "Life-stage variants (incl. carried/crib Newborn+Infant), proportion scaling, skin-weight/LOD pass: authored in MESH-FIRST/STAGE-* as CC0-permitted derivatives of Q-UBC; rights owned, no new terms."
+    },
+    {
+      "id": "character-appearance",
+      "title": "Appearance presets and outfits",
+      "sdoc": [
+        "BP-CHR-02",
+        "BP-SEC-05 production minimums: appearance presets",
+        "BP-PRES-03"
+      ],
+      "need": "6 skin tones, 6 faces, 4 builds, 10 hairstyles, 8 tops, 6 bottoms, 4 footwear, 4 accessories; Everyday/Sleep/Exercise outfits",
+      "sources": [
+        "Q-UBC"
+      ],
+      "preference_note": "Quaternius Standard used (6 hairstyles + beard + eyebrows, textured base pair).",
+      "authored_remainder": "Remaining presets, clothing meshes and outfit variants: authored in CLOTH-*/MESH-FIRST as CC0-permitted derivatives; rights owned, no new terms."
+    },
+    {
+      "id": "expression",
+      "title": "Facial expressions",
+      "sdoc": [
+        "BP-PRES-02",
+        "BP-SEC-05 production minimums: expressions"
+      ],
+      "need": "neutral + happy, sad, angry, embarrassed, proud, hurt as blendshapes or texture swaps",
+      "sources": [
+        "Q-UBC"
+      ],
+      "preference_note": "Quaternius Standard used as derivation base.",
+      "authored_remainder": "7 expression blendshapes/texture swaps authored on Q-UBC base in MESH-FIRST/ANIM-FIRST; rights owned, no new terms."
+    },
+    {
+      "id": "animation",
+      "title": "Character animation takes",
+      "sdoc": [
+        "BP-PRES-01",
+        "BP-ACT-01..12 activity animation cues"
+      ],
+      "need": "walk, sit, reach, held-prop qualification takes + activity-catalog coverage",
+      "sources": [
+        "Q-UAL",
+        "Q-UAL2"
+      ],
+      "preference_note": "Quaternius Standard used (86 takes inspected).",
+      "authored_remainder": "Activity-specific authored clips only as gaps emerge in ANIM-FIRST; retargeting to the shared rig is CC0-permitted."
+    },
+    {
+      "id": "building",
+      "title": "Buildings, interiors structure and streets",
+      "sdoc": [
+        "BP-WORLD-01",
+        "BP-WORLD-04",
+        "BP-SEC-05 production minimums: buildings"
+      ],
+      "need": "apartment building (4+ apartments), common room, courtyard, grocery store, recreation center + classroom, park structures, 2 distinct houses; 1.0m doors, 1.4m corridors",
+      "sources": [
+        "Q-CITY",
+        "Q-STREET",
+        "K-SUBURB",
+        "K-COMM"
+      ],
+      "preference_note": "Quaternius Standard primary (modular structure + streets); Kenney CC0 for house/shop shells Quaternius Standard lacks.",
+      "authored_remainder": "Venue assembly, interior fit-out and navigation-qualified door/corridor geometry in ENV-FIRST/GREYBOX; rights owned, no new terms."
+    },
+    {
+      "id": "nature",
+      "title": "Outdoor nature, park dressing and sky",
+      "sdoc": [
+        "BP-WORLD-01",
+        "BP-SEC-05 production minimums (courtyard/park/garden)"
+      ],
+      "need": "trees, bushes, flowers, grass, rocks for park/courtyard/garden beds; outdoor sky",
+      "sources": [
+        "Q-NATURE",
+        "K-NATURE",
+        "K-SKY"
+      ],
+      "preference_note": "Quaternius Standard primary; Kenney CC0 supplements (bridges, extra flora, skyboxes).",
+      "authored_remainder": "Garden-bed assembly and venue dressing in ENV-FIRST; rights owned, no new terms."
+    },
+    {
+      "id": "furniture-prop",
+      "title": "Furniture usable set and activity props",
+      "sdoc": [
+        "BP-WORLD-04",
+        "BP-WORLD-05",
+        "BP-SEC-05 production minimums: furniture usable set",
+        "ACT-SPORT-02",
+        "ACT-FOOD-01..04"
+      ],
+      "need": "bed, chair, table, stove, fridge, sink, shower, desk, computer, sofa, easel, exercise equipment, each with catalog slots; minigolf course; grocery/meal props",
+      "sources": [
+        "K-FURN",
+        "K-GOLF",
+        "K-FOOD"
+      ],
+      "preference_note": "Kenney CC0 used: Quaternius Ultimate Furniture (Drive-hosted) was download-quota-blocked on 2026-10-27 and covers only bedroom/living pieces (no kitchen/bath); Kenney covers 10/12 usable items.",
+      "authored_remainder": "Easel, exercise equipment and crib/crib-presentation authored in PROP-FIRST (simple hard-surface originals); rights owned, no new terms."
+    },
+    {
+      "id": "audio-ambience",
+      "title": "Ambience beds",
+      "sdoc": [
+        "BP-PRES-04 (ambience mixer group)",
+        "BP-SEC-05 production minimums: audio"
+      ],
+      "need": "ambience: day, evening, interior, storm",
+      "sources": [
+        "O-DAY1",
+        "O-DAY2",
+        "O-EVE",
+        "O-INT",
+        "O-STORM"
+      ],
+      "preference_note": "Quaternius/Kenney publish no ambience; OpenGameArt CC0 used.",
+      "authored_remainder": "Venue layering/mixing and looping in AUDIO-FIRST (CC0-permitted edits); rights owned, no new terms."
+    },
+    {
+      "id": "audio-footsteps",
+      "title": "Footsteps per surface family",
+      "sdoc": [
+        "BP-PRES-04 (world effects group)",
+        "BP-SEC-05 production minimums: audio"
+      ],
+      "need": "footsteps per surface family (wood, tile, outdoor)",
+      "sources": [
+        "K-IMPACT",
+        "K-RPG"
+      ],
+      "preference_note": "Kenney CC0 used (no Quaternius audio).",
+      "authored_remainder": "Surface mapping (wood->wood, tile->concrete/EQ variant, outdoor->grass/concrete) and step timing in AUDIO-FIRST; CC0-permitted edits."
+    },
+    {
+      "id": "audio-object",
+      "title": "Object/activity foley cues",
+      "sdoc": [
+        "BP-PRES-04 (world effects group)",
+        "BP-ACT-01..12 audio cues"
+      ],
+      "need": "object cues per activity class",
+      "sources": [
+        "K-RPG",
+        "K-IMPACT"
+      ],
+      "preference_note": "Kenney CC0 used (no Quaternius audio).",
+      "authored_remainder": "Per-class cue selection/sweetening in AUDIO-FIRST; CC0-permitted edits."
+    },
+    {
+      "id": "audio-ui",
+      "title": "Interface audio cues",
+      "sdoc": [
+        "BP-PRES-04 (interface group)",
+        "BP-SEC-05 production minimums: audio"
+      ],
+      "need": "UI cues: accept, reject, notification, urgent, milestone",
+      "sources": [
+        "K-UI",
+        "K-JINGLE"
+      ],
+      "preference_note": "Kenney CC0 used (no Quaternius audio).",
+      "authored_remainder": "Cue assignment in AUDIO-FIRST; CC0-permitted edits."
+    },
+    {
+      "id": "audio-reaction",
+      "title": "Nonverbal resident reaction set",
+      "sdoc": [
+        "BP-PRES-02",
+        "BP-PRES-04 (voices group)",
+        "BP-SEC-05 production minimums: audio"
+      ],
+      "need": "nonverbal resident reaction set per expression",
+      "sources": [
+        "O-SILLY"
+      ],
+      "preference_note": "Quaternius/Kenney publish no reaction set (Kenney voiceover-pack is spoken words, unsuitable); OpenGameArt CC0 used.",
+      "authored_remainder": "7th cue via permitted pitch/time edit + per-expression assignment in AUDIO-FIRST."
+    },
+    {
+      "id": "font-ui",
+      "title": "UI typeface",
+      "sdoc": [
+        "BP-PRES-05 (scalable text 100-150%)",
+        "BP-UI-01..07"
+      ],
+      "need": "scalable UI typeface",
+      "sources": [
+        "K-FONT"
+      ],
+      "preference_note": "Kenney CC0 used (no Quaternius fonts).",
+      "authored_remainder": "None: 12 TTF cover the need; TextMeshPro import settings in UI packages."
+    },
+    {
+      "id": "ui-chrome",
+      "title": "Interface chrome, prompts and visual cues",
+      "sdoc": [
+        "BP-PRES-02 (non-animation cues)",
+        "BP-UI-01..07",
+        "BP-PRES-05 (non-color cues, captions)"
+      ],
+      "need": "panels/buttons, remappable-input prompts, activity/feeling icons, visual effect cues",
+      "sources": [
+        "K-UIPACK",
+        "K-PROMPT",
+        "K-EMOTE",
+        "K-PART"
+      ],
+      "preference_note": "Kenney CC0 used (no Quaternius UI).",
+      "authored_remainder": "Caption/visual-equivalent string catalog is authored text (UI packages); layout/assembly owned."
+    }
+  ],
+  "paid_exclusions": [
+    {
+      "item": "Universal Base Characters[Source].zip (600 MB) via https://quaternius.itch.io/universal-base-characters",
+      "status": "excluded (paid tier; no purchase)",
+      "free_alternative": "Q-UBC",
+      "gap_owner": null
+    },
+    {
+      "item": "Universal Animation Library[Pro].zip (41 MB) + [Source].zip (46 MB) via https://quaternius.itch.io/universal-animation-library",
+      "status": "excluded (paid tiers; no purchase)",
+      "free_alternative": "Q-UAL",
+      "gap_owner": null
+    },
+    {
+      "item": "Universal Animation Library 2[Source].zip (50 MB) via https://quaternius.itch.io/universal-animation-library-2",
+      "status": "excluded (paid tier; no purchase)",
+      "free_alternative": "Q-UAL2",
+      "gap_owner": null
+    },
+    {
+      "item": "Downtown City MegaKit[Source].zip (918 MB) via https://quaternius.itch.io/downtown-city-megakit",
+      "status": "excluded (paid tier; no purchase)",
+      "free_alternative": "Q-CITY",
+      "gap_owner": null
+    },
+    {
+      "item": "Stylized Nature MegaKit[Pro].zip (172 MB) + [Source].zip (684 MB) via https://quaternius.itch.io/stylized-nature-megakit",
+      "status": "excluded (paid tiers; no purchase)",
+      "free_alternative": "Q-NATURE",
+      "gap_owner": null
+    }
+  ],
+  "tools": [
+    {
+      "item": "Unity 6000.3.10f1",
+      "observed": "installed at <home>/.cache/tmp/unity-toolchain/editors/6000.3.10f1 (Editor/ present 2026-10-27); licensed",
+      "license": "Unity software terms; edition/terms evidence owned by TOOLCHAIN (in progress)",
+      "cost": "no new purchase by RIGHTS",
+      "status": "observed, terms pending TOOLCHAIN"
+    },
+    {
+      "item": "Blender (authoring)",
+      "observed": "not installed 2026-10-27",
+      "license": "GNU GPL; artist output owned by artist (no asset encumbrance)",
+      "cost": "free",
+      "status": "candidate; version pinned at first use (MESH-FIRST)"
+    }
+  ],
+  "reference_sets": {
+    "real_place_reference": "none acquired; gated on BLOCK-CHOICE owner decision (location + scrubbed-set permission). Rule: no identifiable people/private personal data (BP-SECU-02)."
+  },
+  "generated_works_rule": "No generated assets at RIGHTS. BP-PRES-06 generated variant applies from MESH-FIRST on: generating tool/service + version (where known) + prompt/input reference as source/author provenance; license/service terms + permitted use still required and must permit distribution/runtime use; incomplete entries are excluded from submission builds. ACT-CREA-01 Muse Image outputs follow this rule with the pre-authored local variant as fallback.",
+  "exclusion_rule": "An asset missing any applicable BP-PRES-06 field, with incompatible terms, or without a register entry is excluded from submission builds until complete (SEIT-PRES-06-N1/N2/N3, SEIT-IF-ASSET-N1..N5, SEIT-TB-07-N1..N4/N6). Reconciliation of the final build asset list occurs at RIGHTS-FINAL.",
+  "scan": {
+    "skill": "scan-software-supply-chain",
+    "verdict": "PASS",
+    "credential_findings": "none: no secret rules fired; artifacts are binary 3D/audio/font data plus plain-text license/readme/.url stubs (inspected: .url stubs contain only kenney.nl/patreon URLs).",
+    "method": "inventory without execution (file/stat/sha256, zip listing before extraction, traversal/symlink/setuid/setgid/executable checks); provenance = official vendor URLs; ClamAV 1.5.4 (signatures 2026-10-26) clean on all archives and extracted trees; YARA unavailable (no ruleset installed); secrets/source scans not applicable (no source, config, or credential-holding material; .txt/.url stubs inspected by hand).",
+    "scope": "6 Quaternius + 16 Kenney archives, 12 OpenGameArt files listed in sources[]; downloads and extraction kept outside the repository (/tmp/rights-scan); nothing executed, installed, or committed except this register's snapshots/hashes."
+  },
+  "summary": {
+    "asset_class_count": 14,
+    "classes_with_hashed_source": 14,
+    "sources_total": 28,
+    "cc0_source_count": 28,
+    "paid_required_count": 0,
+    "attribution_required_count": 0
+  }
+}

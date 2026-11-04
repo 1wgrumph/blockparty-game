@@ -1,0 +1,55 @@
+{
+  "model": "d1-ultra",
+  "provider_facts": {
+    "endpoint": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    },
+    "request_schema": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    },
+    "response_schema": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    },
+    "terms": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    },
+    "quota": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    },
+    "incremental_cost": {
+      "status": "unknown",
+      "value": null,
+      "source_url": "https://example.invalid/synthetic-only",
+      "retrieved_on": "2026-10-28",
+      "reason": "SYNTHETIC validator fixture; no provider lookup"
+    }
+  },
+  "account_access": {
+    "status": "owner-pending",
+    "owner": "William",
+    "reason": "SYNTHETIC owner-pending control from task; not account evidence"
+  },
+  "live_verdict": "not_run",
+  "local_fallback": "Autonomy",
+  "cost_status": "unpriced"
+}

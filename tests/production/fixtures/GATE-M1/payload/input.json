@@ -1,0 +1,48 @@
+{
+  "tree_hash": "1234567890abcdef1234567890abcdef12345678",
+  "binary_sha256": "a1f24fd9d914dfd9761e169505a46dbed17ec069badf23d17c3bf952b9e256d6",
+  "events": [
+    {
+      "flow": "title",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "new",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "load",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "inspect",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "map",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "follow",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    },
+    {
+      "flow": "takeover",
+      "device": "mouse",
+      "input": "FIXTURE ONLY: left click",
+      "frame": "payload/capture.png"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "doc-sam",
+  "object": "response",
+  "status": "completed",
+  "model": "sam-3.1",
+  "output": [
+    {
+      "type": "message",
+      "id": "doc-message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "",
+          "annotations": []
+        }
+      ]
+    }
+  ],
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "tools": [],
+  "tool_choice": "auto",
+  "created_at": 1714502400,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "parallel_tool_calls": true
+}

@@ -1,0 +1,3341 @@
+{
+  "readability_catalog": {
+    "sha256": "d2bf09e9814ee2c9cf248d8f45d74a28ef440de6c003186f5cc8848a507d270e",
+    "ids": [
+      "CHR-GEO-01",
+      "CHR-GEO-02",
+      "CHR-GEO-03",
+      "CHR-GEO-04",
+      "CHR-GEO-05",
+      "CHR-GEO-06",
+      "CHR-SHP-01",
+      "CHR-SHP-02",
+      "CHR-SHP-03",
+      "CHR-SKN-01",
+      "CHR-SKN-02",
+      "CHR-SKN-03",
+      "CHR-BODY-01",
+      "CHR-CLO-01",
+      "CHR-FAC-01",
+      "CHR-FAC-04",
+      "CHR-FAC-02",
+      "CHR-FAC-03",
+      "EMO-01",
+      "EMO-02",
+      "EMO-03",
+      "EMO-04",
+      "EMO-05",
+      "EMO-06",
+      "MAT-01",
+      "MAT-02",
+      "MAT-03",
+      "MAT-04",
+      "MAT-05",
+      "SCN-01",
+      "SCN-02",
+      "SCN-03",
+      "SCN-04",
+      "COMP-01",
+      "COMP-02",
+      "ACC-01",
+      "ACC-02",
+      "ACC-03",
+      "ANM-01",
+      "ANM-02",
+      "ANM-03",
+      "ANM-04",
+      "ANM-05",
+      "ANM-06",
+      "PRF-01",
+      "PRF-02",
+      "PRF-03",
+      "PRF-04",
+      "PRF-05",
+      "PRF-06",
+      "PRF-07",
+      "SIM-01",
+      "SIM-02",
+      "STY-01",
+      "CAP-01",
+      "LIC-01",
+      "LIC-02",
+      "LOOK-01",
+      "LOOK-02"
+    ]
+  },
+  "notes": {
+    "source": "migrations/blockparty/game/blockparty-game-system.sdoc section 5 activity catalog; runtime stage bounds from Assets/Blockparty/Simulation/CommandArbitrator.cs",
+    "clip_reference_convention": "clip/<name> is a landed glTF clip; planned/<ACT>/<phase> is a planned reference owned by ANIM-CATALOG.",
+    "prop_reference_convention": "prop/seat-first and prop/second are landed props; planned/prop/<Name> is a planned reference owned by PROP-CATALOG.",
+    "approach_pose": "Named authoring pose only; no measured spatial-error claim.",
+    "scope": "Declarative flow coverage only; animation playback, prop existence and readability acceptance belong to successor packages."
+  },
+  "activities": [
+    {
+      "id": "ACT-CLUB-01",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to GardenBedsOrCommonRoom",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Sitting_Enter"
+          ],
+          "transition": "start ClubMeeting",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-CLUB-01/loop"
+          ],
+          "transition": "ClubMeeting loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Sitting_Exit"
+          ],
+          "transition": "finish ClubMeeting",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Sitting_Exit"
+          ],
+          "transition": "interrupt ClubMeeting and release GardenBedsOrCommonRoom",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "prop/seat-first"
+      ],
+      "interaction_point": {
+        "slot_id": "GardenBedsOrCommonRoom",
+        "approach_pose": "standing-or-seated"
+      },
+      "cues": {
+        "posture": "seated-attentive",
+        "gaze": "at-speaker",
+        "icon": "icon/club"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-CLUB-02",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to CommonObject",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CommunityHelp",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-CLUB-02/loop"
+          ],
+          "transition": "CommunityHelp loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CommunityHelp",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CommunityHelp and release CommonObject",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/RepairKit"
+      ],
+      "interaction_point": {
+        "slot_id": "CommonObject",
+        "approach_pose": "crouched-front"
+      },
+      "cues": {
+        "posture": "crouched-working",
+        "gaze": "at-object",
+        "icon": "icon/help"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-CREA-01",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to EaselOrDesk",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start MakeWallArt",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-CREA-01/loop"
+          ],
+          "transition": "MakeWallArt loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish MakeWallArt",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt MakeWallArt and release EaselOrDesk",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Easel",
+        "planned/prop/Canvas"
+      ],
+      "interaction_point": {
+        "slot_id": "EaselOrDesk",
+        "approach_pose": "standing-or-seated"
+      },
+      "cues": {
+        "posture": "standing-at-easel",
+        "gaze": "at-canvas",
+        "icon": "icon/art"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-CREA-02",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to InstrumentOrEasel",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start PracticeCreative",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-CREA-02/loop"
+          ],
+          "transition": "PracticeCreative loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish PracticeCreative",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt PracticeCreative and release InstrumentOrEasel",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Instrument"
+      ],
+      "interaction_point": {
+        "slot_id": "InstrumentOrEasel",
+        "approach_pose": "standing-or-seated"
+      },
+      "cues": {
+        "posture": "seated-playing",
+        "gaze": "at-instrument",
+        "icon": "icon/music"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-CREA-03",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-CREA-03/approach"
+          ],
+          "transition": "player or author places the work at the wall slot",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-CREA-03/start"
+          ],
+          "transition": "start DisplayWork",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-CREA-03/loop"
+          ],
+          "transition": "DisplayWork loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-CREA-03/finish"
+          ],
+          "transition": "finish DisplayWork",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-CREA-03/interruption"
+          ],
+          "transition": "interrupt DisplayWork and release WallSlot",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/WorkItem"
+      ],
+      "interaction_point": {
+        "slot_id": "WallSlot",
+        "approach_pose": "standing-front"
+      },
+      "cues": {
+        "posture": "standing-facing-wall",
+        "gaze": "at-work",
+        "icon": "icon/display"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-EDU-01",
+      "min_stage": "Child",
+      "max_stage": "Teen",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to SchoolSeat",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start AttendSchool",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-EDU-01/loop"
+          ],
+          "transition": "AttendSchool loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish AttendSchool",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt AttendSchool and release SchoolSeat",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Book"
+      ],
+      "interaction_point": {
+        "slot_id": "SchoolSeat",
+        "approach_pose": "seated-at-desk"
+      },
+      "cues": {
+        "posture": "seated-listening",
+        "gaze": "at-teacher",
+        "icon": "icon/school-book"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-EDU-02",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Desk",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start StudyAtHome",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-EDU-02/loop"
+          ],
+          "transition": "StudyAtHome loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish StudyAtHome",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt StudyAtHome and release Desk",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Book"
+      ],
+      "interaction_point": {
+        "slot_id": "Desk",
+        "approach_pose": "seated-at-desk"
+      },
+      "cues": {
+        "posture": "seated-reading",
+        "gaze": "at-book",
+        "icon": "icon/book"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-EDU-03",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Classroom",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CulinaryCertificate",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-EDU-03/loop"
+          ],
+          "transition": "CulinaryCertificate loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CulinaryCertificate",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CulinaryCertificate and release Classroom",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/CookingTools"
+      ],
+      "interaction_point": {
+        "slot_id": "Classroom",
+        "approach_pose": "seated-at-counter"
+      },
+      "cues": {
+        "posture": "seated-practising",
+        "gaze": "at-task",
+        "icon": "icon/certificate"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-EDU-04",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ClassroomComputer",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start ComputerSkills",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-EDU-04/loop"
+          ],
+          "transition": "ComputerSkills loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish ComputerSkills",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt ComputerSkills and release ClassroomComputer",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "ClassroomComputer",
+        "approach_pose": "seated-at-desk"
+      },
+      "cues": {
+        "posture": "seated-typing",
+        "gaze": "at-screen",
+        "icon": "icon/certificate"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-FOOD-01",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Stove",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CookAtHome",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-FOOD-01/loop"
+          ],
+          "transition": "CookAtHome loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CookAtHome",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CookAtHome and release Stove",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/GroceryUnit",
+        "planned/prop/PreparedMeal"
+      ],
+      "interaction_point": {
+        "slot_id": "Stove",
+        "approach_pose": "standing-front"
+      },
+      "cues": {
+        "posture": "leaning-to-stove",
+        "gaze": "at-stove",
+        "icon": "icon/cooking-pot"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-FOOD-02",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ChairAtTable",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Sitting_Enter"
+          ],
+          "transition": "start EatPrepared",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-FOOD-02/loop"
+          ],
+          "transition": "EatPrepared loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Sitting_Exit"
+          ],
+          "transition": "finish EatPrepared",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Sitting_Exit"
+          ],
+          "transition": "interrupt EatPrepared and release ChairAtTable",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "prop/seat-first",
+        "planned/prop/PreparedMeal"
+      ],
+      "interaction_point": {
+        "slot_id": "ChairAtTable",
+        "approach_pose": "seated"
+      },
+      "cues": {
+        "posture": "seated-upright",
+        "gaze": "at-plate",
+        "icon": "icon/plate"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-FOOD-03",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to GroceryCounter",
+          "destination": "GroceryStore",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start BuyGroceries",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-FOOD-03/loop"
+          ],
+          "transition": "BuyGroceries loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "return home with Groceries",
+          "destination": "home",
+          "self_locomotion": true
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt BuyGroceries and release GroceryCounter",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/GroceryBag"
+      ],
+      "interaction_point": {
+        "slot_id": "GroceryCounter",
+        "approach_pose": "standing-at-counter"
+      },
+      "cues": {
+        "posture": "standing-at-counter",
+        "gaze": "at-clerk",
+        "icon": "icon/grocery-bag"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-FOOD-04",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "note": "Child-with-teen-payer participation is deferred to issue #233 (owner decision 2026-10-30); landed stage bounds stay Teen-Elder.",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to FastFoodCounter",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start BuyFastFood",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-FOOD-04/loop"
+          ],
+          "transition": "BuyFastFood loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish BuyFastFood",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt BuyFastFood and release FastFoodCounter",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/FastFood"
+      ],
+      "interaction_point": {
+        "slot_id": "FastFoodCounter",
+        "approach_pose": "standing-at-counter"
+      },
+      "cues": {
+        "posture": "standing-at-counter",
+        "gaze": "at-counter",
+        "icon": "icon/fast-food"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HEALTH-01",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-HEALTH-01/approach"
+          ],
+          "transition": "carried or placed at the bed",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-HEALTH-01/start"
+          ],
+          "transition": "start Sleep",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HEALTH-01/loop"
+          ],
+          "transition": "Sleep loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-HEALTH-01/finish"
+          ],
+          "transition": "finish Sleep",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-HEALTH-01/interruption"
+          ],
+          "transition": "interrupt Sleep and release Bed",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Bed"
+      ],
+      "interaction_point": {
+        "slot_id": "Bed",
+        "approach_pose": "lying"
+      },
+      "cues": {
+        "posture": "lying-relaxed",
+        "gaze": "eyes-closed",
+        "icon": "icon/sleep"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HEALTH-02",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-HEALTH-02/approach"
+          ],
+          "transition": "carried or placed at the bed or sofa",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-HEALTH-02/start"
+          ],
+          "transition": "start RestRecover",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HEALTH-02/loop"
+          ],
+          "transition": "RestRecover loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-HEALTH-02/finish"
+          ],
+          "transition": "finish RestRecover",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-HEALTH-02/interruption"
+          ],
+          "transition": "interrupt RestRecover and release BedOrSofa",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "prop/second"
+      ],
+      "interaction_point": {
+        "slot_id": "BedOrSofa",
+        "approach_pose": "reclining"
+      },
+      "cues": {
+        "posture": "reclining-relaxed",
+        "gaze": "forward-soft",
+        "icon": "icon/rest"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HEALTH-03",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ShowerOrSink",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start HygieneRoutine",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HEALTH-03/loop"
+          ],
+          "transition": "HygieneRoutine loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish HygieneRoutine",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt HygieneRoutine and release ShowerOrSink",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Towel"
+      ],
+      "interaction_point": {
+        "slot_id": "ShowerOrSink",
+        "approach_pose": "standing-front"
+      },
+      "cues": {
+        "posture": "standing-at-sink",
+        "gaze": "at-mirror",
+        "icon": "icon/hygiene"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HEALTH-04",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Toilet",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start Bathroom",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HEALTH-04/loop"
+          ],
+          "transition": "Bathroom loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish Bathroom",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt Bathroom and release Toilet",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "Toilet",
+        "approach_pose": "seated"
+      },
+      "cues": {
+        "posture": "seated",
+        "gaze": "forward",
+        "caption": "Bathroom break"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HOME-01",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "variants": [
+        {
+          "id": "CleanAssist",
+          "stage": "Child",
+          "participation": "assist",
+          "effect_multiplier": 0.5
+        }
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to whole-home scope; no single interaction slot",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CleanHome",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HOME-01/loop"
+          ],
+          "transition": "CleanHome loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CleanHome",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CleanHome without completion",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/CleaningSupplies"
+      ],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "whole-home scope; no single interaction slot"
+      },
+      "cues": {
+        "posture": "working-upright",
+        "gaze": "at-surface",
+        "icon": "icon/clean"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HOME-02",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to DamagedObject",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start RepairObject",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HOME-02/loop"
+          ],
+          "transition": "RepairObject loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish RepairObject",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt RepairObject and release DamagedObject",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/RepairKit"
+      ],
+      "interaction_point": {
+        "slot_id": "DamagedObject",
+        "approach_pose": "crouched-front"
+      },
+      "cues": {
+        "posture": "crouched-working",
+        "gaze": "at-object",
+        "icon": "icon/repair"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HOME-03",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to GroceryStore counter slot",
+          "destination": "GroceryStore",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start StockSupplies",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HOME-03/loop"
+          ],
+          "transition": "StockSupplies loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "return home with HouseholdSupplies",
+          "destination": "home",
+          "self_locomotion": true
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt StockSupplies without completion",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/HouseholdSupplies"
+      ],
+      "interaction_point": {
+        "slot_id": "GroceryCounter",
+        "approach_pose": "standing-at-counter"
+      },
+      "cues": {
+        "posture": "standing-organising",
+        "gaze": "at-shelf",
+        "icon": "icon/stock"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HOME-04",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-HOME-04/approach"
+          ],
+          "transition": "player places the furniture preview at the placement slot",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-HOME-04/start"
+          ],
+          "transition": "start Furnish",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HOME-04/loop"
+          ],
+          "transition": "Furnish loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-HOME-04/finish"
+          ],
+          "transition": "finish Furnish",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-HOME-04/interruption"
+          ],
+          "transition": "interrupt Furnish and release PlacementSlot",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Furniture"
+      ],
+      "interaction_point": {
+        "slot_id": "PlacementSlot",
+        "approach_pose": "standing-front"
+      },
+      "cues": {
+        "posture": "standing-measuring",
+        "gaze": "at-placement",
+        "icon": "icon/furnish"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-HOME-05",
+      "min_stage": "YoungAdult",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to BedsideCareSlot",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CareForDependent",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-HOME-05/loop"
+          ],
+          "transition": "CareForDependent loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CareForDependent",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CareForDependent and release BedsideCareSlot",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/CareSupplies"
+      ],
+      "interaction_point": {
+        "slot_id": "BedsideCareSlot",
+        "approach_pose": "standing-beside-bed"
+      },
+      "cues": {
+        "posture": "standing-beside-bed",
+        "gaze": "at-dependent",
+        "icon": "icon/care"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-PARTY-01",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to HomeOrCourtyard",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start HostGathering",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-PARTY-01/loop"
+          ],
+          "transition": "HostGathering loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish HostGathering",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt HostGathering and release HomeOrCourtyard",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/PartyFood"
+      ],
+      "interaction_point": {
+        "slot_id": "HomeOrCourtyard",
+        "approach_pose": "standing-host"
+      },
+      "cues": {
+        "posture": "standing-welcoming",
+        "gaze": "at-guests",
+        "icon": "icon/party"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-PARTY-02",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-PARTY-02/approach"
+          ],
+          "transition": "carried or brought to the gathering",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-PARTY-02/start"
+          ],
+          "transition": "start AttendGathering",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-PARTY-02/loop"
+          ],
+          "transition": "AttendGathering loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-PARTY-02/finish"
+          ],
+          "transition": "finish AttendGathering",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-PARTY-02/interruption"
+          ],
+          "transition": "interrupt AttendGathering and release HomeOrCourtyard",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "HomeOrCourtyard",
+        "approach_pose": "standing-guest"
+      },
+      "cues": {
+        "posture": "standing-social",
+        "gaze": "at-host",
+        "icon": "icon/party"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-01",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ResidentPartner",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start Chat",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-01/loop"
+          ],
+          "transition": "Chat loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish Chat",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt Chat and release ResidentPartner",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "ResidentPartner",
+        "approach_pose": "facing-partner"
+      },
+      "cues": {
+        "posture": "standing-open",
+        "gaze": "at-partner",
+        "icon": "icon/speech"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-02",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-REL-02/approach"
+          ],
+          "transition": "carried or brought to the shared seat",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-REL-02/start"
+          ],
+          "transition": "start FriendlyActivity",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-02/loop"
+          ],
+          "transition": "FriendlyActivity loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-REL-02/finish"
+          ],
+          "transition": "finish FriendlyActivity",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-REL-02/interruption"
+          ],
+          "transition": "interrupt FriendlyActivity and release HomeSharedSeat",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "prop/seat-first",
+        "planned/prop/SharedMeal"
+      ],
+      "interaction_point": {
+        "slot_id": "HomeSharedSeat",
+        "approach_pose": "seated-facing-group"
+      },
+      "cues": {
+        "posture": "seated-relaxed",
+        "gaze": "at-group",
+        "icon": "icon/shared-meal"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-03",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ResidentPartner",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start RomanticInteraction",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-03/loop"
+          ],
+          "transition": "RomanticInteraction loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish RomanticInteraction",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt RomanticInteraction and release ResidentPartner",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "ResidentPartner",
+        "approach_pose": "facing-partner"
+      },
+      "cues": {
+        "posture": "standing-close",
+        "gaze": "at-partner",
+        "icon": "icon/heart"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-04",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ResidentPartner",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start Argument",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-04/loop"
+          ],
+          "transition": "Argument loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish Argument",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt Argument and release ResidentPartner",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "ResidentPartner",
+        "approach_pose": "facing-partner"
+      },
+      "cues": {
+        "posture": "standing-tense",
+        "gaze": "at-partner",
+        "icon": "icon/argument"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-05",
+      "min_stage": "Newborn",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-REL-05/approach"
+          ],
+          "transition": "brought to the partner; older residents travel by movement command",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-REL-05/start"
+          ],
+          "transition": "start Reconcile",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-05/loop"
+          ],
+          "transition": "Reconcile loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-REL-05/finish"
+          ],
+          "transition": "finish Reconcile",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-REL-05/interruption"
+          ],
+          "transition": "interrupt Reconcile and release ResidentPartner",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "ResidentPartner",
+        "approach_pose": "facing-partner"
+      },
+      "cues": {
+        "posture": "standing-soft",
+        "gaze": "at-partner",
+        "icon": "icon/handshake"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-REL-06",
+      "min_stage": "YoungAdult",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Bed",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start TryForBaby",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-REL-06/loop"
+          ],
+          "transition": "TryForBaby loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish TryForBaby",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt TryForBaby and release Bed",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "Bed",
+        "approach_pose": "lying-facing-partner"
+      },
+      "cues": {
+        "posture": "private-close",
+        "gaze": "at-partner",
+        "caption": "Private time"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-SPORT-01",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "variants": [
+        {
+          "id": "PlayOutside",
+          "stage": "Child",
+          "flow": {
+            "approach": {
+              "clips": [
+                "clip/walk"
+              ],
+              "transition": "walk to Park or RecreationCenter play area",
+              "self_locomotion": true
+            },
+            "start": {
+              "clips": [
+                "clip/Interact"
+              ],
+              "transition": "start PlayOutside",
+              "self_locomotion": false
+            },
+            "loop": {
+              "clips": [
+                "planned/ACT-SPORT-01/PlayOutside/loop"
+              ],
+              "transition": "PlayOutside loop",
+              "self_locomotion": false
+            },
+            "finish": {
+              "clips": [
+                "clip/Idle_Loop"
+              ],
+              "transition": "finish PlayOutside",
+              "self_locomotion": false
+            },
+            "interruption": {
+              "clips": [
+                "clip/Interact"
+              ],
+              "transition": "interrupt PlayOutside and leave the play area",
+              "self_locomotion": false
+            }
+          },
+          "props": [],
+          "interaction_point": {
+            "slot_id": "PlayEquipment",
+            "approach_pose": "standing-at-play-area"
+          },
+          "cues": {
+            "posture": "active-upright",
+            "gaze": "at-play",
+            "icon": "icon/exercise"
+          },
+          "readability_check_ids": [
+            "ANM-01",
+            "ANM-06",
+            "ACC-01"
+          ]
+        }
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to ExerciseEquipment",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start ExerciseSession",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-SPORT-01/loop"
+          ],
+          "transition": "ExerciseSession loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish ExerciseSession",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt ExerciseSession and release ExerciseEquipment",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/ExerciseMachine"
+      ],
+      "interaction_point": {
+        "slot_id": "ExerciseEquipment",
+        "approach_pose": "standing-on-machine"
+      },
+      "cues": {
+        "posture": "active-upright",
+        "gaze": "at-equipment",
+        "icon": "icon/exercise"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-SPORT-02",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to CourseStart",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start CourtyardMinigolf",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-SPORT-02/loop"
+          ],
+          "transition": "CourtyardMinigolf loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish CourtyardMinigolf",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt CourtyardMinigolf and release CourseStart",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/GolfBall",
+        "planned/prop/Putter"
+      ],
+      "interaction_point": {
+        "slot_id": "CourseStart",
+        "approach_pose": "standing-putting"
+      },
+      "cues": {
+        "posture": "putting-stance",
+        "gaze": "at-ball",
+        "icon": "icon/golf"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-WORK-01",
+      "min_stage": "YoungAdult",
+      "max_stage": "Elder",
+      "eligibility_exceptions": [
+        {
+          "stage": "Teen",
+          "max_career_level": 1
+        }
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to CafeWorkplace",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start BaristaShift",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-WORK-01/loop"
+          ],
+          "transition": "BaristaShift loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish BaristaShift",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt BaristaShift and release CafeWorkplace",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/EspressoMachine"
+      ],
+      "interaction_point": {
+        "slot_id": "CafeWorkplace",
+        "approach_pose": "standing-behind-counter"
+      },
+      "cues": {
+        "posture": "working-upright",
+        "gaze": "at-task",
+        "icon": "icon/work-badge"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-WORK-02",
+      "min_stage": "YoungAdult",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to OfficeOrWorkshop",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start TechnicianShift",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-WORK-02/loop"
+          ],
+          "transition": "TechnicianShift loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish TechnicianShift",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt TechnicianShift and release OfficeOrWorkshop",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Toolkit"
+      ],
+      "interaction_point": {
+        "slot_id": "OfficeOrWorkshop",
+        "approach_pose": "standing-at-workstation"
+      },
+      "cues": {
+        "posture": "working-upright",
+        "gaze": "at-task",
+        "icon": "icon/work-badge"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-WORK-03",
+      "min_stage": "Teen",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to Computer",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start JobSearch",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-WORK-03/loop"
+          ],
+          "transition": "JobSearch loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish JobSearch",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt JobSearch and release Computer",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "Computer",
+        "approach_pose": "seated-at-desk"
+      },
+      "cues": {
+        "posture": "seated-typing",
+        "gaze": "at-screen",
+        "icon": "icon/job-listing"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-WORK-04",
+      "min_stage": "YoungAdult",
+      "max_stage": "Elder",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to OfficeComputer",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "start AIEngineerShift",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-WORK-04/loop"
+          ],
+          "transition": "AIEngineerShift loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "finish AIEngineerShift",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "interrupt AIEngineerShift and release OfficeComputer",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "OfficeComputer",
+        "approach_pose": "seated-at-desk"
+      },
+      "cues": {
+        "posture": "seated-typing",
+        "gaze": "at-screen",
+        "icon": "icon/work-badge"
+      },
+      "readability_check_ids": [
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "ACT-SPORT-03",
+      "min_stage": "Child",
+      "max_stage": "Elder",
+      "variants": [],
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/ACT-SPORT-03/approach"
+          ],
+          "transition": "walk to an available bicycle rack",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "planned/ACT-SPORT-03/start"
+          ],
+          "transition": "take bicycle and mount",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/ACT-SPORT-03/loop"
+          ],
+          "transition": "ride the connected trail circuit",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "planned/ACT-SPORT-03/finish"
+          ],
+          "transition": "dismount, park and release bicycle",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/ACT-SPORT-03/interruption"
+          ],
+          "transition": "stop safely and return bicycle to a rack",
+          "self_locomotion": false
+        }
+      },
+      "props": [
+        "planned/prop/Bike"
+      ],
+      "interaction_point": {
+        "slot_id": "BikeRack",
+        "approach_pose": "standing-at-rack"
+      },
+      "cues": {
+        "posture": "seated-cycling",
+        "gaze": "along-trail",
+        "icon": "icon/exercise"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-06",
+        "ACC-01"
+      ],
+      "name": "ride bike"
+    }
+  ],
+  "commands": [
+    {
+      "id": "SelectResident",
+      "movement": "none",
+      "reason": "focus-only selection; no resident travel"
+    },
+    {
+      "id": "FollowResident",
+      "movement": "none",
+      "reason": "camera follow only; accepts no envelope target and queues no resident travel"
+    },
+    {
+      "id": "StopFollowing",
+      "movement": "none",
+      "reason": "camera-only stop; no resident travel"
+    },
+    {
+      "id": "DirectActivity",
+      "movement": "movement",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk to the activity target",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "enter the selected activity",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/CMD-DirectActivity/loop"
+          ],
+          "transition": "hold the selected activity loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of the activity",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "release the activity target without completion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "target supplied by the DirectActivity envelope"
+      },
+      "cues": {
+        "posture": "action-ready",
+        "gaze": "at-target",
+        "icon": "icon/command-action"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-02",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "TravelTo",
+      "movement": "movement",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk toward the target",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "begin following the target",
+          "self_locomotion": true
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "follow the target loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "stop at the target",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "stop following without further travel",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "target supplied by the TravelTo envelope"
+      },
+      "cues": {
+        "posture": "follow-ready",
+        "gaze": "at-target",
+        "icon": "icon/command-travel"
+      },
+      "readability_check_ids": [
+        "ANM-01",
+        "ANM-06",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Pause",
+      "movement": "none",
+      "reason": "clock control; no avatar movement"
+    },
+    {
+      "id": "Resume",
+      "movement": "none",
+      "reason": "clock control; no avatar movement"
+    },
+    {
+      "id": "SetSpeed",
+      "movement": "none",
+      "reason": "simulation speed control; no avatar movement"
+    },
+    {
+      "id": "CancelCurrent",
+      "movement": "none",
+      "reason": "queue control only; executor owns slot release"
+    },
+    {
+      "id": "CancelQueued",
+      "movement": "none",
+      "reason": "queue control only; no avatar movement"
+    },
+    {
+      "id": "OpenMap",
+      "movement": "none",
+      "reason": "UI overlay; no avatar movement"
+    },
+    {
+      "id": "SaveGame",
+      "movement": "none",
+      "reason": "persistence command; no avatar movement"
+    },
+    {
+      "id": "RenameResident",
+      "movement": "none",
+      "reason": "identity edit; no avatar movement"
+    },
+    {
+      "id": "WillEdit",
+      "movement": "none",
+      "reason": "menu edit; no avatar movement"
+    },
+    {
+      "id": "CaregiverAssign",
+      "movement": "none",
+      "reason": "household assignment; no avatar movement"
+    }
+  ],
+  "life_stages": [
+    {
+      "id": "Newborn",
+      "presentations": [
+        "carried",
+        "crib",
+        "held"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/stage/Newborn/approach"
+          ],
+          "transition": "carried or placed as Newborn",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/stage/Newborn/start"
+          ],
+          "transition": "settle into Newborn presentation",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/stage/Newborn/loop"
+          ],
+          "transition": "Newborn held or crib loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/stage/Newborn/finish"
+          ],
+          "transition": "hand off from Newborn presentation",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/stage/Newborn/interruption"
+          ],
+          "transition": "caregiver recovers the Newborn presentation",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "carried-or-lying",
+        "gaze": "at-caregiver",
+        "icon": "icon/stage-newborn"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Infant",
+      "presentations": [
+        "carried",
+        "crib",
+        "held"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "planned/stage/Infant/approach"
+          ],
+          "transition": "carried or placed as Infant",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/stage/Infant/start"
+          ],
+          "transition": "settle into Infant presentation",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "planned/stage/Infant/loop"
+          ],
+          "transition": "Infant held or crib loop",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/stage/Infant/finish"
+          ],
+          "transition": "hand off from Infant presentation",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "planned/stage/Infant/interruption"
+          ],
+          "transition": "caregiver recovers the Infant presentation",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "carried-or-sitting",
+        "gaze": "at-caregiver",
+        "icon": "icon/stage-infant"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Toddler",
+      "presentations": [
+        "walk"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as Toddler",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into Toddler idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "Toddler walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of Toddler walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the Toddler locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "toddling-upright",
+        "gaze": "forward",
+        "icon": "icon/stage-toddler"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    },
+    {
+      "id": "Child",
+      "presentations": [
+        "walk"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as Child",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into Child idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "Child walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of Child walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the Child locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "upright",
+        "gaze": "forward",
+        "icon": "icon/stage-child"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    },
+    {
+      "id": "Teen",
+      "presentations": [
+        "walk",
+        "run"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as Teen",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into Teen idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "Teen walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of Teen walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the Teen locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "upright",
+        "gaze": "forward",
+        "icon": "icon/stage-teen"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    },
+    {
+      "id": "YoungAdult",
+      "presentations": [
+        "walk",
+        "run"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as YoungAdult",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into YoungAdult idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "YoungAdult walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of YoungAdult walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the YoungAdult locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "upright",
+        "gaze": "forward",
+        "icon": "icon/stage-youngadult"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    },
+    {
+      "id": "Adult",
+      "presentations": [
+        "walk",
+        "run"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as Adult",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into Adult idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "Adult walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of Adult walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the Adult locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "upright",
+        "gaze": "forward",
+        "icon": "icon/stage-adult"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    },
+    {
+      "id": "Elder",
+      "presentations": [
+        "walk"
+      ],
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "walk as Elder",
+          "self_locomotion": true
+        },
+        "start": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle into Elder idle",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/walk"
+          ],
+          "transition": "Elder walk loop",
+          "self_locomotion": true
+        },
+        "finish": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "settle out of Elder walk",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "stop the Elder locomotion",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "life-stage presentation has no interaction slot"
+      },
+      "cues": {
+        "posture": "stooped-upright",
+        "gaze": "forward",
+        "icon": "icon/stage-elder"
+      },
+      "readability_check_ids": [
+        "CHR-SHP-01",
+        "ANM-01",
+        "ANM-06"
+      ]
+    }
+  ],
+  "reactions": [
+    {
+      "id": "Neutral",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Neutral/start"
+          ],
+          "transition": "show Neutral",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Neutral expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Neutral/finish"
+          ],
+          "transition": "release Neutral expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Neutral expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "relaxed",
+        "gaze": "forward",
+        "icon": "icon/emote-neutral"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Grateful",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Grateful/start"
+          ],
+          "transition": "show Grateful",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Grateful expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Grateful/finish"
+          ],
+          "transition": "release Grateful expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Grateful expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "open-chest",
+        "gaze": "direct",
+        "icon": "icon/emote-grateful"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Hurt",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Hurt/start"
+          ],
+          "transition": "show Hurt",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Hurt expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Hurt/finish"
+          ],
+          "transition": "release Hurt expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Hurt expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "slumped",
+        "gaze": "averted",
+        "icon": "icon/emote-hurt"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Angry",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Angry/start"
+          ],
+          "transition": "show Angry",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Angry expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Angry/finish"
+          ],
+          "transition": "release Angry expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Angry expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "tense",
+        "gaze": "direct",
+        "icon": "icon/emote-angry"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Affectionate",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Affectionate/start"
+          ],
+          "transition": "show Affectionate",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Affectionate expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Affectionate/finish"
+          ],
+          "transition": "release Affectionate expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Affectionate expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "soft-open",
+        "gaze": "direct",
+        "icon": "icon/emote-affectionate"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Embarrassed",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Embarrassed/start"
+          ],
+          "transition": "show Embarrassed",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Embarrassed expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Embarrassed/finish"
+          ],
+          "transition": "release Embarrassed expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Embarrassed expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "closed",
+        "gaze": "averted",
+        "icon": "icon/emote-embarrassed"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    },
+    {
+      "id": "Proud",
+      "flow": {
+        "approach": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "return to neutral attention",
+          "self_locomotion": false
+        },
+        "start": {
+          "clips": [
+            "planned/reaction/Proud/start"
+          ],
+          "transition": "show Proud",
+          "self_locomotion": false
+        },
+        "loop": {
+          "clips": [
+            "clip/Idle_Loop"
+          ],
+          "transition": "hold Proud expression",
+          "self_locomotion": false
+        },
+        "finish": {
+          "clips": [
+            "planned/reaction/Proud/finish"
+          ],
+          "transition": "release Proud expression",
+          "self_locomotion": false
+        },
+        "interruption": {
+          "clips": [
+            "clip/Interact"
+          ],
+          "transition": "cut the Proud expression",
+          "self_locomotion": false
+        }
+      },
+      "props": [],
+      "interaction_point": {
+        "slot_id": "none",
+        "reason": "reaction is performed in place"
+      },
+      "cues": {
+        "posture": "upright",
+        "gaze": "direct",
+        "icon": "icon/emote-proud"
+      },
+      "readability_check_ids": [
+        "EMO-02",
+        "EMO-04",
+        "ACC-01"
+      ]
+    }
+  ]
+}

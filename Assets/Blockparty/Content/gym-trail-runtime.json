@@ -1,0 +1,698 @@
+{
+ "nodes": [
+  {
+   "id": "entry-apartment",
+   "position": [
+    -30.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "rack-apartment",
+   "position": [
+    -30.0,
+    0.0,
+    -4.849999952316284
+   ]
+  },
+  {
+   "id": "entry-common-room",
+   "position": [
+    -30.0,
+    0.0,
+    27.5
+   ]
+  },
+  {
+   "id": "rack-common-room",
+   "position": [
+    -30.0,
+    0.0,
+    24.60000009536743
+   ]
+  },
+  {
+   "id": "entry-courtyard",
+   "position": [
+    3.0,
+    0.05000000074505806,
+    18.5
+   ]
+  },
+  {
+   "id": "rack-courtyard",
+   "position": [
+    4.8,
+    0.05000000074505806,
+    18.5
+   ]
+  },
+  {
+   "id": "entry-grocery",
+   "position": [
+    26.0,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "rack-grocery",
+   "position": [
+    26.0,
+    0.05000000074505806,
+    13.2
+   ]
+  },
+  {
+   "id": "entry-recreation-center",
+   "position": [
+    -21.0,
+    0.05000000074505806,
+    30.850000381469727
+   ]
+  },
+  {
+   "id": "rack-recreation-center",
+   "position": [
+    -21.0,
+    0.05000000074505806,
+    28.7
+   ]
+  },
+  {
+   "id": "entry-park",
+   "position": [
+    19.0,
+    0.05000000074505806,
+    30.75
+   ]
+  },
+  {
+   "id": "rack-park",
+   "position": [
+    20.8,
+    0.05000000074505806,
+    30.75
+   ]
+  },
+  {
+   "id": "entry-oak-house",
+   "position": [
+    -33.70000076293945,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "rack-oak-house",
+   "position": [
+    -33.70000076293945,
+    0.05000000074505806,
+    13.200000715255737
+   ]
+  },
+  {
+   "id": "entry-willow-house",
+   "position": [
+    -7.5,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "rack-willow-house",
+   "position": [
+    -7.5,
+    0.05000000074505806,
+    13.199999284744262
+   ]
+  },
+  {
+   "id": "entry-cafe",
+   "position": [
+    -0.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "rack-cafe",
+   "position": [
+    -0.0,
+    0.0,
+    -4.899999904632568
+   ]
+  },
+  {
+   "id": "entry-workshop",
+   "position": [
+    30.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "rack-workshop",
+   "position": [
+    30.0,
+    0.0,
+    -4.899999904632568
+   ]
+  },
+  {
+   "id": "entry-office",
+   "position": [
+    0,
+    0,
+    27
+   ]
+  },
+  {
+   "id": "rack-office",
+   "position": [
+    0,
+    0,
+    24.60000009536743
+   ]
+  },
+  {
+   "id": "entry-school",
+   "position": [
+    30,
+    0,
+    27
+   ]
+  },
+  {
+   "id": "rack-school",
+   "position": [
+    30,
+    0,
+    24.7
+   ]
+  },
+  {
+   "id": "loop-0",
+   "position": [
+    11.5,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "loop-1",
+   "position": [
+    21,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "loop-2",
+   "position": [
+    21,
+    0,
+    39
+   ]
+  },
+  {
+   "id": "loop-3",
+   "position": [
+    11.5,
+    0,
+    39
+   ]
+  },
+  {
+   "id": "lane-67",
+   "position": [
+    -33.70000076293945,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "lane-151",
+   "position": [
+    -14.2,
+    0,
+    24.60000009536743
+   ]
+  },
+  {
+   "id": "lane-153",
+   "position": [
+    -14.2,
+    0,
+    28.7
+   ]
+  },
+  {
+   "id": "lane-171",
+   "position": [
+    -7.5,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "lane-216",
+   "position": [
+    -0.0,
+    0,
+    -4.849999952316284
+   ]
+  },
+  {
+   "id": "lane-228",
+   "position": [
+    4.8,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "lane-238",
+   "position": [
+    5.899999904632568,
+    0,
+    -4.849999952316284
+   ]
+  },
+  {
+   "id": "lane-239",
+   "position": [
+    5.899999904632568,
+    0,
+    9
+   ]
+  },
+  {
+   "id": "lane-261",
+   "position": [
+    11.5,
+    0,
+    -4.899999904632568
+   ]
+  },
+  {
+   "id": "lane-266",
+   "position": [
+    11.5,
+    0,
+    24.60000009536743
+   ]
+  },
+  {
+   "id": "lane-267",
+   "position": [
+    11.5,
+    0,
+    24.7
+   ]
+  },
+  {
+   "id": "lane-268",
+   "position": [
+    11.5,
+    0,
+    28.7
+   ]
+  },
+  {
+   "id": "lane-291",
+   "position": [
+    20.8,
+    0,
+    28.7
+   ]
+  },
+  {
+   "id": "lane-330",
+   "position": [
+    26.0,
+    0,
+    9
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "id": "trail-000",
+   "from": "entry-apartment",
+   "to": "rack-apartment"
+  },
+  {
+   "id": "trail-001",
+   "from": "entry-common-room",
+   "to": "rack-common-room"
+  },
+  {
+   "id": "trail-002",
+   "from": "entry-courtyard",
+   "to": "rack-courtyard"
+  },
+  {
+   "id": "trail-003",
+   "from": "entry-grocery",
+   "to": "rack-grocery"
+  },
+  {
+   "id": "trail-004",
+   "from": "entry-recreation-center",
+   "to": "rack-recreation-center"
+  },
+  {
+   "id": "trail-005",
+   "from": "entry-park",
+   "to": "rack-park"
+  },
+  {
+   "id": "trail-006",
+   "from": "entry-oak-house",
+   "to": "rack-oak-house"
+  },
+  {
+   "id": "trail-007",
+   "from": "entry-willow-house",
+   "to": "rack-willow-house"
+  },
+  {
+   "id": "trail-008",
+   "from": "entry-cafe",
+   "to": "rack-cafe"
+  },
+  {
+   "id": "trail-009",
+   "from": "entry-workshop",
+   "to": "rack-workshop"
+  },
+  {
+   "id": "trail-010",
+   "from": "entry-office",
+   "to": "rack-office"
+  },
+  {
+   "id": "trail-011",
+   "from": "entry-school",
+   "to": "rack-school"
+  },
+  {
+   "id": "trail-012",
+   "from": "loop-0",
+   "to": "loop-1"
+  },
+  {
+   "id": "trail-013",
+   "from": "loop-1",
+   "to": "loop-2"
+  },
+  {
+   "id": "trail-014",
+   "from": "loop-2",
+   "to": "loop-3"
+  },
+  {
+   "id": "trail-015",
+   "from": "loop-3",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-016",
+   "from": "rack-apartment",
+   "to": "lane-238"
+  },
+  {
+   "id": "trail-017",
+   "from": "lane-238",
+   "to": "lane-239"
+  },
+  {
+   "id": "trail-018",
+   "from": "lane-239",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-019",
+   "from": "rack-common-room",
+   "to": "lane-266"
+  },
+  {
+   "id": "trail-020",
+   "from": "lane-266",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-021",
+   "from": "rack-courtyard",
+   "to": "lane-228"
+  },
+  {
+   "id": "trail-022",
+   "from": "lane-228",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-023",
+   "from": "rack-grocery",
+   "to": "lane-330"
+  },
+  {
+   "id": "trail-024",
+   "from": "lane-330",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-025",
+   "from": "rack-recreation-center",
+   "to": "lane-153"
+  },
+  {
+   "id": "trail-026",
+   "from": "lane-153",
+   "to": "lane-151"
+  },
+  {
+   "id": "trail-027",
+   "from": "lane-151",
+   "to": "lane-266"
+  },
+  {
+   "id": "trail-028",
+   "from": "rack-park",
+   "to": "lane-291"
+  },
+  {
+   "id": "trail-029",
+   "from": "lane-291",
+   "to": "lane-268"
+  },
+  {
+   "id": "trail-030",
+   "from": "lane-268",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-031",
+   "from": "rack-oak-house",
+   "to": "lane-67"
+  },
+  {
+   "id": "trail-032",
+   "from": "lane-67",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-033",
+   "from": "rack-willow-house",
+   "to": "lane-171"
+  },
+  {
+   "id": "trail-034",
+   "from": "lane-171",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-035",
+   "from": "rack-cafe",
+   "to": "lane-216"
+  },
+  {
+   "id": "trail-036",
+   "from": "lane-216",
+   "to": "lane-238"
+  },
+  {
+   "id": "trail-037",
+   "from": "rack-workshop",
+   "to": "lane-261"
+  },
+  {
+   "id": "trail-038",
+   "from": "lane-261",
+   "to": "loop-0"
+  },
+  {
+   "id": "trail-039",
+   "from": "rack-office",
+   "to": "lane-266"
+  },
+  {
+   "id": "trail-040",
+   "from": "rack-school",
+   "to": "lane-267"
+  },
+  {
+   "id": "trail-041",
+   "from": "lane-267",
+   "to": "loop-0"
+  }
+ ],
+ "sites": [
+  {
+   "id": "apartment",
+   "rack": "rack-apartment",
+   "node": "rack-apartment",
+   "entry": [
+    -30.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "common-room",
+   "rack": "rack-common-room",
+   "node": "rack-common-room",
+   "entry": [
+    -30.0,
+    0.0,
+    27.5
+   ]
+  },
+  {
+   "id": "courtyard",
+   "rack": "rack-courtyard",
+   "node": "rack-courtyard",
+   "entry": [
+    3.0,
+    0.05000000074505806,
+    18.5
+   ]
+  },
+  {
+   "id": "grocery",
+   "rack": "rack-grocery",
+   "node": "rack-grocery",
+   "entry": [
+    26.0,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "recreation-center",
+   "rack": "rack-recreation-center",
+   "node": "rack-recreation-center",
+   "entry": [
+    -21.0,
+    0.05000000074505806,
+    30.850000381469727
+   ]
+  },
+  {
+   "id": "park",
+   "rack": "rack-park",
+   "node": "rack-park",
+   "entry": [
+    19.0,
+    0.05000000074505806,
+    30.75
+   ]
+  },
+  {
+   "id": "oak-house",
+   "rack": "rack-oak-house",
+   "node": "rack-oak-house",
+   "entry": [
+    -33.70000076293945,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "willow-house",
+   "rack": "rack-willow-house",
+   "node": "rack-willow-house",
+   "entry": [
+    -7.5,
+    0.05000000074505806,
+    15.350000381469727
+   ]
+  },
+  {
+   "id": "cafe",
+   "rack": "rack-cafe",
+   "node": "rack-cafe",
+   "entry": [
+    -0.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "workshop",
+   "rack": "rack-workshop",
+   "node": "rack-workshop",
+   "entry": [
+    30.0,
+    0.0,
+    -2.5
+   ]
+  },
+  {
+   "id": "office",
+   "rack": "rack-office",
+   "node": "rack-office",
+   "entry": [
+    0,
+    0,
+    27
+   ]
+  },
+  {
+   "id": "school",
+   "rack": "rack-school",
+   "node": "rack-school",
+   "entry": [
+    30,
+    0,
+    27
+   ]
+  }
+ ],
+ "gym": [
+  -35.29999923706055,
+  0.0,
+  -0.6000000238418579
+ ],
+ "walk_distances": [
+  0.0,
+  0.011184930801391602,
+  0.07427625358104706,
+  0.11512233316898346,
+  0.1739570014178753,
+  0.3219094565138221,
+  0.4023095853626728,
+  0.4842175208032131,
+  0.5419843904674053,
+  0.5587037317454815,
+  0.6267375610768795,
+  0.6699292026460171,
+  0.7275136820971966,
+  0.8767631342634559,
+  0.961988802999258,
+  1.0481957159936428,
+  1.1083123199641705
+ ]
+}

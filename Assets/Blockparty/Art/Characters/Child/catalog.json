@@ -1,0 +1,180 @@
+{
+ "bindings": {
+  "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142",
+  "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519",
+  "Assets/Blockparty/Art/Characters/MakeHuman/materials/catalog.json": "2b9fb2d59fc981ebe11af5a377323ccfb14dd31cebebb4c7eb93acc82b1216cb",
+  "Assets/Blockparty/Art/Rigs/MakeHuman/humanoid.gltf": "558326d74ed477a726bc875406507783e9592e7349c165bd60529b740e8e1c55",
+  "Assets/Blockparty/Art/Rigs/MakeHuman/stage-presets.json": "1ea8f3b07058a92a36b76bf49c1d2ac65b1951c09d7812247b4e49ba7507dc5c",
+  "docs/production/art-direction/color-profile.json": "bb4e07dc188f9c46463119fb043935cf35a8803aab38142b1a402ab3e33b16c5",
+  "docs/specification/sdoc-pins.json": "9945cfbc647ce7ce5c049fb1d1d96bb9519f90725a954d05ab8d5295aa65c95c",
+  "production/preflight/BODY-MH.json": "bf040aa0ff43f02a6810d00cbe6f2c188cbe5aa1872f3424233f373e1de3b359",
+  "production/preflight/RIG-MH.json": "7c0c3ca175642b4c224e8e0a23514600e031e00b191edfd98469d6bc183a0a2e",
+  "production/preflight/STAGE-RIG.json": "3a7dd3542cea3734fdfa00ad0de1a83d41316f8c9e1e08bfb3b16e830e560579"
+ },
+ "entries": [
+  {
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/female.gltf",
+    "sha256": "f42e3056bb02106dbdb88aca2416c1d3836be8b0ff98537219c59861ba7ff142"
+   },
+   "adult_identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "bob01",
+    "hair_type": "wavy",
+    "skin_tone": "dark-young"
+   },
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Child/female.gltf",
+    "sha256": "3569fc950db78a830cf001dc904397dbd46e04fcf8d4ed3e222ce6bbfe488e6a"
+   },
+   "body": "female",
+   "e5": {
+    "applied_before_rig_fit": true,
+    "delta_percent": 100,
+    "source": {
+     "path": "evidence/production/STAGE-CHILD/source/e5/female-Child-100.json",
+     "sha256": "4afa9b352d054559186ec579cf8711f58595278246994f0f4785b14b75121063"
+    }
+   },
+   "expression_cues": {
+    "affectionate": {
+     "face": "soft smile, cheek squint, gentle brow lift",
+     "gaze": "direct, warm",
+     "icon": "heart",
+     "posture": "head tilt toward listener"
+    },
+    "angry": {
+     "face": "brows down and in, squint, pressed mouth",
+     "gaze": "direct",
+     "icon": "anger-cross",
+     "posture": "chin forward, shoulders squared"
+    },
+    "embarrassed": {
+     "face": "shy smile, cheeks up, lids lowered",
+     "gaze": "averted",
+     "icon": "blush",
+     "posture": "shoulders raised, head dipped"
+    },
+    "grateful": {
+     "face": "soft smile, cheeks raised, inner brows up",
+     "gaze": "direct",
+     "icon": "heart",
+     "posture": "slight forward lean, hands open"
+    },
+    "hurt": {
+     "face": "frown, inner brows up, lids droop",
+     "gaze": "averted down",
+     "icon": "tear",
+     "posture": "shoulders rounded, chest closed"
+    },
+    "neutral": {
+     "face": "relaxed brow and lips, lid rest",
+     "gaze": "direct, soft focus",
+     "icon": "speech-dots",
+     "posture": "upright, shoulders level"
+    },
+    "proud": {
+     "face": "asymmetric smirk, one brow raised, chin lifted",
+     "gaze": "direct",
+     "icon": "star",
+     "posture": "chest lifted, chin up"
+    }
+   },
+   "identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "bob01",
+    "hair_type": "wavy",
+    "skin_tone": "dark-young"
+   },
+   "locomotion_clips": [],
+   "presentation": "standing"
+  },
+  {
+   "adult": {
+    "path": "Assets/Blockparty/Art/Characters/MakeHuman/male.gltf",
+    "sha256": "1891154a2ee08106fffa353f617015d9770070b843b05167156b623a32d09519"
+   },
+   "adult_identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "short01",
+    "hair_type": "straight",
+    "skin_tone": "dark-young"
+   },
+   "asset": {
+    "path": "Assets/Blockparty/Art/Characters/Child/male.gltf",
+    "sha256": "1e585eba4dd52e2bb550755f3706a777d1e82201d2e0362625f36511c9b53b36"
+   },
+   "body": "male",
+   "e5": {
+    "applied_before_rig_fit": true,
+    "delta_percent": 100,
+    "source": {
+     "path": "evidence/production/STAGE-CHILD/source/e5/male-Child-100.json",
+     "sha256": "ce5239b5c03d6ca12a101cebabe17f1765360641598f8d853288c3b5f244afa1"
+    }
+   },
+   "expression_cues": {
+    "affectionate": {
+     "face": "soft smile, cheek squint, gentle brow lift",
+     "gaze": "direct, warm",
+     "icon": "heart",
+     "posture": "head tilt toward listener"
+    },
+    "angry": {
+     "face": "brows down and in, squint, pressed mouth",
+     "gaze": "direct",
+     "icon": "anger-cross",
+     "posture": "chin forward, shoulders squared"
+    },
+    "embarrassed": {
+     "face": "shy smile, cheeks up, lids lowered",
+     "gaze": "averted",
+     "icon": "blush",
+     "posture": "shoulders raised, head dipped"
+    },
+    "grateful": {
+     "face": "soft smile, cheeks raised, inner brows up",
+     "gaze": "direct",
+     "icon": "heart",
+     "posture": "slight forward lean, hands open"
+    },
+    "hurt": {
+     "face": "frown, inner brows up, lids droop",
+     "gaze": "averted down",
+     "icon": "tear",
+     "posture": "shoulders rounded, chest closed"
+    },
+    "neutral": {
+     "face": "relaxed brow and lips, lid rest",
+     "gaze": "direct, soft focus",
+     "icon": "speech-dots",
+     "posture": "upright, shoulders level"
+    },
+    "proud": {
+     "face": "asymmetric smirk, one brow raised, chin lifted",
+     "gaze": "direct",
+     "icon": "star",
+     "posture": "chest lifted, chin up"
+    }
+   },
+   "identity": {
+    "eye_color": "brown",
+    "face": "dark-young",
+    "hair_color": "darkbrown",
+    "hair_style": "short01",
+    "hair_type": "straight",
+    "skin_tone": "dark-young"
+   },
+   "locomotion_clips": [],
+   "presentation": "standing"
+  }
+ ],
+ "package": "STAGE-CHILD",
+ "stage": "Child"
+}

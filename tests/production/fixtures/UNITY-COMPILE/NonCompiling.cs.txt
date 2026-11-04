@@ -1,0 +1,5 @@
+// Intentional CS0246: compiled only by Unity's AssemblyBuilder negative test.
+public sealed class UnityCompileInvalidFixture
+{
+    public UNITY_COMPILE_EXPECTED_MISSING_TYPE Value;
+}

@@ -1,0 +1,759 @@
+{
+ "bindings": {
+  "docs/production/art-direction/look-char-decision.json": "069f113360c58f039ac92068eccfad6771f7f9af6b56118541eac6fdb0689d08"
+ },
+ "character_look": "r1-character-b",
+ "dimensions": {
+  "expression": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": null,
+    "id": "neutral",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-neutral.png",
+      "sha256": "29264550578bee9e398df1ef5de37ffb917eecacbf1cb06d8961c06ddbb50122"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-neutral.png",
+      "sha256": "d205985bd1c2a3ff38cc9c10705c0d6d5095aa8431bb7a0204f792d186bb863d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Grateful",
+    "id": "grateful",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-grateful.png",
+      "sha256": "50e626186234908718f0366e3dbb734811b41b009ad42a38ed3bcb6dd29afcc7"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-grateful.png",
+      "sha256": "32b9ccf2a91e69676574df8ec535becb782afff34b59f5891deb8fadc2995ede"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Hurt",
+    "id": "hurt",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-hurt.png",
+      "sha256": "32b16dff4ddc6d08c2aea55a54d01f66d00d99b93db434bb2c2aee353b06028c"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-hurt.png",
+      "sha256": "d33f4c122b961007c4fb060d41e0f5722e2408efa7f5cb7e321d843f9207dd96"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Angry",
+    "id": "angry",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-angry.png",
+      "sha256": "7ab2413260bb50abfed48c8eee0fcb226c1ab9104fb16d8a1f88aea74fa67c55"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-angry.png",
+      "sha256": "0d00bd8a6ff2ca00a23fad76618a150359cd5a99e467197214c30b0fdfb99c63"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Affectionate",
+    "id": "affectionate",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-affectionate.png",
+      "sha256": "1f7f6ef9888bff7451169bc2d165db6713032a3244b5185e95e6bb29e55e2f69"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-affectionate.png",
+      "sha256": "259011e7a687145e8eac1418dcd1c169a591f78397fa9843eabdd37ecb0992bb"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Embarrassed",
+    "id": "embarrassed",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-embarrassed.png",
+      "sha256": "46875716d42c080d7bcaf457544897a3830dff8886b5aa3bf693eaefcf7fa589"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-embarrassed.png",
+      "sha256": "47a6c17ff73ecc9aa1f25976b14cf6890142bc395987ae0cbb4dbc9f5520077e"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "feeling_kind": "Proud",
+    "id": "proud",
+    "representation": "texture-swap",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-female-proud.png",
+      "sha256": "8705124c9384ad243921d6131161d69b1548ec1c5c77a3cddd36ce23d00d07aa"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/expr-male-proud.png",
+      "sha256": "3257853be250988d903cdb90b1435eae7dfd5c25bd15e1cc495e306592074794"
+     }
+    }
+   }
+  ],
+  "eye_color": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "blue",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-blue.png",
+      "sha256": "7ec598c5efc96c160399e0f08ac742263a9f47abfe3d701e6c9889be94709c0f"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-blue.png",
+      "sha256": "7ec598c5efc96c160399e0f08ac742263a9f47abfe3d701e6c9889be94709c0f"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "brown",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-brown.png",
+      "sha256": "c43893c602729119fb3d252b645ce7252c18dc3a2290e92cd9ea4d56928cfd75"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-brown.png",
+      "sha256": "c43893c602729119fb3d252b645ce7252c18dc3a2290e92cd9ea4d56928cfd75"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "green",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-green.png",
+      "sha256": "f51efe2c4c42736644d51453a6892b503d3c02611330e2633291e54ece9c7c04"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-green.png",
+      "sha256": "f51efe2c4c42736644d51453a6892b503d3c02611330e2633291e54ece9c7c04"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "grey",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-grey.png",
+      "sha256": "28e0329d63ef861d53050cae0654ba641a7cf702ee67dabf90cb1454e3b3c0ff"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-grey.png",
+      "sha256": "28e0329d63ef861d53050cae0654ba641a7cf702ee67dabf90cb1454e3b3c0ff"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "brownlight",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-brownlight.png",
+      "sha256": "2314924b60578022e4f83a68c8973657ef6cfe9fa5123f23307b44ed2b27607a"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/eye-brownlight.png",
+      "sha256": "2314924b60578022e4f83a68c8973657ef6cfe9fa5123f23307b44ed2b27607a"
+     }
+    }
+   }
+  ],
+  "face": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-young",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-dark-young.png",
+      "sha256": "db915a08aa05736fe17019b0c9c8ef5eb2d595e3b642d0c7c85c4b8d211e6e58"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-dark-young.png",
+      "sha256": "2c2c9a4b1c14c2548feb1644f865d48348e8f2821bb7bdf7b0a827ef8fe07c20"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-middle",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-dark-middle.png",
+      "sha256": "13b8a6d476b1939f32b21566ba6b20bb6f246ed9e4e07e14eb76b5b52cfb0886"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-dark-middle.png",
+      "sha256": "d2f7c41468d8b48140456a5ac0bb7f7e14b8789cf4fcf2180ae70097644ae2be"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-old",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-dark-old.png",
+      "sha256": "0036cfef90a78b23793db31f58c4b6716da395ca6d99242f4bc76eebf0c7b3d1"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-dark-old.png",
+      "sha256": "8274a5732ad8e16693d7cdd51b2b54b63bd9b8ce31c5d63bc5e7ab6e5708ea8d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-young",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-light-young.png",
+      "sha256": "a50e9c0ed1f4b9cb0b0de740f93e49b3108834badba2f78c436803d54ba74ecb"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-light-young.png",
+      "sha256": "724d3433d5aca3c4416ae7ecc8b762dcb68768c2dea22d10a3293061f07b1dc8"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-middle",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-light-middle.png",
+      "sha256": "f277b9ec39e9e6d09eef88ac740cc3691c42d65e9058841d387195b2e8b58588"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-light-middle.png",
+      "sha256": "6f485f25e5aab114de0673e5c6ebe26e298434d510edaa4597ef05c296cb1c14"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-old",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-female-light-old.png",
+      "sha256": "634c2ff5c9702bccdcc1039061ff694ba258860f486dc1109ecf06f4d29f61bc"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/face-male-light-old.png",
+      "sha256": "1ea1a4e6feb5e551803e809221bc21b346c159ee3fd8da0f9468c80b519d9ed9"
+     }
+    }
+   }
+  ],
+  "hair_color": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "black",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-black.png",
+      "sha256": "30f5d904ad37a48cb79bfd8480b7e17b92bed1dda66a5a0c41ecf161df215eae"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-black.png",
+      "sha256": "30f5d904ad37a48cb79bfd8480b7e17b92bed1dda66a5a0c41ecf161df215eae"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "darkbrown",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-darkbrown.png",
+      "sha256": "48eeaa1c9d350a82b81d5d549901fd83ecfc940f035df58c3a2a260fa21b2a26"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-darkbrown.png",
+      "sha256": "48eeaa1c9d350a82b81d5d549901fd83ecfc940f035df58c3a2a260fa21b2a26"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "auburn",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-auburn.png",
+      "sha256": "36c33e33560728947fb024cf838aa85f6adfdac18d88231b954e432aa4d195db"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-auburn.png",
+      "sha256": "36c33e33560728947fb024cf838aa85f6adfdac18d88231b954e432aa4d195db"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "red",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-red.png",
+      "sha256": "0643b8beccf7aa19b03d1fd55d6a1f6ab7acdbbb004a24e4a396253409b09edc"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-red.png",
+      "sha256": "0643b8beccf7aa19b03d1fd55d6a1f6ab7acdbbb004a24e4a396253409b09edc"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "blonde",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-blonde.png",
+      "sha256": "2e714603e7198dffb2ebaa21804fe21062a540033d1eb5b6c0d7286a39c9c1d3"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-blonde.png",
+      "sha256": "2e714603e7198dffb2ebaa21804fe21062a540033d1eb5b6c0d7286a39c9c1d3"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "grey",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-grey.png",
+      "sha256": "cceed7410ca7fdeef8af9a37e847b7ab0f6a8b7528b9558f5942f93a86c73dd7"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/haircolor-grey.png",
+      "sha256": "cceed7410ca7fdeef8af9a37e847b7ab0f6a8b7528b9558f5942f93a86c73dd7"
+     }
+    }
+   }
+  ],
+  "hair_style": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "straight",
+    "id": "long01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-long01.png",
+      "sha256": "432d79a64eef8a6f62778fe64afed2033d82fa9a43afae8de1c83d60ae20510c"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-long01.png",
+      "sha256": "432d79a64eef8a6f62778fe64afed2033d82fa9a43afae8de1c83d60ae20510c"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "straight",
+    "id": "short01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-short01.png",
+      "sha256": "82139ff732db448ff7e5d9ea6b75a9bf0804e26292d3eb420a2e29496066419b"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-short01.png",
+      "sha256": "82139ff732db448ff7e5d9ea6b75a9bf0804e26292d3eb420a2e29496066419b"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "wavy",
+    "id": "bob01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-bob01.png",
+      "sha256": "6b062f42e40e9bd981281cb4baec2a7160f6a67d1606a340d42a60e67db0458c"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-bob01.png",
+      "sha256": "6b062f42e40e9bd981281cb4baec2a7160f6a67d1606a340d42a60e67db0458c"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "wavy",
+    "id": "short02",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-short02.png",
+      "sha256": "47ac6552fad73fde15cc75e607ba530e5b2a87f14aa63138b2326f55732efcf3"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-short02.png",
+      "sha256": "47ac6552fad73fde15cc75e607ba530e5b2a87f14aa63138b2326f55732efcf3"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "curly",
+    "id": "bob02",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-bob02.png",
+      "sha256": "58fc360ee2d82e7c04aad46268d0a649b1f22df2ab60af688ca6391edd63181d"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-bob02.png",
+      "sha256": "58fc360ee2d82e7c04aad46268d0a649b1f22df2ab60af688ca6391edd63181d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "curly",
+    "id": "ponytail01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-ponytail01.png",
+      "sha256": "845054557ecd436cf50366c2aba490adcf72a4462c996108926130e754372f5d"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-ponytail01.png",
+      "sha256": "845054557ecd436cf50366c2aba490adcf72a4462c996108926130e754372f5d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "coily",
+    "id": "afro01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-afro01.png",
+      "sha256": "9f9a94dfe5b430da11da6ff6581e10a2093da88281ebcae967ee129ae473fa47"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-afro01.png",
+      "sha256": "9f9a94dfe5b430da11da6ff6581e10a2093da88281ebcae967ee129ae473fa47"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "hair_type": "coily",
+    "id": "braid01",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-braid01.png",
+      "sha256": "52884e296bca6a931e9fae07ad60d7a841e38625d7b3681eaf0c91f26764912c"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairstyle-braid01.png",
+      "sha256": "52884e296bca6a931e9fae07ad60d7a841e38625d7b3681eaf0c91f26764912c"
+     }
+    }
+   }
+  ],
+  "hair_type": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "straight",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-straight.png",
+      "sha256": "d3882085cad26fefb8a4eda900087d13c9c5da01981cbfd9de6bb942d913b1c9"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-straight.png",
+      "sha256": "d3882085cad26fefb8a4eda900087d13c9c5da01981cbfd9de6bb942d913b1c9"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "wavy",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-wavy.png",
+      "sha256": "7edd0aaaa798e2df9170387e9b79089c472e154d41d41d3c9d8d1528f8fb926c"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-wavy.png",
+      "sha256": "7edd0aaaa798e2df9170387e9b79089c472e154d41d41d3c9d8d1528f8fb926c"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "curly",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-curly.png",
+      "sha256": "5fd1753c5cc092f0eeff35e6b669249b172331441d29bad283a4e38278f4008d"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-curly.png",
+      "sha256": "5fd1753c5cc092f0eeff35e6b669249b172331441d29bad283a4e38278f4008d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "coily",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-coily.png",
+      "sha256": "50dd1e0ad478e20a69a0363621e3541332d768d0f039a8217e6daafe654bd2cf"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/hairtype-coily.png",
+      "sha256": "50dd1e0ad478e20a69a0363621e3541332d768d0f039a8217e6daafe654bd2cf"
+     }
+    }
+   }
+  ],
+  "skin_tone": [
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-young",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-dark-young.png",
+      "sha256": "a8749acceba4acf0a0d3210105b1f41a2d570fb86e7398e2c3c40ad9fa4171c0"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-dark-young.png",
+      "sha256": "44022bcb732b21d132784a11a6c7a270dff644ea77630e5298cd98f689f16c3e"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-middle",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-dark-middle.png",
+      "sha256": "1ccdc23f32dfb5565f8678f45ee8efcc60badacd8d4d3f0ef8293d824503abc0"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-dark-middle.png",
+      "sha256": "3aff4e04174882aec9e969514006e86eb2bc6bf30bab7a712985c09344407ff6"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "dark-old",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-dark-old.png",
+      "sha256": "7e164fc185df3fb385b0e9b605662e6388bf4dcb699c352b0fa2ad9e7f47cfac"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-dark-old.png",
+      "sha256": "9ed42a46fbd5bf3a799fb491becab937504408c427030d2770aac4ed8fd6ff51"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-young",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-light-young.png",
+      "sha256": "cc8077b145e9aaadcc4abfe480cd94ef8a1f29393f4d4aa27cf944d59a243184"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-light-young.png",
+      "sha256": "37b2542ca69d9f6c4b2d5bd42980058cdb5fe45edf221ca2abdf7ff4f17bbe8a"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-middle",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-light-middle.png",
+      "sha256": "4399ebd723c141a56816e3bdfbe8f1d889abb5ad0d124ceb639cd8eb9ee5ad3a"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-light-middle.png",
+      "sha256": "3f61241799c844dd60833fb73180038ec3d4cca0c9b5c920fdb9510f2d3ceb9d"
+     }
+    }
+   },
+   {
+    "applies_to": [
+     "female",
+     "male"
+    ],
+    "id": "light-old",
+    "textures": {
+     "female": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-female-light-old.png",
+      "sha256": "6effebc7c46a517818eac4330273d20ba73a61495aa32e9b4c6e5ed0905d5bdd"
+     },
+     "male": {
+      "path": "Assets/Blockparty/Art/Characters/MakeHuman/materials/skin-male-light-old.png",
+      "sha256": "7a1f0f39238b0174ade26985d62d3a9b225c957396b416dabf041924fe095e24"
+     }
+    }
+   }
+  ]
+ },
+ "package": "MATERIAL-MH"
+}

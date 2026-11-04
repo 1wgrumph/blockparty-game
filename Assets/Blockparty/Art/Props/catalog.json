@@ -1,0 +1,973 @@
+{
+  "schema": "blockparty-prop-catalog-v1",
+  "units": "metres",
+  "props": [
+    {
+      "id": "seat-first",
+      "name": "Chair",
+      "category": "seating",
+      "node": "PROP_seat-first",
+      "roles": [
+        "chair"
+      ],
+      "action_props": [
+        "prop/seat-first"
+      ],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "GardenBedsOrCommonRoom",
+          "node": "socket_seat-first_GardenBedsOrCommonRoom",
+          "approach_node": "approach_seat-first_GardenBedsOrCommonRoom",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            0.699999988
+          ],
+          "approach_kinds": [
+            "standing-or-seated"
+          ]
+        },
+        {
+          "slot_id": "ChairAtTable",
+          "node": "socket_seat-first_ChairAtTable",
+          "approach_node": "approach_seat-first_ChairAtTable",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            0.699999988
+          ],
+          "approach_kinds": [
+            "seated"
+          ]
+        },
+        {
+          "slot_id": "HomeSharedSeat",
+          "node": "socket_seat-first_HomeSharedSeat",
+          "approach_node": "approach_seat-first_HomeSharedSeat",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            0.699999988
+          ],
+          "approach_kinds": [
+            "seated-facing-group"
+          ]
+        },
+        {
+          "slot_id": "SchoolSeat",
+          "node": "socket_seat-first_SchoolSeat",
+          "approach_node": "approach_seat-first_SchoolSeat",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            0.699999988
+          ],
+          "approach_kinds": [
+            "seated-at-desk"
+          ]
+        },
+        {
+          "slot_id": "Classroom",
+          "node": "socket_seat-first_Classroom",
+          "approach_node": "approach_seat-first_Classroom",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            0.699999988
+          ],
+          "approach_kinds": [
+            "seated-at-counter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "second",
+      "name": "Sofa",
+      "category": "seating",
+      "node": "PROP_second",
+      "roles": [
+        "sofa"
+      ],
+      "action_props": [
+        "prop/second"
+      ],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "BedOrSofa",
+          "node": "socket_second_BedOrSofa",
+          "approach_node": "approach_second_BedOrSofa",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            1.0
+          ],
+          "approach_kinds": [
+            "reclining"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Table",
+      "name": "Table",
+      "category": "seating",
+      "node": "PROP_Table",
+      "roles": [
+        "table"
+      ],
+      "action_props": [],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Toilet",
+      "name": "Toilet",
+      "category": "seating",
+      "node": "PROP_Toilet",
+      "roles": [],
+      "action_props": [],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "Toilet",
+          "node": "socket_Toilet_Toilet",
+          "approach_node": "approach_Toilet_Toilet",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            3.21999979
+          ],
+          "approach_kinds": [
+            "seated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bed",
+      "name": "Bed",
+      "category": "seating",
+      "node": "PROP_Bed",
+      "roles": [
+        "bed"
+      ],
+      "action_props": [
+        "planned/prop/Bed"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "Bed",
+          "node": "socket_Bed_Bed",
+          "approach_node": "approach_Bed_Bed",
+          "forward": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            3.75
+          ],
+          "approach_kinds": [
+            "lying",
+            "lying-facing-partner"
+          ]
+        },
+        {
+          "slot_id": "BedsideCareSlot",
+          "node": "socket_Bed_BedsideCareSlot",
+          "approach_node": "approach_Bed_BedsideCareSlot",
+          "forward": [
+            -1.0,
+            0.0,
+            3.71e-07
+          ],
+          "approach_pose": [
+            3.839999914,
+            0.0,
+            2.599999905
+          ],
+          "approach_kinds": [
+            "standing-beside-bed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PreparedMeal",
+      "name": "Prepared Meal",
+      "category": "kitchen",
+      "node": "PROP_PreparedMeal",
+      "roles": [],
+      "action_props": [
+        "planned/prop/PreparedMeal"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "FastFood",
+      "name": "Fast Food",
+      "category": "kitchen",
+      "node": "PROP_FastFood",
+      "roles": [],
+      "action_props": [
+        "planned/prop/FastFood"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "FastFoodCounter",
+          "node": "socket_FastFood_FastFoodCounter",
+          "approach_node": "approach_FastFood_FastFoodCounter",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            6.700000286
+          ],
+          "approach_kinds": [
+            "standing-at-counter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CookingTools",
+      "name": "Cooking Tools",
+      "category": "kitchen",
+      "node": "PROP_CookingTools",
+      "roles": [],
+      "action_props": [
+        "planned/prop/CookingTools"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "HouseholdSupplies",
+      "name": "Household Supplies",
+      "category": "kitchen",
+      "node": "PROP_HouseholdSupplies",
+      "roles": [],
+      "action_props": [
+        "planned/prop/HouseholdSupplies"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "SharedMeal",
+      "name": "Shared Meal",
+      "category": "kitchen",
+      "node": "PROP_SharedMeal",
+      "roles": [],
+      "action_props": [
+        "planned/prop/SharedMeal"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "GroceryBag",
+      "name": "Grocery Bag",
+      "category": "kitchen",
+      "node": "PROP_GroceryBag",
+      "roles": [],
+      "action_props": [
+        "planned/prop/GroceryBag"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Stove",
+      "name": "Stove",
+      "category": "kitchen",
+      "node": "PROP_Stove",
+      "roles": [
+        "stove"
+      ],
+      "action_props": [],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "Stove",
+          "node": "socket_Stove_Stove",
+          "approach_node": "approach_Stove_Stove",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            5.199999809,
+            0.0,
+            9.399999619
+          ],
+          "approach_kinds": [
+            "standing-front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Sink",
+      "name": "Sink",
+      "category": "kitchen",
+      "node": "PROP_Sink",
+      "roles": [
+        "sink"
+      ],
+      "action_props": [],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "ShowerOrSink",
+          "node": "socket_Sink_ShowerOrSink",
+          "approach_node": "approach_Sink_ShowerOrSink",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            7.800000191,
+            0.0,
+            9.319999695
+          ],
+          "approach_kinds": [
+            "standing-front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PartyFood",
+      "name": "Party Food",
+      "category": "kitchen",
+      "node": "PROP_PartyFood",
+      "roles": [],
+      "action_props": [
+        "planned/prop/PartyFood"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "HomeOrCourtyard",
+          "node": "socket_PartyFood_HomeOrCourtyard",
+          "approach_node": "approach_PartyFood_HomeOrCourtyard",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            12.0
+          ],
+          "approach_kinds": [
+            "standing-host",
+            "standing-guest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GroceryUnit",
+      "name": "Grocery Unit",
+      "category": "kitchen",
+      "node": "PROP_GroceryUnit",
+      "roles": [
+        "stock-storage"
+      ],
+      "action_props": [
+        "planned/prop/GroceryUnit"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "GroceryCounter",
+          "node": "socket_GroceryUnit_GroceryCounter",
+          "approach_node": "approach_GroceryUnit_GroceryCounter",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            12.050000191
+          ],
+          "approach_kinds": [
+            "standing-at-counter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GolfBall",
+      "name": "Golf Ball",
+      "category": "work",
+      "node": "PROP_GolfBall",
+      "roles": [],
+      "action_props": [
+        "planned/prop/GolfBall"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Toolkit",
+      "name": "Toolkit",
+      "category": "work",
+      "node": "PROP_Toolkit",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Toolkit"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "OfficeOrWorkshop",
+          "node": "socket_Toolkit_OfficeOrWorkshop",
+          "approach_node": "approach_Toolkit_OfficeOrWorkshop",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            15.059999466
+          ],
+          "approach_kinds": [
+            "standing-at-workstation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EspressoMachine",
+      "name": "Espresso Machine",
+      "category": "work",
+      "node": "PROP_EspressoMachine",
+      "roles": [],
+      "action_props": [
+        "planned/prop/EspressoMachine"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "CafeWorkplace",
+          "node": "socket_EspressoMachine_CafeWorkplace",
+          "approach_node": "approach_EspressoMachine_CafeWorkplace",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            5.199999809,
+            0.0,
+            15.119999886
+          ],
+          "approach_kinds": [
+            "standing-behind-counter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WorkItem",
+      "name": "Work Item",
+      "category": "work",
+      "node": "PROP_WorkItem",
+      "roles": [],
+      "action_props": [
+        "planned/prop/WorkItem"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "WallSlot",
+          "node": "socket_WorkItem_WallSlot",
+          "approach_node": "approach_WorkItem_WallSlot",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            7.800000191,
+            0.0,
+            14.920000076
+          ],
+          "approach_kinds": [
+            "standing-front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Putter",
+      "name": "Putter",
+      "category": "work",
+      "node": "PROP_Putter",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Putter"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "CourseStart",
+          "node": "socket_Putter_CourseStart",
+          "approach_node": "approach_Putter_CourseStart",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            17.699998856
+          ],
+          "approach_kinds": [
+            "standing-putting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ComputerDesk",
+      "name": "Computer Desk",
+      "category": "work",
+      "node": "PROP_ComputerDesk",
+      "roles": [
+        "desk",
+        "computer"
+      ],
+      "action_props": [],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "Desk",
+          "node": "socket_ComputerDesk_Desk",
+          "approach_node": "approach_ComputerDesk_Desk",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            17.899999619
+          ],
+          "approach_kinds": [
+            "seated-at-desk"
+          ]
+        },
+        {
+          "slot_id": "Computer",
+          "node": "socket_ComputerDesk_Computer",
+          "approach_node": "approach_ComputerDesk_Computer",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            17.899999619
+          ],
+          "approach_kinds": [
+            "seated-at-desk"
+          ]
+        },
+        {
+          "slot_id": "OfficeComputer",
+          "node": "socket_ComputerDesk_OfficeComputer",
+          "approach_node": "approach_ComputerDesk_OfficeComputer",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            17.899999619
+          ],
+          "approach_kinds": [
+            "seated-at-desk"
+          ]
+        },
+        {
+          "slot_id": "ClassroomComputer",
+          "node": "socket_ComputerDesk_ClassroomComputer",
+          "approach_node": "approach_ComputerDesk_ClassroomComputer",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            17.899999619
+          ],
+          "approach_kinds": [
+            "seated-at-desk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ExerciseMachine",
+      "name": "Exercise Machine",
+      "category": "work",
+      "node": "PROP_ExerciseMachine",
+      "roles": [
+        "exercise-equipment"
+      ],
+      "action_props": [
+        "planned/prop/ExerciseMachine"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "ExerciseEquipment",
+          "node": "socket_ExerciseMachine_ExerciseEquipment",
+          "approach_node": "approach_ExerciseMachine_ExerciseEquipment",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            5.199999809,
+            0.0,
+            17.719999313
+          ],
+          "approach_kinds": [
+            "standing-on-machine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Canvas",
+      "name": "Canvas",
+      "category": "creative",
+      "node": "PROP_Canvas",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Canvas"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Instrument",
+      "name": "Instrument",
+      "category": "creative",
+      "node": "PROP_Instrument",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Instrument"
+      ],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "InstrumentOrEasel",
+          "node": "socket_Instrument_InstrumentOrEasel",
+          "approach_node": "approach_Instrument_InstrumentOrEasel",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            2.599999905,
+            0.0,
+            20.920000076
+          ],
+          "approach_kinds": [
+            "standing-or-seated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Easel",
+      "name": "Easel",
+      "category": "creative",
+      "node": "PROP_Easel",
+      "roles": [
+        "easel"
+      ],
+      "action_props": [
+        "planned/prop/Easel"
+      ],
+      "seat": true,
+      "sockets": [
+        {
+          "slot_id": "EaselOrDesk",
+          "node": "socket_Easel_EaselOrDesk",
+          "approach_node": "approach_Easel_EaselOrDesk",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            5.199999809,
+            0.0,
+            20.940000534
+          ],
+          "approach_kinds": [
+            "standing-or-seated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Book",
+      "name": "Book",
+      "category": "care",
+      "node": "PROP_Book",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Book"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "CareSupplies",
+      "name": "Care Supplies",
+      "category": "care",
+      "node": "PROP_CareSupplies",
+      "roles": [],
+      "action_props": [
+        "planned/prop/CareSupplies"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "CleaningSupplies",
+      "name": "Cleaning Supplies",
+      "category": "care",
+      "node": "PROP_CleaningSupplies",
+      "roles": [],
+      "action_props": [
+        "planned/prop/CleaningSupplies"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "RepairKit",
+      "name": "Repair Kit",
+      "category": "care",
+      "node": "PROP_RepairKit",
+      "roles": [],
+      "action_props": [
+        "planned/prop/RepairKit"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "CommonObject",
+          "node": "socket_RepairKit_CommonObject",
+          "approach_node": "approach_RepairKit_CommonObject",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            26.579999924
+          ],
+          "approach_kinds": [
+            "crouched-front"
+          ]
+        },
+        {
+          "slot_id": "DamagedObject",
+          "node": "socket_RepairKit_DamagedObject",
+          "approach_node": "approach_RepairKit_DamagedObject",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            0.180000007,
+            0.0,
+            26.579999924
+          ],
+          "approach_kinds": [
+            "crouched-front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Towel",
+      "name": "Towel",
+      "category": "care",
+      "node": "PROP_Towel",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Towel"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Shower",
+      "name": "Shower",
+      "category": "care",
+      "node": "PROP_Shower",
+      "roles": [
+        "shower"
+      ],
+      "action_props": [],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "Furniture",
+      "name": "Furniture",
+      "category": "decor",
+      "node": "PROP_Furniture",
+      "roles": [],
+      "action_props": [
+        "planned/prop/Furniture"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "PlacementSlot",
+          "node": "socket_Furniture_PlacementSlot",
+          "approach_node": "approach_Furniture_PlacementSlot",
+          "forward": [
+            -4.2e-08,
+            4.2e-08,
+            -1.0
+          ],
+          "approach_pose": [
+            0.0,
+            0.0,
+            30.0
+          ],
+          "approach_kinds": [
+            "standing-front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Bike",
+      "name": "Bike",
+      "category": "work",
+      "node": "PROP_Bike",
+      "roles": [
+        "bicycle"
+      ],
+      "action_props": [
+        "planned/prop/Bike"
+      ],
+      "seat": false,
+      "sockets": []
+    },
+    {
+      "id": "BikeRack",
+      "name": "Bike Rack",
+      "category": "work",
+      "node": "PROP_BikeRack",
+      "roles": [
+        "bike-rack"
+      ],
+      "action_props": [
+        "planned/prop/BikeRack"
+      ],
+      "seat": false,
+      "sockets": [
+        {
+          "slot_id": "BikeRack",
+          "node": "socket_BikeRack_BikeRack",
+          "approach_node": "approach_BikeRack_BikeRack",
+          "forward": [
+            -1.0,
+            0.0,
+            3.71e-07
+          ],
+          "approach_pose": [
+            0.75,
+            0.0,
+            -2.599999905
+          ],
+          "approach_kinds": [
+            "standing-at-rack"
+          ]
+        }
+      ]
+    }
+  ]
+}

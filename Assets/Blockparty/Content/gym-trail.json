@@ -1,0 +1,1176 @@
+{
+ "trail_asset": "Assets/Blockparty/Art/Environment/Block/bike-trail.gltf",
+ "nodes": {
+  "entry-apartment": [
+   -30.0,
+   0.0,
+   -2.5
+  ],
+  "rack-apartment": [
+   -30.0,
+   0.0,
+   -4.849999952316284
+  ],
+  "entry-common-room": [
+   -30.0,
+   0.0,
+   27.5
+  ],
+  "rack-common-room": [
+   -30.0,
+   0.0,
+   24.60000009536743
+  ],
+  "entry-courtyard": [
+   3.0,
+   0.05000000074505806,
+   18.5
+  ],
+  "rack-courtyard": [
+   4.8,
+   0.05000000074505806,
+   18.5
+  ],
+  "entry-grocery": [
+   26.0,
+   0.05000000074505806,
+   15.350000381469727
+  ],
+  "rack-grocery": [
+   26.0,
+   0.05000000074505806,
+   13.2
+  ],
+  "entry-recreation-center": [
+   -21.0,
+   0.05000000074505806,
+   30.850000381469727
+  ],
+  "rack-recreation-center": [
+   -21.0,
+   0.05000000074505806,
+   28.7
+  ],
+  "entry-park": [
+   19.0,
+   0.05000000074505806,
+   30.75
+  ],
+  "rack-park": [
+   20.8,
+   0.05000000074505806,
+   30.75
+  ],
+  "entry-oak-house": [
+   -33.70000076293945,
+   0.05000000074505806,
+   15.350000381469727
+  ],
+  "rack-oak-house": [
+   -33.70000076293945,
+   0.05000000074505806,
+   13.200000715255737
+  ],
+  "entry-willow-house": [
+   -7.5,
+   0.05000000074505806,
+   15.350000381469727
+  ],
+  "rack-willow-house": [
+   -7.5,
+   0.05000000074505806,
+   13.199999284744262
+  ],
+  "entry-cafe": [
+   -0.0,
+   0.0,
+   -2.5
+  ],
+  "rack-cafe": [
+   -0.0,
+   0.0,
+   -4.899999904632568
+  ],
+  "entry-workshop": [
+   30.0,
+   0.0,
+   -2.5
+  ],
+  "rack-workshop": [
+   30.0,
+   0.0,
+   -4.899999904632568
+  ],
+  "entry-office": [
+   0,
+   0,
+   27
+  ],
+  "rack-office": [
+   0,
+   0,
+   24.60000009536743
+  ],
+  "entry-school": [
+   30,
+   0,
+   27
+  ],
+  "rack-school": [
+   30,
+   0,
+   24.7
+  ],
+  "loop-0": [
+   11.5,
+   0,
+   9
+  ],
+  "loop-1": [
+   21,
+   0,
+   9
+  ],
+  "loop-2": [
+   21,
+   0,
+   39
+  ],
+  "loop-3": [
+   11.5,
+   0,
+   39
+  ],
+  "lane-67": [
+   -33.70000076293945,
+   0,
+   9
+  ],
+  "lane-151": [
+   -14.2,
+   0,
+   24.60000009536743
+  ],
+  "lane-153": [
+   -14.2,
+   0,
+   28.7
+  ],
+  "lane-171": [
+   -7.5,
+   0,
+   9
+  ],
+  "lane-216": [
+   -0.0,
+   0,
+   -4.849999952316284
+  ],
+  "lane-228": [
+   4.8,
+   0,
+   9
+  ],
+  "lane-238": [
+   5.899999904632568,
+   0,
+   -4.849999952316284
+  ],
+  "lane-239": [
+   5.899999904632568,
+   0,
+   9
+  ],
+  "lane-261": [
+   11.5,
+   0,
+   -4.899999904632568
+  ],
+  "lane-266": [
+   11.5,
+   0,
+   24.60000009536743
+  ],
+  "lane-267": [
+   11.5,
+   0,
+   24.7
+  ],
+  "lane-268": [
+   11.5,
+   0,
+   28.7
+  ],
+  "lane-291": [
+   20.8,
+   0,
+   28.7
+  ],
+  "lane-330": [
+   26.0,
+   0,
+   9
+  ]
+ },
+ "edges": [
+  {
+   "id": "trail-000",
+   "from": "entry-apartment",
+   "to": "rack-apartment",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -30.0,
+     0.0,
+     -2.5
+    ],
+    [
+     -30.0,
+     0.0,
+     -4.849999952316284
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 2
+  },
+  {
+   "id": "trail-001",
+   "from": "entry-common-room",
+   "to": "rack-common-room",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -30.0,
+     0.0,
+     27.5
+    ],
+    [
+     -30.0,
+     0.0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 5
+  },
+  {
+   "id": "trail-002",
+   "from": "entry-courtyard",
+   "to": "rack-courtyard",
+   "status": "PathComplete",
+   "corners": [
+    [
+     3.0,
+     0.05000000074505806,
+     18.5
+    ],
+    [
+     4.8,
+     0.05000000074505806,
+     18.5
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 8
+  },
+  {
+   "id": "trail-003",
+   "from": "entry-grocery",
+   "to": "rack-grocery",
+   "status": "PathComplete",
+   "corners": [
+    [
+     26.0,
+     0.05000000074505806,
+     15.350000381469727
+    ],
+    [
+     26.0,
+     0.05000000074505806,
+     13.2
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 11
+  },
+  {
+   "id": "trail-004",
+   "from": "entry-recreation-center",
+   "to": "rack-recreation-center",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -21.0,
+     0.05000000074505806,
+     30.850000381469727
+    ],
+    [
+     -21.0,
+     0.05000000074505806,
+     28.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 14
+  },
+  {
+   "id": "trail-005",
+   "from": "entry-park",
+   "to": "rack-park",
+   "status": "PathComplete",
+   "corners": [
+    [
+     19.0,
+     0.05000000074505806,
+     30.75
+    ],
+    [
+     20.8,
+     0.05000000074505806,
+     30.75
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 17
+  },
+  {
+   "id": "trail-006",
+   "from": "entry-oak-house",
+   "to": "rack-oak-house",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -33.70000076293945,
+     0.05000000074505806,
+     15.350000381469727
+    ],
+    [
+     -33.70000076293945,
+     0.05000000074505806,
+     13.200000715255737
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 20
+  },
+  {
+   "id": "trail-007",
+   "from": "entry-willow-house",
+   "to": "rack-willow-house",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -7.5,
+     0.05000000074505806,
+     15.350000381469727
+    ],
+    [
+     -7.5,
+     0.05000000074505806,
+     13.199999284744262
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 23
+  },
+  {
+   "id": "trail-008",
+   "from": "entry-cafe",
+   "to": "rack-cafe",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -0.0,
+     0.0,
+     -2.5
+    ],
+    [
+     -0.0,
+     0.0,
+     -4.899999904632568
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 26
+  },
+  {
+   "id": "trail-009",
+   "from": "entry-workshop",
+   "to": "rack-workshop",
+   "status": "PathComplete",
+   "corners": [
+    [
+     30.0,
+     0.0,
+     -2.5
+    ],
+    [
+     30.0,
+     0.0,
+     -4.899999904632568
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 29
+  },
+  {
+   "id": "trail-010",
+   "from": "entry-office",
+   "to": "rack-office",
+   "status": "PathComplete",
+   "corners": [
+    [
+     0,
+     0,
+     27
+    ],
+    [
+     0,
+     0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 32
+  },
+  {
+   "id": "trail-011",
+   "from": "entry-school",
+   "to": "rack-school",
+   "status": "PathComplete",
+   "corners": [
+    [
+     30,
+     0,
+     27
+    ],
+    [
+     30,
+     0,
+     24.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 35
+  },
+  {
+   "id": "trail-012",
+   "from": "loop-0",
+   "to": "loop-1",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     9
+    ],
+    [
+     21,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 40
+  },
+  {
+   "id": "trail-013",
+   "from": "loop-1",
+   "to": "loop-2",
+   "status": "PathComplete",
+   "corners": [
+    [
+     21,
+     0,
+     9
+    ],
+    [
+     21,
+     0,
+     39
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 52
+  },
+  {
+   "id": "trail-014",
+   "from": "loop-2",
+   "to": "loop-3",
+   "status": "PathComplete",
+   "corners": [
+    [
+     21,
+     0,
+     39
+    ],
+    [
+     11.5,
+     0,
+     39
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 57
+  },
+  {
+   "id": "trail-015",
+   "from": "loop-3",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     39
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 69
+  },
+  {
+   "id": "trail-016",
+   "from": "rack-apartment",
+   "to": "lane-238",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -30.0,
+     0.0,
+     -4.849999952316284
+    ],
+    [
+     5.899999904632568,
+     0,
+     -4.849999952316284
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 82
+  },
+  {
+   "id": "trail-017",
+   "from": "lane-238",
+   "to": "lane-239",
+   "status": "PathComplete",
+   "corners": [
+    [
+     5.899999904632568,
+     0,
+     -4.849999952316284
+    ],
+    [
+     5.899999904632568,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 88
+  },
+  {
+   "id": "trail-018",
+   "from": "lane-239",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     5.899999904632568,
+     0,
+     9
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 91
+  },
+  {
+   "id": "trail-019",
+   "from": "rack-common-room",
+   "to": "lane-266",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -30.0,
+     0.0,
+     24.60000009536743
+    ],
+    [
+     11.5,
+     0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 106
+  },
+  {
+   "id": "trail-020",
+   "from": "lane-266",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     24.60000009536743
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 113
+  },
+  {
+   "id": "trail-021",
+   "from": "rack-courtyard",
+   "to": "lane-228",
+   "status": "PathComplete",
+   "corners": [
+    [
+     4.8,
+     0.05000000074505806,
+     18.5
+    ],
+    [
+     4.8,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 118
+  },
+  {
+   "id": "trail-022",
+   "from": "lane-228",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     4.8,
+     0,
+     9
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 122
+  },
+  {
+   "id": "trail-023",
+   "from": "rack-grocery",
+   "to": "lane-330",
+   "status": "PathComplete",
+   "corners": [
+    [
+     26.0,
+     0.05000000074505806,
+     13.2
+    ],
+    [
+     26.0,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 125
+  },
+  {
+   "id": "trail-024",
+   "from": "lane-330",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     26.0,
+     0,
+     9
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 131
+  },
+  {
+   "id": "trail-025",
+   "from": "rack-recreation-center",
+   "to": "lane-153",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -21.0,
+     0.05000000074505806,
+     28.7
+    ],
+    [
+     -14.2,
+     0,
+     28.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 135
+  },
+  {
+   "id": "trail-026",
+   "from": "lane-153",
+   "to": "lane-151",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -14.2,
+     0,
+     28.7
+    ],
+    [
+     -14.2,
+     0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 138
+  },
+  {
+   "id": "trail-027",
+   "from": "lane-151",
+   "to": "lane-266",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -14.2,
+     0,
+     24.60000009536743
+    ],
+    [
+     11.5,
+     0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 148
+  },
+  {
+   "id": "trail-028",
+   "from": "rack-park",
+   "to": "lane-291",
+   "status": "PathComplete",
+   "corners": [
+    [
+     20.8,
+     0.05000000074505806,
+     30.75
+    ],
+    [
+     20.8,
+     0,
+     28.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 151
+  },
+  {
+   "id": "trail-029",
+   "from": "lane-291",
+   "to": "lane-268",
+   "status": "PathComplete",
+   "corners": [
+    [
+     20.8,
+     0,
+     28.7
+    ],
+    [
+     11.5,
+     0,
+     28.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 156
+  },
+  {
+   "id": "trail-030",
+   "from": "lane-268",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     28.7
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 164
+  },
+  {
+   "id": "trail-031",
+   "from": "rack-oak-house",
+   "to": "lane-67",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -33.70000076293945,
+     0.05000000074505806,
+     13.200000715255737
+    ],
+    [
+     -33.70000076293945,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 167
+  },
+  {
+   "id": "trail-032",
+   "from": "lane-67",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -33.70000076293945,
+     0,
+     9
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 184
+  },
+  {
+   "id": "trail-033",
+   "from": "rack-willow-house",
+   "to": "lane-171",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -7.5,
+     0.05000000074505806,
+     13.199999284744262
+    ],
+    [
+     -7.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 187
+  },
+  {
+   "id": "trail-034",
+   "from": "lane-171",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -7.5,
+     0,
+     9
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 195
+  },
+  {
+   "id": "trail-035",
+   "from": "rack-cafe",
+   "to": "lane-216",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -0.0,
+     0.0,
+     -4.899999904632568
+    ],
+    [
+     -0.0,
+     0,
+     -4.849999952316284
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 198
+  },
+  {
+   "id": "trail-036",
+   "from": "lane-216",
+   "to": "lane-238",
+   "status": "PathComplete",
+   "corners": [
+    [
+     -0.0,
+     0,
+     -4.849999952316284
+    ],
+    [
+     5.899999904632568,
+     0,
+     -4.849999952316284
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 201
+  },
+  {
+   "id": "trail-037",
+   "from": "rack-workshop",
+   "to": "lane-261",
+   "status": "PathComplete",
+   "corners": [
+    [
+     30.0,
+     0.0,
+     -4.899999904632568
+    ],
+    [
+     11.5,
+     0,
+     -4.899999904632568
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 209
+  },
+  {
+   "id": "trail-038",
+   "from": "lane-261",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     -4.899999904632568
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 215
+  },
+  {
+   "id": "trail-039",
+   "from": "rack-office",
+   "to": "lane-266",
+   "status": "PathComplete",
+   "corners": [
+    [
+     0,
+     0,
+     24.60000009536743
+    ],
+    [
+     11.5,
+     0,
+     24.60000009536743
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 220
+  },
+  {
+   "id": "trail-040",
+   "from": "rack-school",
+   "to": "lane-267",
+   "status": "PathComplete",
+   "corners": [
+    [
+     30,
+     0,
+     24.7
+    ],
+    [
+     11.5,
+     0,
+     24.7
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 228
+  },
+  {
+   "id": "trail-041",
+   "from": "lane-267",
+   "to": "loop-0",
+   "status": "PathComplete",
+   "corners": [
+    [
+     11.5,
+     0,
+     24.7
+    ],
+    [
+     11.5,
+     0,
+     9
+    ]
+   ],
+   "width_m": 1.8,
+   "mesh_node": 235
+  }
+ ],
+ "entrances": {
+  "apartment": "entry-apartment",
+  "common-room": "entry-common-room",
+  "courtyard": "entry-courtyard",
+  "grocery": "entry-grocery",
+  "recreation-center": "entry-recreation-center",
+  "park": "entry-park",
+  "oak-house": "entry-oak-house",
+  "willow-house": "entry-willow-house",
+  "cafe": "entry-cafe",
+  "workshop": "entry-workshop",
+  "office": "entry-office",
+  "school": "entry-school"
+ },
+ "racks": [
+  {
+   "id": "rack-apartment",
+   "site": "apartment",
+   "prop": "BikeRack",
+   "trail_node": "rack-apartment",
+   "node": 465
+  },
+  {
+   "id": "rack-common-room",
+   "site": "common-room",
+   "prop": "BikeRack",
+   "trail_node": "rack-common-room",
+   "node": 487
+  },
+  {
+   "id": "rack-courtyard",
+   "site": "courtyard",
+   "prop": "BikeRack",
+   "trail_node": "rack-courtyard",
+   "node": 498
+  },
+  {
+   "id": "rack-grocery",
+   "site": "grocery",
+   "prop": "BikeRack",
+   "trail_node": "rack-grocery",
+   "node": 509
+  },
+  {
+   "id": "rack-recreation-center",
+   "site": "recreation-center",
+   "prop": "BikeRack",
+   "trail_node": "rack-recreation-center",
+   "node": 553
+  },
+  {
+   "id": "rack-park",
+   "site": "park",
+   "prop": "BikeRack",
+   "trail_node": "rack-park",
+   "node": 542
+  },
+  {
+   "id": "rack-oak-house",
+   "site": "oak-house",
+   "prop": "BikeRack",
+   "trail_node": "rack-oak-house",
+   "node": 520
+  },
+  {
+   "id": "rack-willow-house",
+   "site": "willow-house",
+   "prop": "BikeRack",
+   "trail_node": "rack-willow-house",
+   "node": 575
+  },
+  {
+   "id": "rack-cafe",
+   "site": "cafe",
+   "prop": "BikeRack",
+   "trail_node": "rack-cafe",
+   "node": 476
+  },
+  {
+   "id": "rack-workshop",
+   "site": "workshop",
+   "prop": "BikeRack",
+   "trail_node": "rack-workshop",
+   "node": 586
+  },
+  {
+   "id": "rack-office",
+   "site": "office",
+   "prop": "BikeRack",
+   "trail_node": "rack-office",
+   "node": 531
+  },
+  {
+   "id": "rack-school",
+   "site": "school",
+   "prop": "BikeRack",
+   "trail_node": "rack-school",
+   "node": 564
+  }
+ ],
+ "ride_activity": "ACT-SPORT-03",
+ "gym_activity": "ACT-SPORT-01",
+ "selection_modes": [
+  "autonomy",
+  "player"
+ ],
+ "bike_uses": [
+  "transport",
+  "leisure"
+ ],
+ "inputs": {
+  "Assets/Blockparty/Art/Environment/catalog.json": "8b09ada78b8fbe090bcc7edd857ef0465243a88fef35c295e2877c2062df2c9c",
+  "Assets/Blockparty/Art/Environment/block.gltf": "4211326e236f4f2d25513c99f43ebcec5265ff802c5d2fc0fe334021ab8289de",
+  "Assets/Blockparty/Art/Props/catalog.json": "bcec6c871f4e3aaeeb1d614cc3329415f695c13a591a9ed13088fb4a3fc358e6",
+  "Assets/Blockparty/Art/Props/furnishings.gltf": "925cd63a4d85fc6d8dea1b12ee6464d569b489161306750903d3af8851e99cdc",
+  "Assets/Blockparty/Content/block-layout.json": "d18b663cd74218a5b3a72bb298b09bf95383e7267b2be852b37a5d6367c729c4",
+  "Assets/Blockparty/Content/action-catalog.json": "304707432abf387dfd359207e17e17b75d675f84e99dd118e38cca6823cee1d4",
+  "Assets/Blockparty/Art/Environment/Block/bike-trail.gltf": "e5aa36c0149a93ffb47857e8cc0b4a00910bdb47df23e9ab65616b1621470d23"
+ }
+}

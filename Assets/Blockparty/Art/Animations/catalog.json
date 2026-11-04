@@ -1,0 +1,2365 @@
+{
+ "facial_assets": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+ "interaction_clips": {
+  "walk": "clip/walk",
+  "sit": "clip/Sitting_Enter",
+  "reach": "clip/Interact",
+  "hold": "clip/Idle_Loop"
+ },
+ "action_catalog_sha256": "304707432abf387dfd359207e17e17b75d675f84e99dd118e38cca6823cee1d4",
+ "stage_presets_sha256": "1ea8f3b07058a92a36b76bf49c1d2ac65b1951c09d7812247b4e49ba7507dc5c",
+ "clip_ids": {
+  "clip/Idle_Loop": "Idle_Loop",
+  "clip/Interact": "Interact",
+  "clip/Sitting_Enter": "Sitting_Enter",
+  "clip/Sitting_Exit": "Sitting_Exit",
+  "clip/walk": "Walk_Loop",
+  "planned/ACT-CLUB-01/loop": "Task_ACT-CLUB-01_loop",
+  "planned/ACT-CLUB-02/loop": "Task_ACT-CLUB-02_loop",
+  "planned/ACT-CREA-01/loop": "Task_ACT-CREA-01_loop",
+  "planned/ACT-CREA-02/loop": "Task_ACT-CREA-02_loop",
+  "planned/ACT-CREA-03/approach": "Task_ACT-CREA-03_approach",
+  "planned/ACT-CREA-03/finish": "Task_ACT-CREA-03_finish",
+  "planned/ACT-CREA-03/interruption": "Task_ACT-CREA-03_interruption",
+  "planned/ACT-CREA-03/loop": "Task_ACT-CREA-03_loop",
+  "planned/ACT-CREA-03/start": "Task_ACT-CREA-03_start",
+  "planned/ACT-EDU-01/loop": "Task_ACT-EDU-01_loop",
+  "planned/ACT-EDU-02/loop": "Task_ACT-EDU-02_loop",
+  "planned/ACT-EDU-03/loop": "Task_ACT-EDU-03_loop",
+  "planned/ACT-EDU-04/loop": "Task_ACT-EDU-04_loop",
+  "planned/ACT-FOOD-01/loop": "Task_ACT-FOOD-01_loop",
+  "planned/ACT-FOOD-02/loop": "Task_ACT-FOOD-02_loop",
+  "planned/ACT-FOOD-03/loop": "Task_ACT-FOOD-03_loop",
+  "planned/ACT-FOOD-04/loop": "Task_ACT-FOOD-04_loop",
+  "planned/ACT-HEALTH-01/approach": "Task_ACT-HEALTH-01_approach",
+  "planned/ACT-HEALTH-01/finish": "Task_ACT-HEALTH-01_finish",
+  "planned/ACT-HEALTH-01/interruption": "Task_ACT-HEALTH-01_interruption",
+  "planned/ACT-HEALTH-01/loop": "Task_ACT-HEALTH-01_loop",
+  "planned/ACT-HEALTH-01/start": "Task_ACT-HEALTH-01_start",
+  "planned/ACT-HEALTH-02/approach": "Task_ACT-HEALTH-02_approach",
+  "planned/ACT-HEALTH-02/finish": "Task_ACT-HEALTH-02_finish",
+  "planned/ACT-HEALTH-02/interruption": "Task_ACT-HEALTH-02_interruption",
+  "planned/ACT-HEALTH-02/loop": "Task_ACT-HEALTH-02_loop",
+  "planned/ACT-HEALTH-02/start": "Task_ACT-HEALTH-02_start",
+  "planned/ACT-HEALTH-03/loop": "Task_ACT-HEALTH-03_loop",
+  "planned/ACT-HEALTH-04/loop": "Task_ACT-HEALTH-04_loop",
+  "planned/ACT-HOME-01/loop": "Task_ACT-HOME-01_loop",
+  "planned/ACT-HOME-02/loop": "Task_ACT-HOME-02_loop",
+  "planned/ACT-HOME-03/loop": "Task_ACT-HOME-03_loop",
+  "planned/ACT-HOME-04/approach": "Task_ACT-HOME-04_approach",
+  "planned/ACT-HOME-04/finish": "Task_ACT-HOME-04_finish",
+  "planned/ACT-HOME-04/interruption": "Task_ACT-HOME-04_interruption",
+  "planned/ACT-HOME-04/loop": "Task_ACT-HOME-04_loop",
+  "planned/ACT-HOME-04/start": "Task_ACT-HOME-04_start",
+  "planned/ACT-HOME-05/loop": "Task_ACT-HOME-05_loop",
+  "planned/ACT-PARTY-01/loop": "Task_ACT-PARTY-01_loop",
+  "planned/ACT-PARTY-02/approach": "Task_ACT-PARTY-02_approach",
+  "planned/ACT-PARTY-02/finish": "Task_ACT-PARTY-02_finish",
+  "planned/ACT-PARTY-02/interruption": "Task_ACT-PARTY-02_interruption",
+  "planned/ACT-PARTY-02/loop": "Task_ACT-PARTY-02_loop",
+  "planned/ACT-PARTY-02/start": "Task_ACT-PARTY-02_start",
+  "planned/ACT-REL-01/loop": "Task_ACT-REL-01_loop",
+  "planned/ACT-REL-02/approach": "Task_ACT-REL-02_approach",
+  "planned/ACT-REL-02/finish": "Task_ACT-REL-02_finish",
+  "planned/ACT-REL-02/interruption": "Task_ACT-REL-02_interruption",
+  "planned/ACT-REL-02/loop": "Task_ACT-REL-02_loop",
+  "planned/ACT-REL-02/start": "Task_ACT-REL-02_start",
+  "planned/ACT-REL-03/loop": "Task_ACT-REL-03_loop",
+  "planned/ACT-REL-04/loop": "Task_ACT-REL-04_loop",
+  "planned/ACT-REL-05/approach": "Task_ACT-REL-05_approach",
+  "planned/ACT-REL-05/finish": "Task_ACT-REL-05_finish",
+  "planned/ACT-REL-05/interruption": "Task_ACT-REL-05_interruption",
+  "planned/ACT-REL-05/loop": "Task_ACT-REL-05_loop",
+  "planned/ACT-REL-05/start": "Task_ACT-REL-05_start",
+  "planned/ACT-REL-06/loop": "Task_ACT-REL-06_loop",
+  "planned/ACT-SPORT-01/loop": "Task_ACT-SPORT-01_loop",
+  "planned/ACT-SPORT-02/loop": "Task_ACT-SPORT-02_loop",
+  "planned/ACT-SPORT-03/approach": "Ride_approach",
+  "planned/ACT-SPORT-03/finish": "Ride_finish",
+  "planned/ACT-SPORT-03/interruption": "Ride_interruption",
+  "planned/ACT-SPORT-03/loop": "Ride_loop",
+  "planned/ACT-SPORT-03/start": "Ride_start",
+  "planned/ACT-WORK-01/loop": "Task_ACT-WORK-01_loop",
+  "planned/ACT-WORK-02/loop": "Task_ACT-WORK-02_loop",
+  "planned/ACT-WORK-03/loop": "Task_ACT-WORK-03_loop",
+  "planned/ACT-WORK-04/loop": "Task_ACT-WORK-04_loop",
+  "planned/CMD-DirectActivity/loop": "Idle_Loop",
+  "planned/reaction/Affectionate/finish": "Idle_Loop",
+  "planned/reaction/Affectionate/start": "Chest_Open",
+  "planned/reaction/Angry/finish": "Idle_Loop",
+  "planned/reaction/Angry/start": "Punch_Jab",
+  "planned/reaction/Embarrassed/finish": "Idle_Loop",
+  "planned/reaction/Embarrassed/start": "Idle_FoldArms_Loop",
+  "planned/reaction/Grateful/finish": "Idle_Loop",
+  "planned/reaction/Grateful/start": "Chest_Open",
+  "planned/reaction/Hurt/finish": "Idle_Loop",
+  "planned/reaction/Hurt/start": "Crouch_Idle_Loop",
+  "planned/reaction/Neutral/finish": "Idle_Loop",
+  "planned/reaction/Neutral/start": "Idle_Loop",
+  "planned/reaction/Proud/finish": "Idle_Loop",
+  "planned/reaction/Proud/start": "Yes",
+  "planned/stage/Infant/approach": "Baby_Infant_approach",
+  "planned/stage/Infant/finish": "Baby_Infant_finish",
+  "planned/stage/Infant/interruption": "Baby_Infant_interruption",
+  "planned/stage/Infant/loop": "Baby_Infant_loop",
+  "planned/stage/Infant/start": "Baby_Infant_start",
+  "planned/stage/Newborn/approach": "Baby_Newborn_approach",
+  "planned/stage/Newborn/finish": "Baby_Newborn_finish",
+  "planned/stage/Newborn/interruption": "Baby_Newborn_interruption",
+  "planned/stage/Newborn/loop": "Baby_Newborn_loop",
+  "planned/stage/Newborn/start": "Baby_Newborn_start"
+ },
+ "entries": [
+  {
+   "id": "ACT-CLUB-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Sitting_Enter"
+    ],
+    "loop": [
+     "planned/ACT-CLUB-01/loop"
+    ],
+    "finish": [
+     "clip/Sitting_Exit"
+    ],
+    "interruption": [
+     "clip/Sitting_Exit"
+    ]
+   },
+   "cues": {
+    "posture": "seated-attentive",
+    "gaze": "at-speaker",
+    "icon": {
+     "id": "icon/club",
+     "shape": "high-contrast geometric glyph club",
+     "caption": "act club 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-CLUB-01.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act club 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-CLUB-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-CLUB-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "crouched-working",
+    "gaze": "at-object",
+    "icon": {
+     "id": "icon/help",
+     "shape": "high-contrast geometric glyph help",
+     "caption": "act club 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-CLUB-02.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act club 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-CREA-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-CREA-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-at-easel",
+    "gaze": "at-canvas",
+    "icon": {
+     "id": "icon/art",
+     "shape": "high-contrast geometric glyph art",
+     "caption": "act crea 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-CREA-01.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act crea 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-CREA-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-CREA-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-playing",
+    "gaze": "at-instrument",
+    "icon": {
+     "id": "icon/music",
+     "shape": "high-contrast geometric glyph music",
+     "caption": "act crea 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-CREA-02.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act crea 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-CREA-03",
+   "flow": {
+    "approach": [
+     "planned/ACT-CREA-03/approach"
+    ],
+    "start": [
+     "planned/ACT-CREA-03/start"
+    ],
+    "loop": [
+     "planned/ACT-CREA-03/loop"
+    ],
+    "finish": [
+     "planned/ACT-CREA-03/finish"
+    ],
+    "interruption": [
+     "planned/ACT-CREA-03/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "standing-facing-wall",
+    "gaze": "at-work",
+    "icon": {
+     "id": "icon/display",
+     "shape": "high-contrast geometric glyph display",
+     "caption": "act crea 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-CREA-03.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act crea 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-EDU-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-EDU-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-listening",
+    "gaze": "at-teacher",
+    "icon": {
+     "id": "icon/school-book",
+     "shape": "high-contrast geometric glyph school-book",
+     "caption": "act edu 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-EDU-01.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "act edu 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-EDU-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-EDU-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-reading",
+    "gaze": "at-book",
+    "icon": {
+     "id": "icon/book",
+     "shape": "high-contrast geometric glyph book",
+     "caption": "act edu 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-EDU-02.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act edu 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-EDU-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-EDU-03/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-practising",
+    "gaze": "at-task",
+    "icon": {
+     "id": "icon/certificate",
+     "shape": "high-contrast geometric glyph certificate",
+     "caption": "act edu 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-EDU-03.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act edu 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-EDU-04",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-EDU-04/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-typing",
+    "gaze": "at-screen",
+    "icon": {
+     "id": "icon/certificate",
+     "shape": "high-contrast geometric glyph certificate",
+     "caption": "act edu 04"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-EDU-04.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act edu 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-FOOD-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-FOOD-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "leaning-to-stove",
+    "gaze": "at-stove",
+    "icon": {
+     "id": "icon/cooking-pot",
+     "shape": "high-contrast geometric glyph cooking-pot",
+     "caption": "act food 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-FOOD-01.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act food 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-FOOD-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Sitting_Enter"
+    ],
+    "loop": [
+     "planned/ACT-FOOD-02/loop"
+    ],
+    "finish": [
+     "clip/Sitting_Exit"
+    ],
+    "interruption": [
+     "clip/Sitting_Exit"
+    ]
+   },
+   "cues": {
+    "posture": "seated-upright",
+    "gaze": "at-plate",
+    "icon": {
+     "id": "icon/plate",
+     "shape": "high-contrast geometric glyph plate",
+     "caption": "act food 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-FOOD-02.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "act food 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-FOOD-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-FOOD-03/loop"
+    ],
+    "finish": [
+     "clip/walk"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-at-counter",
+    "gaze": "at-clerk",
+    "icon": {
+     "id": "icon/grocery-bag",
+     "shape": "high-contrast geometric glyph grocery-bag",
+     "caption": "act food 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-FOOD-03.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act food 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-FOOD-04",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-FOOD-04/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-at-counter",
+    "gaze": "at-counter",
+    "icon": {
+     "id": "icon/fast-food",
+     "shape": "high-contrast geometric glyph fast-food",
+     "caption": "act food 04"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-FOOD-04.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act food 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HEALTH-01",
+   "flow": {
+    "approach": [
+     "planned/ACT-HEALTH-01/approach"
+    ],
+    "start": [
+     "planned/ACT-HEALTH-01/start"
+    ],
+    "loop": [
+     "planned/ACT-HEALTH-01/loop"
+    ],
+    "finish": [
+     "planned/ACT-HEALTH-01/finish"
+    ],
+    "interruption": [
+     "planned/ACT-HEALTH-01/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "lying-relaxed",
+    "gaze": "eyes-closed",
+    "icon": {
+     "id": "icon/sleep",
+     "shape": "high-contrast geometric glyph sleep",
+     "caption": "act health 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HEALTH-01.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act health 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HEALTH-02",
+   "flow": {
+    "approach": [
+     "planned/ACT-HEALTH-02/approach"
+    ],
+    "start": [
+     "planned/ACT-HEALTH-02/start"
+    ],
+    "loop": [
+     "planned/ACT-HEALTH-02/loop"
+    ],
+    "finish": [
+     "planned/ACT-HEALTH-02/finish"
+    ],
+    "interruption": [
+     "planned/ACT-HEALTH-02/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "reclining-relaxed",
+    "gaze": "forward-soft",
+    "icon": {
+     "id": "icon/rest",
+     "shape": "high-contrast geometric glyph rest",
+     "caption": "act health 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HEALTH-02.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act health 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HEALTH-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HEALTH-03/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-at-sink",
+    "gaze": "at-mirror",
+    "icon": {
+     "id": "icon/hygiene",
+     "shape": "high-contrast geometric glyph hygiene",
+     "caption": "act health 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HEALTH-03.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act health 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HEALTH-04",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HEALTH-04/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated",
+    "gaze": "forward",
+    "caption": "Bathroom break",
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HEALTH-04.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act health 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HOME-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HOME-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "working-upright",
+    "gaze": "at-surface",
+    "icon": {
+     "id": "icon/clean",
+     "shape": "high-contrast geometric glyph clean",
+     "caption": "act home 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HOME-01.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "act home 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HOME-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HOME-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "crouched-working",
+    "gaze": "at-object",
+    "icon": {
+     "id": "icon/repair",
+     "shape": "high-contrast geometric glyph repair",
+     "caption": "act home 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HOME-02.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act home 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HOME-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HOME-03/loop"
+    ],
+    "finish": [
+     "clip/walk"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-organising",
+    "gaze": "at-shelf",
+    "icon": {
+     "id": "icon/stock",
+     "shape": "high-contrast geometric glyph stock",
+     "caption": "act home 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HOME-03.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act home 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HOME-04",
+   "flow": {
+    "approach": [
+     "planned/ACT-HOME-04/approach"
+    ],
+    "start": [
+     "planned/ACT-HOME-04/start"
+    ],
+    "loop": [
+     "planned/ACT-HOME-04/loop"
+    ],
+    "finish": [
+     "planned/ACT-HOME-04/finish"
+    ],
+    "interruption": [
+     "planned/ACT-HOME-04/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "standing-measuring",
+    "gaze": "at-placement",
+    "icon": {
+     "id": "icon/furnish",
+     "shape": "high-contrast geometric glyph furnish",
+     "caption": "act home 04"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HOME-04.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act home 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-HOME-05",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-HOME-05/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-beside-bed",
+    "gaze": "at-dependent",
+    "icon": {
+     "id": "icon/care",
+     "shape": "high-contrast geometric glyph care",
+     "caption": "act home 05"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-HOME-05.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act home 05 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-PARTY-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-PARTY-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-welcoming",
+    "gaze": "at-guests",
+    "icon": {
+     "id": "icon/party",
+     "shape": "high-contrast geometric glyph party",
+     "caption": "act party 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-PARTY-01.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act party 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-PARTY-02",
+   "flow": {
+    "approach": [
+     "planned/ACT-PARTY-02/approach"
+    ],
+    "start": [
+     "planned/ACT-PARTY-02/start"
+    ],
+    "loop": [
+     "planned/ACT-PARTY-02/loop"
+    ],
+    "finish": [
+     "planned/ACT-PARTY-02/finish"
+    ],
+    "interruption": [
+     "planned/ACT-PARTY-02/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "standing-social",
+    "gaze": "at-host",
+    "icon": {
+     "id": "icon/party",
+     "shape": "high-contrast geometric glyph party",
+     "caption": "act party 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-PARTY-02.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act party 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-REL-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-open",
+    "gaze": "at-partner",
+    "icon": {
+     "id": "icon/speech",
+     "shape": "high-contrast geometric glyph speech",
+     "caption": "act rel 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-01.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "act rel 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-02",
+   "flow": {
+    "approach": [
+     "planned/ACT-REL-02/approach"
+    ],
+    "start": [
+     "planned/ACT-REL-02/start"
+    ],
+    "loop": [
+     "planned/ACT-REL-02/loop"
+    ],
+    "finish": [
+     "planned/ACT-REL-02/finish"
+    ],
+    "interruption": [
+     "planned/ACT-REL-02/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "seated-relaxed",
+    "gaze": "at-group",
+    "icon": {
+     "id": "icon/shared-meal",
+     "shape": "high-contrast geometric glyph shared-meal",
+     "caption": "act rel 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-02.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act rel 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-REL-03/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-close",
+    "gaze": "at-partner",
+    "icon": {
+     "id": "icon/heart",
+     "shape": "high-contrast geometric glyph heart",
+     "caption": "act rel 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-03.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act rel 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-04",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-REL-04/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "standing-tense",
+    "gaze": "at-partner",
+    "icon": {
+     "id": "icon/argument",
+     "shape": "high-contrast geometric glyph argument",
+     "caption": "act rel 04"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-04.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act rel 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-05",
+   "flow": {
+    "approach": [
+     "planned/ACT-REL-05/approach"
+    ],
+    "start": [
+     "planned/ACT-REL-05/start"
+    ],
+    "loop": [
+     "planned/ACT-REL-05/loop"
+    ],
+    "finish": [
+     "planned/ACT-REL-05/finish"
+    ],
+    "interruption": [
+     "planned/ACT-REL-05/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "standing-soft",
+    "gaze": "at-partner",
+    "icon": {
+     "id": "icon/handshake",
+     "shape": "high-contrast geometric glyph handshake",
+     "caption": "act rel 05"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-05.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act rel 05 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-REL-06",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-REL-06/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "private-close",
+    "gaze": "at-partner",
+    "caption": "Private time",
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-REL-06.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "act rel 06 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-SPORT-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-SPORT-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "active-upright",
+    "gaze": "at-equipment",
+    "icon": {
+     "id": "icon/exercise",
+     "shape": "high-contrast geometric glyph exercise",
+     "caption": "act sport 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-SPORT-01.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act sport 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-SPORT-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-SPORT-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "putting-stance",
+    "gaze": "at-ball",
+    "icon": {
+     "id": "icon/golf",
+     "shape": "high-contrast geometric glyph golf",
+     "caption": "act sport 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-SPORT-02.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act sport 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-WORK-01",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-WORK-01/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "working-upright",
+    "gaze": "at-task",
+    "icon": {
+     "id": "icon/work-badge",
+     "shape": "high-contrast geometric glyph work-badge",
+     "caption": "act work 01"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-WORK-01.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "act work 01 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-WORK-02",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-WORK-02/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "working-upright",
+    "gaze": "at-task",
+    "icon": {
+     "id": "icon/work-badge",
+     "shape": "high-contrast geometric glyph work-badge",
+     "caption": "act work 02"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-WORK-02.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "act work 02 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-WORK-03",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-WORK-03/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-typing",
+    "gaze": "at-screen",
+    "icon": {
+     "id": "icon/job-listing",
+     "shape": "high-contrast geometric glyph job-listing",
+     "caption": "act work 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-WORK-03.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act work 03 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-WORK-04",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/ACT-WORK-04/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "seated-typing",
+    "gaze": "at-screen",
+    "icon": {
+     "id": "icon/work-badge",
+     "shape": "high-contrast geometric glyph work-badge",
+     "caption": "act work 04"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-WORK-04.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "act work 04 cue"
+    }
+   }
+  },
+  {
+   "id": "ACT-SPORT-03",
+   "flow": {
+    "approach": [
+     "planned/ACT-SPORT-03/approach"
+    ],
+    "start": [
+     "planned/ACT-SPORT-03/start"
+    ],
+    "loop": [
+     "planned/ACT-SPORT-03/loop"
+    ],
+    "finish": [
+     "planned/ACT-SPORT-03/finish"
+    ],
+    "interruption": [
+     "planned/ACT-SPORT-03/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "seated-cycling",
+    "gaze": "along-trail",
+    "icon": {
+     "id": "icon/exercise",
+     "shape": "high-contrast geometric glyph exercise",
+     "caption": "act sport 03"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/ACT-SPORT-03.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "act sport 03 cue"
+    }
+   }
+  },
+  {
+   "id": "DirectActivity",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Interact"
+    ],
+    "loop": [
+     "planned/CMD-DirectActivity/loop"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "action-ready",
+    "gaze": "at-target",
+    "icon": {
+     "id": "icon/command-action",
+     "shape": "high-contrast geometric glyph command-action",
+     "caption": "directactivity"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/DirectActivity.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "directactivity cue"
+    }
+   }
+  },
+  {
+   "id": "TravelTo",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/walk"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Idle_Loop"
+    ]
+   },
+   "cues": {
+    "posture": "follow-ready",
+    "gaze": "at-target",
+    "icon": {
+     "id": "icon/command-travel",
+     "shape": "high-contrast geometric glyph command-travel",
+     "caption": "travelto"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/TravelTo.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "travelto cue"
+    }
+   }
+  },
+  {
+   "id": "Newborn",
+   "flow": {
+    "approach": [
+     "planned/stage/Newborn/approach"
+    ],
+    "start": [
+     "planned/stage/Newborn/start"
+    ],
+    "loop": [
+     "planned/stage/Newborn/loop"
+    ],
+    "finish": [
+     "planned/stage/Newborn/finish"
+    ],
+    "interruption": [
+     "planned/stage/Newborn/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "carried-or-lying",
+    "gaze": "at-caregiver",
+    "icon": {
+     "id": "icon/stage-newborn",
+     "shape": "high-contrast geometric glyph stage-newborn",
+     "caption": "newborn"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Newborn.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "newborn cue"
+    }
+   }
+  },
+  {
+   "id": "Infant",
+   "flow": {
+    "approach": [
+     "planned/stage/Infant/approach"
+    ],
+    "start": [
+     "planned/stage/Infant/start"
+    ],
+    "loop": [
+     "planned/stage/Infant/loop"
+    ],
+    "finish": [
+     "planned/stage/Infant/finish"
+    ],
+    "interruption": [
+     "planned/stage/Infant/interruption"
+    ]
+   },
+   "cues": {
+    "posture": "carried-or-sitting",
+    "gaze": "at-caregiver",
+    "icon": {
+     "id": "icon/stage-infant",
+     "shape": "high-contrast geometric glyph stage-infant",
+     "caption": "infant"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Infant.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "infant cue"
+    }
+   }
+  },
+  {
+   "id": "Toddler",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "toddling-upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-toddler",
+     "shape": "high-contrast geometric glyph stage-toddler",
+     "caption": "toddler"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Toddler.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "toddler cue"
+    }
+   }
+  },
+  {
+   "id": "Child",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-child",
+     "shape": "high-contrast geometric glyph stage-child",
+     "caption": "child"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Child.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "child cue"
+    }
+   }
+  },
+  {
+   "id": "Teen",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-teen",
+     "shape": "high-contrast geometric glyph stage-teen",
+     "caption": "teen"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Teen.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "teen cue"
+    }
+   }
+  },
+  {
+   "id": "YoungAdult",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-youngadult",
+     "shape": "high-contrast geometric glyph stage-youngadult",
+     "caption": "youngadult"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/YoungAdult.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "youngadult cue"
+    }
+   }
+  },
+  {
+   "id": "Adult",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-adult",
+     "shape": "high-contrast geometric glyph stage-adult",
+     "caption": "adult"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Adult.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "adult cue"
+    }
+   }
+  },
+  {
+   "id": "Elder",
+   "flow": {
+    "approach": [
+     "clip/walk"
+    ],
+    "start": [
+     "clip/Idle_Loop"
+    ],
+    "loop": [
+     "clip/walk"
+    ],
+    "finish": [
+     "clip/Idle_Loop"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "stooped-upright",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/stage-elder",
+     "shape": "high-contrast geometric glyph stage-elder",
+     "caption": "elder"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Elder.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "elder cue"
+    }
+   }
+  },
+  {
+   "id": "Neutral",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Neutral/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Neutral/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "relaxed",
+    "gaze": "forward",
+    "icon": {
+     "id": "icon/emote-neutral",
+     "shape": "high-contrast geometric glyph emote-neutral",
+     "caption": "neutral"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Neutral.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "neutral cue"
+    },
+    "face": "neutral brow and relaxed mouth"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.0,
+      0.5
+     ]
+    }
+   }
+  },
+  {
+   "id": "Grateful",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Grateful/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Grateful/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "open-chest",
+    "gaze": "direct",
+    "icon": {
+     "id": "icon/emote-grateful",
+     "shape": "high-contrast geometric glyph emote-grateful",
+     "caption": "grateful"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Grateful.wav",
+     "sha256": "3297ae47af261f158d0840468771d8c18e0a5689bb28bf3bcaadb14fbbbe15ec",
+     "caption": "grateful cue"
+    },
+    "face": "soft smile and open chest"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.1,
+      -0.15,
+      0.1
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0.1,
+      0.1,
+      0.05
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.16666666666666666,
+      0.65
+     ]
+    }
+   }
+  },
+  {
+   "id": "Hurt",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Hurt/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Hurt/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "slumped",
+    "gaze": "averted",
+    "icon": {
+     "id": "icon/emote-hurt",
+     "shape": "high-contrast geometric glyph emote-hurt",
+     "caption": "hurt"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Hurt.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "hurt cue"
+    },
+    "face": "downturned mouth and lowered gaze"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.35,
+      0.35,
+      -0.2
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0.2,
+      -0.35,
+      0.4
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.3333333333333333,
+      0.55
+     ]
+    }
+   }
+  },
+  {
+   "id": "Angry",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Angry/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Angry/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "tense",
+    "gaze": "direct",
+    "icon": {
+     "id": "icon/emote-angry",
+     "shape": "high-contrast geometric glyph emote-angry",
+     "caption": "angry"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Angry.wav",
+     "sha256": "fe30c8e9f4b59da435b5f6705a36f007a2a72fdcf90328482c3874abb675496b",
+     "caption": "angry cue"
+    },
+    "face": "lowered brow and tight jaw"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.15,
+      0.15,
+      -0.25
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0,
+      0.05,
+      -0.1
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.5,
+      0.75
+     ]
+    }
+   }
+  },
+  {
+   "id": "Affectionate",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Affectionate/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Affectionate/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "soft-open",
+    "gaze": "direct",
+    "icon": {
+     "id": "icon/emote-affectionate",
+     "shape": "high-contrast geometric glyph emote-affectionate",
+     "caption": "affectionate"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Affectionate.wav",
+     "sha256": "889477950e7bd64a1b6531ee25a58a4f8689e146e61f460f5e758796b1810caf",
+     "caption": "affectionate cue"
+    },
+    "face": "warm smile and soft eyes"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.1,
+      -0.1,
+      0.2
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0.2,
+      0.2,
+      0
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.6666666666666666,
+      0.65
+     ]
+    }
+   }
+  },
+  {
+   "id": "Embarrassed",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Embarrassed/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Embarrassed/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "closed",
+    "gaze": "averted",
+    "icon": {
+     "id": "icon/emote-embarrassed",
+     "shape": "high-contrast geometric glyph emote-embarrassed",
+     "caption": "embarrassed"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Embarrassed.wav",
+     "sha256": "f664aa9b1ed3833859c918760dd81e4996d55fe7f228669800d5c46c79d06698",
+     "caption": "embarrassed cue"
+    },
+    "face": "raised inner brow and averted eyes"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      0.3,
+      0.2,
+      -0.3
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0.45,
+      0.65,
+      0.2
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      0.8333333333333334,
+      0.55
+     ]
+    }
+   }
+  },
+  {
+   "id": "Proud",
+   "flow": {
+    "approach": [
+     "clip/Idle_Loop"
+    ],
+    "start": [
+     "planned/reaction/Proud/start"
+    ],
+    "loop": [
+     "clip/Idle_Loop"
+    ],
+    "finish": [
+     "planned/reaction/Proud/finish"
+    ],
+    "interruption": [
+     "clip/Interact"
+    ]
+   },
+   "cues": {
+    "posture": "upright",
+    "gaze": "direct",
+    "icon": {
+     "id": "icon/emote-proud",
+     "shape": "high-contrast geometric glyph emote-proud",
+     "caption": "proud"
+    },
+    "sting": {
+     "path": "evidence/production/ANIM-CATALOG/source/stings/Proud.wav",
+     "sha256": "f5f7041e2680cbdd39282faca26fbd52a7cff915640450a8677fa0c04cc12502",
+     "caption": "proud cue"
+    },
+    "face": "lifted chin and controlled smile"
+   },
+   "render_channels": {
+    "face": {
+     "target_paths": [
+      "emo_Neutral",
+      "emo_Grateful",
+      "emo_Hurt",
+      "emo_Angry",
+      "emo_Affectionate",
+      "emo_Embarrassed",
+      "emo_Proud"
+     ],
+     "property": "glTF morph target weights",
+     "asset_manifest": "evidence/production/ANIM-CATALOG/source/faces/manifest.json",
+     "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ]
+    },
+    "posture": {
+     "target_paths": [
+      "spine_01",
+      "spine_02",
+      "spine_03"
+     ],
+     "property": "spine local pitch/roll (normalized)",
+     "values": [
+      -0.35,
+      -0.25,
+      0
+     ]
+    },
+    "gaze": {
+     "target_paths": [
+      "neck_01",
+      "head"
+     ],
+     "property": "neck/head local yaw and pitch (normalized)",
+     "values": [
+      0,
+      0,
+      -0.35
+     ]
+    },
+    "icon": {
+     "target_paths": [
+      "EmoteIcon"
+     ],
+     "property": "emote icon shape index and scale (normalized)",
+     "values": [
+      1.0,
+      0.95
+     ]
+    }
+   }
+  }
+ ],
+ "advisory": {
+  "EMO-05": "advisory"
+ }
+}

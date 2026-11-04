@@ -1,0 +1,8 @@
+{
+  "live_play": {
+    "speed": "Normal",
+    "aging_preset": "Moderate",
+    "initial_world_age_days": 30,
+    "transition_bound_days": 7
+  }
+}

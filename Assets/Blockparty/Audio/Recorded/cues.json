@@ -1,0 +1,29 @@
+{
+  "cues": {
+    "food-completed": {
+      "activity": "ACT-FOOD-02",
+      "wav": "Assets/Blockparty/Audio/Recorded/second-cue.wav",
+      "group": "World",
+      "visual": {
+        "caption": "Meal finished",
+        "icon": "food-completed"
+      }
+    },
+    "sleep-completed": {
+      "activity": "ACT-HEALTH-01",
+      "wav": "Assets/Blockparty/Audio/Recorded/wake.wav",
+      "group": "World",
+      "visual": {
+        "caption": "Sleep finished",
+        "icon": "sleep-completed"
+      }
+    }
+  },
+  "ambience": {
+    "day": {
+      "wav": "Assets/Blockparty/Audio/Recorded/day-birds.wav",
+      "loop": true,
+      "group": "Ambience"
+    }
+  }
+}
