@@ -98,11 +98,11 @@ Apache License 2.0. See [LICENSE](LICENSE).
 
 ## Development timeline
 
-Blockparty was built from 23 October to 4 November 2026. This public repository holds one snapshot of the finished game and its tests. The full development history, 1,558 commits, is kept in the private development repository together with the verification evidence, and is available to judges on request.
+Planning and research notes: 23-25 October, before kickoff. All game code: 27 October - 4 November 2026, during the hackathon. This public repository holds one snapshot of the finished game and its tests. The full development history, 1,558 commits, is kept in the private development repository together with the verification evidence, and is available to judges on request.
 
 | Date | Milestone |
 |---|---|
-| 23-25 Oct | Repository created; research, design decisions and visual concepts |
+| 23-25 Oct | Before kickoff: repository created; research notes, design decisions and visual concepts (no game code) |
 | 27-28 Oct | Specification and plan; first playable systems (milestone 1) |
 | 28-29 Oct | Simulation, saves and the first look pass (milestones 2 and 3) |
 | 29 Oct-1 Nov | Full-game plan, characters, animation and environment art |
